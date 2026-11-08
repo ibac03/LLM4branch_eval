@@ -35,11 +35,16 @@ from multiprocessing import current_process, TimeoutError
 # it as "evaluator_specialist" -- both names must point at one module).
 # PYTHONPATH must include this directory for the helper to find the
 # preload module at all (see run scripts).
-_fork_ctx = multiprocessing.get_context("forkserver")
-try:
-    _fork_ctx.set_forkserver_preload(["evaluator_specialist"])
-except (ValueError, RuntimeError):
-    pass
+if sys.platform.startswith("linux"):
+    # Linux: plain fork, as upstream LLM4Branch's evaluator. A forkserver inherited by openevolve's
+    # forked ProcessPoolExecutor workers fails with ChildProcessError [Errno 10].
+    _fork_ctx = multiprocessing.get_context("fork")
+else:
+    _fork_ctx = multiprocessing.get_context("forkserver")
+    try:
+        _fork_ctx.set_forkserver_preload(["evaluator_specialist"])
+    except (ValueError, RuntimeError):
+        pass
 
 _current_program_path = None
 
@@ -81,8 +86,8 @@ AFFINITY_TRAIN = 4
 # 4 losers (ratio>1) + 4 worst-decile non-losers (ratio<=1 but in the top
 # decile), each split balanced for type AND absolute cost (one slow +
 # one fast of each type per split) -- see specialist_training_set_n750.json
-TRAIN_SEEDS = [900002448, 900002092, 900002335, 900002127]
-VALID_SEEDS = [900002458, 900002118, 900002194, 900002366]
+TRAIN_SEEDS = [1000000422, 1000000770, 1000001066, 1000001245]
+VALID_SEEDS = [1000000141, 1000000270, 1000000423, 1000001017]
 
 
 def make_ba_instance(seed):

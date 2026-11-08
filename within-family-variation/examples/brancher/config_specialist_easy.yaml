@@ -1,0 +1,104 @@
+# Worst-decile specialist evolution config. Trains against 8 hand-curated
+# BA instances at n=750 (calibrated to reproduce the real n=1000
+# worst-decile phenomenon: median ratio 0.356 vs 0.33, worst-decile cutoff
+# 0.580 vs 0.576, rare-loser rate ~1% at both sizes -- but solves in
+# seconds instead of minutes). 4 genuine losers (policy actually slower
+# than RPB) + 4 worst-decile-but-still-winning instances, split 4 train /
+# 4 valid with both types balanced in each half.
+#
+# cascade_thresholds lowered from the project default [0.85, 0.75] -- this
+# training set is explicitly the hardest ~10% of instances for the
+# current policy, so even a genuinely improved candidate is unlikely to
+# clear 0.85 on its worst training seed. Learned this the hard way with
+# the RR/WS batrain runs: too-strict a gate means stage 2 (parameter
+# tuning + combined_score) never fires and the whole search degenerates
+# into ranking on the stage-1 worst-case number alone.
+max_iterations: 40
+checkpoint_interval: 10
+log_level: "INFO"
+
+llm:
+  models:
+    - name: "deepseek-v4.1-flash"
+      weight: 1.0
+  primary_model: "deepseek-v4.1-flash"
+  primary_model_weight: 1.0
+  key_set: "./configs/my_key_set.yaml"
+  temperature: 0.7
+  timeout: 3600
+  top_p: 0.95
+  max_tokens: 32768
+
+prompt:
+  system_message: |
+    You are an expert in machine learning for combinatorial optimization. Design a Python function that scores a candidate variable for branching in a branch and bound algorithm.
+    The function will receive a feature vector (numpy.ndarray with dimension (n, 91)) including the 91 features of n decision variables and params you extract to use in your score function. You should use these features to compute a score for each variable, return np.ndarray with dimension (n,)
+    Use at most 10 features in total.
+
+    IMPORTANT CONTEXT: these instances are Maximum Independent Set on
+    BARABASI-ALBERT (hub-heavy, preferential-attachment) graphs -- the
+    SAME family a general-purpose evolved policy already handles well on
+    average. This training set is specifically the SLOWEST ~10% of that
+    family by solve time: instances that take the general BA policy
+    many times longer than a typical instance and dominate its average
+    solve time. A prior investigation found the mechanism: these
+    hard instances have a looser root LP relaxation (bigger gap between
+    the root estimate and the true optimum) than typical BA instances,
+    which in turn correlates with the solver's internal clique-cover
+    structure -- fewer, larger, more uniformly-sized cliques rather than
+    many varied ones. Plain degree-based hub features do NOT distinguish
+    these hard cases well; look for signal elsewhere (dynamic constraint
+    degree drift, pseudocost reliability, coefficient-to-RHS structure)
+    rather than re-deriving the same static hub signal the general policy
+    already uses.
+
+    Ensure good generalization, avoid overfitting, and keep model complexity appropriate.
+    You may use nonlinear transformations and nested functions for feature interactions, but maintain computational efficiency.
+
+    Input features (all normalized to [0,1]) are structured as follows:
+
+    Part 1 - NodeBipartite Features (indices 0-18):
+    0: objective coefficient
+    1-4: binary indicators (binary, integer, implicit integer, continuous)
+    5-6: bound indicators (has lower/upper bound)
+    7: normalized reduced cost
+    8-9: LP solution value and fractional part
+    10-11: LP solution bound indicators
+    12: scaled age (iterations since last basic)
+    13-14: incumbent value and average value
+    15-18: basis status indicators (lower, basic, upper, zero)
+
+    Part 2 - Khalil2016 Features (indices 19-90):
+    19-21: objective coefficient (raw, positive part, negative part)
+    22: number of participating constraints
+    23-26: static constraint degree stats (mean, std, min, max)
+    27-31: positive constraint coefficients (count, mean, std, min, max)
+    32-36: negative constraint coefficients (count, mean, std, min, max)
+    37-38: fractional distance and ceiling distance
+    39-43: pseudocost values (up, down, ratio, sum, product)
+    44-47: cutoff counts and ratios (up/down)
+    48-54: dynamic constraint degrees (mean, std, min, max) and ratios to static (mean, min, max)
+    55-66: coefficient-to-RHS ratios and coefficient interaction ratios (min/max for positive/negative cases)
+    67-90: active constraint statistics under four weighting schemes (unit, 1/sum_all, 1/sum_candidate, dual_cost), each including count, sum, mean, std, min, max.
+  num_top_programs: 0
+  num_diverse_programs: 0
+  use_template_stochasticity: true
+
+database:
+  population_size: 40
+  archive_size: 10
+  num_islands: 4
+  migration_interval: 15
+  migration_rate: 0.1
+  elite_selection_ratio: 0.2
+  exploitation_ratio: 0.7
+
+evaluator:
+  timeout: 10000
+  cascade_evaluation: true
+  cascade_thresholds: [0.60, 0.75]
+  parallel_evaluations: 8
+  use_llm_feedback: false
+
+diff_based_evolution: false
+allow_full_rewrites: true

@@ -1,0 +1,5 @@
+# Copy to my_key_set.yaml (git-ignored) and put the real key in. Used by config_specialist_easy.yaml.
+opencode:
+  model_name: "deepseek-v4.1-flash"
+  api_base: "https://opencode.ai/inference/go/openai/v1"
+  api_key: "<your OpenCode Go key>"

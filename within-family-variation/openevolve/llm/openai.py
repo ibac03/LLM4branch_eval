@@ -3,6 +3,7 @@ OpenAI API interface for LLMs
 """
 
 import asyncio
+import uuid
 import logging
 import time
 from typing import Any, Dict, List, Optional, Union
@@ -35,9 +36,11 @@ class OpenAILLM(LLMInterface):
         self.random_seed = getattr(model_cfg, "random_seed", None)
 
         # Set up API client
+        self.is_opencode = "opencode.ai" in str(self.api_base)
         self.client = openai.OpenAI(
             api_key=self.api_key,
             base_url=self.api_base,
+            default_headers={"User-Agent": "llm4branch-openevolve/0.1"} if self.is_opencode else None,
         )
 
         # Only log unique models to reduce duplication
@@ -92,6 +95,10 @@ class OpenAILLM(LLMInterface):
                 )
             else:
                 params["seed"] = seed
+
+        # OpenCode Go: each generation is its own conversation -> its own session id
+        if self.is_opencode:
+            params["extra_headers"] = {"x-opencode-session": str(uuid.uuid4())}
 
         # Attempt the API call with retries
         retries = kwargs.get("retries", self.retries)

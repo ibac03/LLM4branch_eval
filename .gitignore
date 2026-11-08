@@ -1,0 +1,14 @@
+# Official repos, cloned by setup/install.sh
+external/
+# Scratch: locks, build logs
+tmp/
+within-family-variation/examples/brancher/tmp/
+
+# Secrets
+my_key_set.yaml
+*.pem
+.env
+
+__pycache__/
+*.py[cod]
+.DS_Store

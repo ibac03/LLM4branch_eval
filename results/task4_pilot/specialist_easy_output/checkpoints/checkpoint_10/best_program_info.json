@@ -1,0 +1,33 @@
+{
+  "id": "39b7c28c-437b-43a4-9749-10b778715e87",
+  "generation": 0,
+  "iteration": 0,
+  "current_iteration": 10,
+  "metrics": {
+    "stage1_score": 2.2129138978043694,
+    "validity": 1.0,
+    "avg_time": 25.0897776745,
+    "max_time": 34.660380761999996,
+    "mean_time": 24.47178351305681,
+    "avg_nodes": 4208.75,
+    "max_nodes": 5300.0,
+    "mean_nodes": 4117.188932907812,
+    "avg_gap": 0.0,
+    "max_gap": 0.0,
+    "mean_gap": 0.0,
+    "combined_score": 1.216058667325284,
+    "params": [
+      0.0,
+      0.0,
+      1.5058252455798085,
+      2.0
+    ],
+    "avg_rpb_time": 69.05527158375,
+    "max_rpb_time": 105.68217861300002,
+    "avg_rpb_nodes": 6050.75,
+    "max_rpb_nodes": 9991.0
+  },
+  "language": "python",
+  "timestamp": 1793713284.78096,
+  "saved_at": 1793714023.0759206
+}

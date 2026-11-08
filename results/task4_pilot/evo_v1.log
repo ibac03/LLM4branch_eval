@@ -1,0 +1,404 @@
+Initial program (WARM START): /home/ubuntu/wfv/examples/brancher/program/indset/program.py
+Evaluation file: /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+Output dir: /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output
+Max iterations: 40
+Random seed: 20260915
+cascade_thresholds: [0.6, 0.75]
+2026-11-03 12:42:44,801 - openevolve.controller - INFO - Logging to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/logs/openevolve_20261103_124244.log
+2026-11-03 12:42:44,801 - INFO - Logging to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/logs/openevolve_20261103_124244.log
+2026-11-03 12:42:44,801 - openevolve.controller - INFO - {'target': 'nodes', 'train_seed': 0, 'train_num': 4, 'valid_seed': 0, 'valid_num': 4, 'max_workers': 4, 'cores_list': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], 'lock_dir': '/home/ubuntu/wfv/examples/brancher/tmp/cpu_locks/specialist_evolution', 'dataset': 'specialist', 'rpb': True, 'parameter_opt': True, 'n_calls': 15, 'n_initial': 5, 'stage1_timeout': 4500, 'stage2_timeout': 6000}
+2026-11-03 12:42:44,801 - INFO - {'target': 'nodes', 'train_seed': 0, 'train_num': 4, 'valid_seed': 0, 'valid_num': 4, 'max_workers': 4, 'cores_list': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], 'lock_dir': '/home/ubuntu/wfv/examples/brancher/tmp/cpu_locks/specialist_evolution', 'dataset': 'specialist', 'rpb': True, 'parameter_opt': True, 'n_calls': 15, 'n_initial': 5, 'stage1_timeout': 4500, 'stage2_timeout': 6000}
+2026-11-03 12:42:44,801 - openevolve.controller - INFO - Set random seed to 20260915 for reproducibility
+2026-11-03 12:42:44,801 - INFO - Set random seed to 20260915 for reproducibility
+2026-11-03 12:42:44,818 - openevolve.llm.openai - INFO - Initialized OpenAI LLM with model: deepseek-v4.1-flash
+2026-11-03 12:42:44,818 - INFO - Initialized OpenAI LLM with model: deepseek-v4.1-flash
+2026-11-03 12:42:44,818 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: deepseek-v4.1-flash (weight: 1.00)
+2026-11-03 12:42:44,818 - INFO - Initialized LLM ensemble with models: deepseek-v4.1-flash (weight: 1.00)
+2026-11-03 12:42:44,819 - openevolve.prompt.sampler - INFO - Initialized prompt sampler
+2026-11-03 12:42:44,819 - INFO - Initialized prompt sampler
+2026-11-03 12:42:44,819 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:42:44,819 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:42:44,819 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-11-03 12:42:44,819 - INFO - Initialized program database with 0 programs
+2026-11-03 12:42:44,819 - openevolve.evaluator - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:42:44,819 - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:42:44,819 - openevolve.controller - INFO - Initialized OpenEvolve with /home/ubuntu/wfv/examples/brancher/program/indset/program.py
+2026-11-03 12:42:44,819 - INFO - Initialized OpenEvolve with /home/ubuntu/wfv/examples/brancher/program/indset/program.py
+2026-11-03 12:42:44,819 - openevolve.controller - INFO - Adding initial program to database
+2026-11-03 12:42:44,819 - INFO - Adding initial program to database
+2026-11-03 12:57:49,477 - openevolve.evaluator - INFO - Evaluated program a04bd04b-fef1-4139-bd72-4a00169d64ca in 904.66s: stage1_score=2.2132, validity=1.0000, avg_time=25.0336, max_time=34.6152, mean_time=24.4146, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=68.8354, max_rpb_time=105.0013, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-03 12:57:49,477 - INFO - Evaluated program a04bd04b-fef1-4139-bd72-4a00169d64ca in 904.66s: stage1_score=2.2132, validity=1.0000, avg_time=25.0336, max_time=34.6152, mean_time=24.4146, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=68.8354, max_rpb_time=105.0013, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-03 12:57:49,477 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 5, 'diversity': 0}
+2026-11-03 12:57:49,477 - INFO - New MAP-Elites cell occupied: {'complexity': 5, 'diversity': 0}
+2026-11-03 12:57:49,478 - openevolve.process_parallel - INFO - Initialized process parallel controller with 8 workers
+2026-11-03 12:57:49,478 - INFO - Initialized process parallel controller with 8 workers
+2026-11-03 12:57:49,478 - openevolve.process_parallel - INFO - Started process pool with 8 processes
+2026-11-03 12:57:49,478 - INFO - Started process pool with 8 processes
+2026-11-03 12:57:49,478 - openevolve.controller - INFO - Using island-based evolution with 4 islands
+2026-11-03 12:57:49,478 - INFO - Using island-based evolution with 4 islands
+2026-11-03 12:57:49,478 - openevolve.database - INFO - Island Status:
+2026-11-03 12:57:49,478 - INFO - Island Status:
+2026-11-03 12:57:49,478 - openevolve.database - INFO -  * Island 0: 1 programs, best=1.2161, avg=1.2161, diversity=0.00, gen=0 (best: a04bd04b-fef1-4139-bd72-4a00169d64ca)
+2026-11-03 12:57:49,478 - INFO -  * Island 0: 1 programs, best=1.2161, avg=1.2161, diversity=0.00, gen=0 (best: a04bd04b-fef1-4139-bd72-4a00169d64ca)
+2026-11-03 12:57:49,479 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-03 12:57:49,479 - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-03 12:57:49,479 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-03 12:57:49,479 - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-03 12:57:49,479 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-03 12:57:49,479 - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-03 12:57:49,479 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 40 iterations (total: 41)
+2026-11-03 12:57:49,479 - INFO - Starting process-based evolution from iteration 1 for 40 iterations (total: 41)
+2026-11-03 12:57:49,522 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - openevolve.evaluator - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - openevolve.evaluator - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-03 12:57:49,522 - openevolve.evaluator - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - openevolve.evaluator - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - openevolve.evaluator - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - openevolve.evaluator - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - openevolve.evaluator - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - openevolve.evaluator - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,522 - INFO - Initialized evaluator with /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-03 12:57:49,523 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:57:49,523 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:37,785 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:37,785 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:37,798 - openevolve.evaluator - INFO - Evaluated program 0b6012ec-92b5-4677-8177-4698cbc5c280 in 0.00s: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 12:58:37,798 - INFO - Evaluated program 0b6012ec-92b5-4677-8177-4698cbc5c280 in 0.00s: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 12:58:37,799 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:37,799 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:37,800 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 5}
+2026-11-03 12:58:37,800 - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 5}
+2026-11-03 12:58:37,801 - openevolve.process_parallel - INFO - Iteration 3: Program 0b6012ec-92b5-4677-8177-4698cbc5c280 (parent: a04bd04b-fef1-4139-bd72-4a00169d64ca) completed in 48.28s
+2026-11-03 12:58:37,801 - INFO - Iteration 3: Program 0b6012ec-92b5-4677-8177-4698cbc5c280 (parent: a04bd04b-fef1-4139-bd72-4a00169d64ca) completed in 48.28s
+2026-11-03 12:58:37,801 - openevolve.process_parallel - INFO - Metrics: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 12:58:37,801 - INFO - Metrics: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 12:58:37,801 - openevolve.process_parallel - WARNING - ⚠️  No 'combined_score' metric found in evaluation results. Using average of all numeric metrics (0.0000) for evolution guidance. For better evolution results, please modify your evaluator to return a 'combined_score' metric that properly weights different aspects of program performance.
+2026-11-03 12:58:37,801 - WARNING - ⚠️  No 'combined_score' metric found in evaluation results. Using average of all numeric metrics (0.0000) for evolution guidance. For better evolution results, please modify your evaluator to return a 'combined_score' metric that properly weights different aspects of program performance.
+2026-11-03 12:58:41,496 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:41,496 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:41,511 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:41,511 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:41,518 - openevolve.process_parallel - WARNING - Iteration 1 error: No valid code found in response
+2026-11-03 12:58:41,518 - WARNING - Iteration 1 error: No valid code found in response
+2026-11-03 12:58:44,808 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:44,808 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:44,827 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:44,827 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:44,832 - openevolve.process_parallel - WARNING - Iteration 2 error: No valid code found in response
+2026-11-03 12:58:44,832 - WARNING - Iteration 2 error: No valid code found in response
+2026-11-03 12:58:45,824 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:45,824 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:45,845 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:45,845 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:45,853 - openevolve.process_parallel - WARNING - Iteration 6 error: No valid code found in response
+2026-11-03 12:58:45,853 - WARNING - Iteration 6 error: No valid code found in response
+2026-11-03 12:58:46,961 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:46,961 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:46,983 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:46,983 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:46,985 - openevolve.process_parallel - WARNING - Iteration 8 error: No valid code found in response
+2026-11-03 12:58:46,985 - WARNING - Iteration 8 error: No valid code found in response
+2026-11-03 12:58:48,625 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:48,625 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:48,643 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:48,643 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:48,652 - openevolve.process_parallel - WARNING - Iteration 4 error: No valid code found in response
+2026-11-03 12:58:48,652 - WARNING - Iteration 4 error: No valid code found in response
+2026-11-03 12:58:49,902 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:49,902 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:49,912 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:49,912 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:49,915 - openevolve.process_parallel - WARNING - Iteration 7 error: No valid code found in response
+2026-11-03 12:58:49,915 - WARNING - Iteration 7 error: No valid code found in response
+2026-11-03 12:58:59,427 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:59,427 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:58:59,448 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:59,448 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:58:59,451 - openevolve.process_parallel - WARNING - Iteration 5 error: No valid code found in response
+2026-11-03 12:58:59,451 - WARNING - Iteration 5 error: No valid code found in response
+2026-11-03 12:59:29,322 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:59:29,322 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:59:29,336 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:59:29,336 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:59:29,341 - openevolve.process_parallel - WARNING - Iteration 12 error: No valid code found in response
+2026-11-03 12:59:29,341 - WARNING - Iteration 12 error: No valid code found in response
+2026-11-03 12:59:45,774 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:59:45,774 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:59:45,789 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:59:45,789 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:59:45,796 - openevolve.process_parallel - WARNING - Iteration 11 error: No valid code found in response
+2026-11-03 12:59:45,796 - WARNING - Iteration 11 error: No valid code found in response
+2026-11-03 12:59:49,993 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:59:49,993 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:59:50,011 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:59:50,011 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:59:50,019 - openevolve.process_parallel - WARNING - Iteration 15 error: No valid code found in response
+2026-11-03 12:59:50,019 - WARNING - Iteration 15 error: No valid code found in response
+2026-11-03 12:59:58,928 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:59:58,928 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 12:59:58,943 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:59:58,943 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 12:59:58,949 - openevolve.process_parallel - WARNING - Iteration 16 error: No valid code found in response
+2026-11-03 12:59:58,949 - WARNING - Iteration 16 error: No valid code found in response
+2026-11-03 13:00:02,877 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:02,877 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:02,891 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:02,891 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:02,899 - openevolve.process_parallel - WARNING - Iteration 10 error: No valid code found in response
+2026-11-03 13:00:02,899 - WARNING - Iteration 10 error: No valid code found in response
+2026-11-03 13:00:04,172 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:04,172 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:04,182 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:04,182 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:04,182 - openevolve.process_parallel - WARNING - Iteration 9 error: No valid code found in response
+2026-11-03 13:00:04,182 - WARNING - Iteration 9 error: No valid code found in response
+2026-11-03 13:00:14,000 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:14,000 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:14,027 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:14,027 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:14,031 - openevolve.process_parallel - WARNING - Iteration 13 error: No valid code found in response
+2026-11-03 13:00:14,031 - WARNING - Iteration 13 error: No valid code found in response
+2026-11-03 13:00:18,978 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:18,978 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:18,996 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:18,996 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:19,001 - openevolve.process_parallel - WARNING - Iteration 14 error: No valid code found in response
+2026-11-03 13:00:19,001 - WARNING - Iteration 14 error: No valid code found in response
+2026-11-03 13:00:29,919 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:29,919 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:29,931 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:29,931 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:29,931 - openevolve.process_parallel - WARNING - Iteration 17 error: No valid code found in response
+2026-11-03 13:00:29,931 - WARNING - Iteration 17 error: No valid code found in response
+2026-11-03 13:00:39,152 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:39,152 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:00:39,161 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:39,161 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:00:39,164 - openevolve.process_parallel - WARNING - Iteration 18 error: No valid code found in response
+2026-11-03 13:00:39,164 - WARNING - Iteration 18 error: No valid code found in response
+2026-11-03 13:01:01,794 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:01,794 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:01,808 - openevolve.evaluator - INFO - Evaluated program db3d84bf-206b-4742-bbb4-4bbbd5b256ef in 0.00s: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 13:01:01,808 - INFO - Evaluated program db3d84bf-206b-4742-bbb4-4bbbd5b256ef in 0.00s: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 13:01:01,809 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:01,809 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:01,811 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 0}
+2026-11-03 13:01:01,811 - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 0}
+2026-11-03 13:01:01,811 - openevolve.process_parallel - INFO - Iteration 24: Program db3d84bf-206b-4742-bbb4-4bbbd5b256ef (parent: 0b6012ec-92b5-4677-8177-4698cbc5c280) completed in 42.81s
+2026-11-03 13:01:01,811 - INFO - Iteration 24: Program db3d84bf-206b-4742-bbb4-4bbbd5b256ef (parent: 0b6012ec-92b5-4677-8177-4698cbc5c280) completed in 42.81s
+2026-11-03 13:01:01,811 - openevolve.process_parallel - INFO - Metrics: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 13:01:01,811 - INFO - Metrics: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 13:01:05,213 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:05,213 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:05,233 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:05,233 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:05,236 - openevolve.process_parallel - WARNING - Iteration 23 error: No valid code found in response
+2026-11-03 13:01:05,236 - WARNING - Iteration 23 error: No valid code found in response
+2026-11-03 13:01:09,512 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:09,512 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:09,530 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:09,530 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:09,539 - openevolve.process_parallel - WARNING - Iteration 22 error: No valid code found in response
+2026-11-03 13:01:09,539 - WARNING - Iteration 22 error: No valid code found in response
+2026-11-03 13:01:10,679 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:10,679 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:10,692 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:10,692 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:10,702 - openevolve.process_parallel - WARNING - Iteration 21 error: No valid code found in response
+2026-11-03 13:01:10,702 - WARNING - Iteration 21 error: No valid code found in response
+2026-11-03 13:01:21,647 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:21,647 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:21,662 - openevolve.process_parallel - WARNING - Iteration 20 error: No valid code found in response
+2026-11-03 13:01:21,662 - WARNING - Iteration 20 error: No valid code found in response
+2026-11-03 13:01:21,662 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:21,662 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:28,172 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:28,172 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:28,186 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:28,186 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:28,188 - openevolve.process_parallel - WARNING - Iteration 26 error: No valid code found in response
+2026-11-03 13:01:28,188 - WARNING - Iteration 26 error: No valid code found in response
+2026-11-03 13:01:38,576 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:38,576 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:38,593 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:38,593 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:38,602 - openevolve.process_parallel - WARNING - Iteration 25 error: No valid code found in response
+2026-11-03 13:01:38,602 - WARNING - Iteration 25 error: No valid code found in response
+2026-11-03 13:01:50,716 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:50,716 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:01:50,734 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:50,734 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:01:50,743 - openevolve.process_parallel - WARNING - Iteration 19 error: No valid code found in response
+2026-11-03 13:01:50,743 - WARNING - Iteration 19 error: No valid code found in response
+2026-11-03 13:02:23,460 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:23,460 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:23,472 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:23,472 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:23,478 - openevolve.process_parallel - WARNING - Iteration 27 error: No valid code found in response
+2026-11-03 13:02:23,478 - WARNING - Iteration 27 error: No valid code found in response
+2026-11-03 13:02:27,201 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:27,201 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:27,219 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:27,219 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:27,225 - openevolve.process_parallel - WARNING - Iteration 28 error: No valid code found in response
+2026-11-03 13:02:27,225 - WARNING - Iteration 28 error: No valid code found in response
+2026-11-03 13:02:31,123 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:31,123 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:31,137 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:31,137 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:31,144 - openevolve.process_parallel - WARNING - Iteration 32 error: No valid code found in response
+2026-11-03 13:02:31,144 - WARNING - Iteration 32 error: No valid code found in response
+2026-11-03 13:02:33,573 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:33,573 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:33,588 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:33,588 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:33,588 - openevolve.process_parallel - WARNING - Iteration 29 error: No valid code found in response
+2026-11-03 13:02:33,588 - WARNING - Iteration 29 error: No valid code found in response
+2026-11-03 13:02:42,242 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:42,242 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:42,252 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:42,252 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:42,253 - openevolve.process_parallel - WARNING - Iteration 31 error: No valid code found in response
+2026-11-03 13:02:42,253 - WARNING - Iteration 31 error: No valid code found in response
+2026-11-03 13:02:42,617 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:42,617 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:42,636 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:42,636 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-03 13:02:42,637 - openevolve.process_parallel - WARNING - Iteration 30 error: No valid code found in response
+2026-11-03 13:02:42,637 - WARNING - Iteration 30 error: No valid code found in response
+2026-11-03 13:02:42,976 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:42,976 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:42,986 - openevolve.evaluator - INFO - Evaluated program 9d579a72-210c-453b-8003-2722c68c2a1a in 0.00s: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 13:02:42,986 - INFO - Evaluated program 9d579a72-210c-453b-8003-2722c68c2a1a in 0.00s: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 13:02:42,991 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 9}
+2026-11-03 13:02:42,991 - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 9}
+2026-11-03 13:02:42,991 - openevolve.process_parallel - INFO - Iteration 35: Program 9d579a72-210c-453b-8003-2722c68c2a1a (parent: db3d84bf-206b-4742-bbb4-4bbbd5b256ef) completed in 19.51s
+2026-11-03 13:02:42,991 - INFO - Iteration 35: Program 9d579a72-210c-453b-8003-2722c68c2a1a (parent: db3d84bf-206b-4742-bbb4-4bbbd5b256ef) completed in 19.51s
+2026-11-03 13:02:42,991 - openevolve.process_parallel - INFO - Metrics: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 13:02:42,991 - INFO - Metrics: speedup_score=0.0000, error_info=Exception occurred: ChildProcessError: [Errno 10] No child processes
+2026-11-03 13:02:50,433 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:50,433 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:02:50,453 - openevolve.process_parallel - WARNING - Iteration 34 error: No valid code found in response
+2026-11-03 13:02:50,453 - WARNING - Iteration 34 error: No valid code found in response
+2026-11-03 13:03:10,082 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:03:10,082 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:03:10,101 - openevolve.process_parallel - WARNING - Iteration 33 error: No valid code found in response
+2026-11-03 13:03:10,101 - WARNING - Iteration 33 error: No valid code found in response
+2026-11-03 13:03:19,003 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:03:19,003 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:03:19,016 - openevolve.process_parallel - WARNING - Iteration 36 error: No valid code found in response
+2026-11-03 13:03:19,016 - WARNING - Iteration 36 error: No valid code found in response
+2026-11-03 13:03:45,333 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:03:45,333 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:03:45,355 - openevolve.process_parallel - WARNING - Iteration 40 error: No valid code found in response
+2026-11-03 13:03:45,355 - WARNING - Iteration 40 error: No valid code found in response
+2026-11-03 13:03:56,720 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:03:56,720 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:03:56,743 - openevolve.process_parallel - WARNING - Iteration 38 error: No valid code found in response
+2026-11-03 13:03:56,743 - WARNING - Iteration 38 error: No valid code found in response
+2026-11-03 13:04:00,099 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:04:00,099 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:04:00,114 - openevolve.process_parallel - WARNING - Iteration 37 error: No valid code found in response
+2026-11-03 13:04:00,114 - WARNING - Iteration 37 error: No valid code found in response
+2026-11-03 13:04:11,439 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:04:11,439 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 13:04:11,460 - openevolve.process_parallel - WARNING - Iteration 39 error: No valid code found in response
+2026-11-03 13:04:11,460 - WARNING - Iteration 39 error: No valid code found in response
+2026-11-03 13:04:11,461 - openevolve.process_parallel - INFO - Evolution completed
+2026-11-03 13:04:11,461 - INFO - Evolution completed
+2026-11-03 13:04:11,462 - openevolve.database - INFO - Saved database with 4 programs to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-03 13:04:11,462 - INFO - Saved database with 4 programs to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-03 13:04:11,462 - openevolve.controller - INFO - Saved best program at checkpoint 40 with metrics: stage1_score=2.2132, validity=1.0000, avg_time=25.0336, max_time=34.6152, mean_time=24.4146, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=68.8354, max_rpb_time=105.0013, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-03 13:04:11,462 - INFO - Saved best program at checkpoint 40 with metrics: stage1_score=2.2132, validity=1.0000, avg_time=25.0336, max_time=34.6152, mean_time=24.4146, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=68.8354, max_rpb_time=105.0013, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-03 13:04:11,462 - openevolve.controller - INFO - Saved checkpoint at iteration 40 to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-03 13:04:11,462 - INFO - Saved checkpoint at iteration 40 to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-03 13:04:11,478 - openevolve.process_parallel - INFO - Stopped process pool
+2026-11-03 13:04:11,478 - INFO - Stopped process pool
+2026-11-03 13:04:11,479 - openevolve.controller - INFO - Using tracked best program: a04bd04b-fef1-4139-bd72-4a00169d64ca
+2026-11-03 13:04:11,479 - INFO - Using tracked best program: a04bd04b-fef1-4139-bd72-4a00169d64ca
+2026-11-03 13:04:11,479 - openevolve.controller - INFO - Saved top program to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/top/a04bd04b-fef1-4139-bd72-4a00169d64ca.py with program info to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/top/top_program_info.json
+2026-11-03 13:04:11,479 - INFO - Saved top program to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/top/a04bd04b-fef1-4139-bd72-4a00169d64ca.py with program info to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/top/top_program_info.json
+2026-11-03 13:04:11,479 - openevolve.controller - INFO - Evolution complete. Best program has metrics: stage1_score=2.2132, validity=1.0000, avg_time=25.0336, max_time=34.6152, mean_time=24.4146, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=68.8354, max_rpb_time=105.0013, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-03 13:04:11,479 - INFO - Evolution complete. Best program has metrics: stage1_score=2.2132, validity=1.0000, avg_time=25.0336, max_time=34.6152, mean_time=24.4146, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=68.8354, max_rpb_time=105.0013, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-03 13:04:11,479 - openevolve.controller - INFO - Saved best program to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/best/best_program.py with program info to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/best/best_program_info.json
+2026-11-03 13:04:11,479 - INFO - Saved best program to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/best/best_program.py with program info to /home/ubuntu/wfv/examples/brancher/experiments/structural_generalization/specialist_easy_output/best/best_program_info.json
+
+=== SPECIALIST_EVOLUTION_COMPLETE ===
+  stage1_score: 2.2132
+  validity: 1.0000
+  avg_time: 25.0336
+  max_time: 34.6152
+  mean_time: 24.4146
+  avg_nodes: 4208.7500
+  max_nodes: 5300.0000
+  mean_nodes: 4117.1889
+  avg_gap: 0.0000
+  max_gap: 0.0000
+  mean_gap: 0.0000
+  combined_score: 1.2161
+  params: [0.0, 0.0, 1.5058252455798085, 2.0]
+  avg_rpb_time: 68.8354
+  max_rpb_time: 105.0013
+  avg_rpb_nodes: 6050.7500
+  max_rpb_nodes: 9991.0000
+Best program code:
+USED_FEATURES = [0, 7, 9, 22]
+PARAMS = [1.0786976161645492, 0.23806897907821495, 1.2220001238555878, 0.9458262526360364]
+BOUNDS = [[0, 2], [0, 2], [0, 2], [0, 2]]
+
+def score_function(variable_features, params):
+    # Extract essential features for branching decision
+    obj_coeff = variable_features[:, 0]        # Objective coefficient
+    reduced_cost = variable_features[:, 7]     # Reduced cost
+    fractional_part = variable_features[:, 9]  # Fractional part of LP solution
+    constraint_count = variable_features[:, 22] # Number of participating constraints
+    
+    # Core branching preference - prefer variables near 0.5 (peaks at 0.5)
+    branching_preference = 4.0 * fractional_part * (1.0 - fractional_part)
+    
+    
+    # Optimized linear combination focusing on most impactful features
+    score = (
+        params[0] * obj_coeff +
+        params[1] * reduced_cost +
+        params[2] * branching_preference +
+        params[3] * constraint_count 
+    )
+    
+    return score
