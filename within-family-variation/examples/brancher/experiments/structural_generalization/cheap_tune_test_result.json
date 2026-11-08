@@ -1,0 +1,92 @@
+[
+  {
+    "name": "RR n=316",
+    "orig_params": [
+      2.1,
+      0.95,
+      0.5,
+      0.82
+    ],
+    "tuned_params": [
+      2.12950055518925,
+      2.0,
+      1.5,
+      0.6
+    ],
+    "stage1_orig": {
+      "stage1_score": 0.5625681966490012,
+      "error_info_stage1": null
+    },
+    "stage1_tuned": {
+      "stage1_score": 0.5334023977572461,
+      "error_info_stage1": null
+    },
+    "stage2_full": {
+      "validity": true,
+      "avg_time": 28.5396895,
+      "max_time": 57.038044,
+      "mean_time": 23.620020884484397,
+      "avg_nodes": 21420.75,
+      "max_nodes": 41316,
+      "mean_nodes": 16606.30283393132,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 0.8744168283243874,
+      "avg_rpb_time": 16.601246874999998,
+      "max_rpb_time": 39.08037399999999,
+      "avg_rpb_nodes": 10285.875,
+      "max_rpb_nodes": 29935
+    }
+  },
+  {
+    "name": "WS n=300",
+    "orig_params": [
+      0.35,
+      0.45,
+      0.3,
+      0.25,
+      0.25,
+      0.2,
+      0.4,
+      0.35,
+      0.15
+    ],
+    "tuned_params": [
+      0.5616976806820771,
+      0.6157185549116021,
+      0.5399543315718917,
+      0.7507299502059381,
+      0.6079457289422864,
+      0.16202780634058148,
+      0.2711787405939618,
+      0.3155624492620298,
+      0.8916814389634865
+    ],
+    "stage1_orig": {
+      "stage1_score": 0.720039982516486,
+      "error_info_stage1": null
+    },
+    "stage1_tuned": {
+      "stage1_score": 0.6111150751246237,
+      "error_info_stage1": null
+    },
+    "stage2_full": {
+      "validity": true,
+      "avg_time": 52.017641624999996,
+      "max_time": 196.135722,
+      "mean_time": 33.7893870846166,
+      "avg_nodes": 32517.5,
+      "max_nodes": 132663,
+      "mean_nodes": 18704.887034265546,
+      "avg_gap": 0.007836694479867828,
+      "max_gap": 0.06269355583894262,
+      "mean_gap": 0.007629806691777485,
+      "combined_score": 1.5478781645098956,
+      "avg_rpb_time": 44.07721424999999,
+      "max_rpb_time": 169.53580399999998,
+      "avg_rpb_nodes": 24772.625,
+      "max_rpb_nodes": 120363
+    }
+  }
+]

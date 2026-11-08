@@ -1,0 +1,31 @@
+# Exact versions used to produce the original results. Minor patch-version
+# drift is probably fine; torch/numpy MAJOR version drift or a different
+# ecole/SCIP build are the real reproducibility risks -- see README.md's
+# "Known issues" section.
+
+torch==2.13.0
+numpy==2.2.6
+networkx==3.4.2
+
+# --- SCIP / ecole / PySCIPOpt: the hard part ---
+# python==3.10.18
+#
+# SCIP: version 8.0.0 (libscip.8.0.dylib), built from source.
+#
+# pyscipopt: PySCIPOpt 6.2.1 (pip package version) / reports __version__
+#            4.3.0 internally -- both numbers observed on the original
+#            machine, not a typo. Install via:
+#              pip install pyscipopt==6.2.1
+#            and confirm it links against the SAME SCIP 8.0.0 build above
+#            (pyscipopt needs to be built/installed against your SCIP, not
+#            a bundled/different one).
+#
+# ecole: NOT the stock PyPI package. Built from a custom fork:
+#              https://github.com/hzn18/LLM4Branch-ecole
+#              commit debd0e44dc5c5c200fcb3845d511cd0729baaa3b
+#            reports ecole.__version__ == "0.8.1". You will need to clone
+#            and build this yourself against your SCIP 8.0.0 install (see
+#            that repo's own build instructions). This is the single
+#            biggest risk to exact reproducibility -- if your ecole build
+#            differs even slightly, branching feature extraction or RNG
+#            behavior could differ in ways that change results.

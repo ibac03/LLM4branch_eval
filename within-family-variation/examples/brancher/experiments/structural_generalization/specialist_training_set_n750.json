@@ -1,0 +1,86 @@
+{
+  "losers": [
+    {
+      "seed": 900002448,
+      "policy_time": 205.32046300000025,
+      "policy_status": "optimal",
+      "policy_nodes": 64302,
+      "rpb_time": 201.29594999999972,
+      "rpb_status": "optimal",
+      "rpb_nodes": 41273,
+      "ratio": 1.0199930152593757
+    },
+    {
+      "seed": 900002118,
+      "policy_time": 1.716019000000017,
+      "policy_status": "optimal",
+      "policy_nodes": 1,
+      "rpb_time": 1.660698999999994,
+      "rpb_status": "optimal",
+      "rpb_nodes": 1,
+      "ratio": 1.0333112743489479
+    },
+    {
+      "seed": 900002092,
+      "policy_time": 1.6797940000000153,
+      "policy_status": "optimal",
+      "policy_nodes": 4,
+      "rpb_time": 1.6175790000000063,
+      "rpb_status": "optimal",
+      "rpb_nodes": 1,
+      "ratio": 1.0384618000110095
+    },
+    {
+      "seed": 900002458,
+      "policy_time": 259.633417,
+      "policy_status": "optimal",
+      "policy_nodes": 106750,
+      "rpb_time": 234.42737099999977,
+      "rpb_status": "optimal",
+      "rpb_nodes": 39578,
+      "ratio": 1.1075217705700426
+    }
+  ],
+  "non_losers": [
+    {
+      "seed": 900002335,
+      "policy_time": 29.245563000000175,
+      "policy_status": "optimal",
+      "policy_nodes": 7576,
+      "rpb_time": 51.731179999999995,
+      "rpb_status": "optimal",
+      "rpb_nodes": 7067,
+      "ratio": 0.5653372492179799
+    },
+    {
+      "seed": 900002194,
+      "policy_time": 23.498648000000003,
+      "policy_status": "optimal",
+      "policy_nodes": 4869,
+      "rpb_time": 37.11687400000005,
+      "rpb_status": "optimal",
+      "rpb_nodes": 4062,
+      "ratio": 0.6330987895155171
+    },
+    {
+      "seed": 900002127,
+      "policy_time": 2.00064500000002,
+      "policy_status": "optimal",
+      "policy_nodes": 22,
+      "rpb_time": 2.654449999999997,
+      "rpb_status": "optimal",
+      "rpb_nodes": 4,
+      "ratio": 0.7536947390231582
+    },
+    {
+      "seed": 900002366,
+      "policy_time": 2.0812590000000455,
+      "policy_status": "optimal",
+      "policy_nodes": 1,
+      "rpb_time": 2.084675000000061,
+      "rpb_status": "optimal",
+      "rpb_nodes": 1,
+      "ratio": 0.9983613752743159
+    }
+  ]
+}

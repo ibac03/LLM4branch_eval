@@ -1,0 +1,65 @@
+# Fixed Settings
+target: 'nodes' # or time, nodes, gap or accuracy
+train_seed: 666666
+valid_seed: 666666
+train_num: 4
+valid_num: 8
+max_workers: 8
+
+# Practical Settings
+setcover:
+  stage1_timeout: 600
+  stage2_timeout: 2000
+  rpb: false
+  parameter_opt: true
+  n_calls: 80  
+  n_initial: 10
+
+cauctions:
+  stage1_timeout: 600
+  stage2_timeout: 2000
+  rpb: false
+  parameter_opt: true
+  n_calls: 100   
+  n_initial: 10
+
+facilities:
+  stage1_timeout: 1000
+  stage2_timeout: 3000
+  rpb: false
+  parameter_opt: true
+  n_calls: 16
+  n_initial: 2
+
+indset:
+  stage1_timeout: 1000
+  stage2_timeout: 2000
+  rpb: false
+  parameter_opt: true
+  n_calls: 50
+  n_initial: 10
+
+# RR (random-regular graph IndSet): structural_generalization/regular.md
+# investigation. Not one of the 4 built-in ecole datasets -- routed through
+# examples/brancher/experiments/structural_generalization/evaluator_rr.py
+# (custom evaluate/evaluate_stage1/evaluate_stage2), not utils.utils.create_instance.
+rr:
+  stage1_timeout: 600
+  stage2_timeout: 2000
+  rpb: false
+  parameter_opt: true
+  n_calls: 50
+  n_initial: 10
+
+# WS (Watts-Strogatz clustered/small-world graph IndSet): structural_generalization
+# third regime, isolating clustering/local-topology signal from raw degree (RR).
+# Routed through experiments/structural_generalization/evaluator_ws.py.
+# Calibrated at n=200,k=20,p=0.25 -- confirmed genuinely fresh challenge via
+# screen_ws.py (Original 0.53x vs RPB, Evolved-RR 0.31x vs RPB, both native).
+ws:
+  stage1_timeout: 600
+  stage2_timeout: 2000
+  rpb: false
+  parameter_opt: true
+  n_calls: 50
+  n_initial: 10

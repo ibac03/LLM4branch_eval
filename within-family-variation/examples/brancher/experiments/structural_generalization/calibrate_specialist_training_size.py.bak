@@ -1,0 +1,112 @@
+"""
+Stage 1: find a BA size small enough for tractable per-candidate evolution
+(solves in seconds, not minutes) while still showing the same worst-decile
+phenomenon (real spread in policy/RPB ratio, ideally including some
+genuine losers, ratio>1) found at n=1000. Fresh seed block (900000000+),
+disjoint from the n=1000 population (800000000-800001299) used everywhere
+else in this investigation.
+"""
+import json
+import os
+import sys
+from functools import partial
+
+import numpy as np
+
+sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
+from utils.utils import load_program, get_scip_params, normalize
+
+SG = os.path.dirname(__file__)
+BA_PROGRAM = os.path.join(SG, "..", "..", "program", "indset", "program.py")
+AFFINITY = 4
+CANDIDATE_N = 750
+N_INSTANCES = 150
+SEEDS = list(range(900001000, 900001000 + N_INSTANCES))
+TIME_LIMIT = 300
+RESULTS_PATH = os.path.join(SG, f"calibrate_n{CANDIDATE_N}_results.json")
+
+
+def make_instance(seed, n_nodes):
+    import ecole
+    generator = ecole.instance.IndependentSetGenerator(
+        n_nodes=n_nodes, affinity=AFFINITY,
+        graph_type=ecole.instance.IndependentSetGenerator.GraphType.barabasi_albert)
+    generator.seed(seed)
+    return next(generator)
+
+
+def solve(instance, branch_method, score_function=None, used_features=None):
+    import ecole
+    import time as _time
+    scip_params = {**get_scip_params(time_limit=TIME_LIMIT)}
+    if branch_method == "relpscost":
+        scip_params["branching/relpscost/priority"] = 9999999
+        env = ecole.environment.Configuring(scip_params=scip_params)
+        env.seed(0)
+        t0 = _time.process_time()
+        env.reset(instance)
+        env.step({})
+        proc_time = _time.process_time() - t0
+    else:
+        flash_khalil_obs = ecole.observation.Khalil2016Flash()
+        flash_node_obs = ecole.observation.NodeBipartiteFlash()
+        flash_khalil_obs.set_active_features([f - 19 for f in used_features if f >= 19])
+        flash_node_obs.set_active_features([f for f in used_features if f < 19])
+        env = ecole.environment.Branching(
+            observation_function={"Node": flash_node_obs, "Khalil": flash_khalil_obs},
+            scip_params=scip_params)
+        env.seed(0)
+        t0 = _time.process_time()
+        observation, action_set, _, done, info = env.reset(instance)
+        while not done:
+            variable_features = np.concatenate(
+                (observation["Node"].variable_features[action_set, :],
+                 observation["Khalil"].features[action_set, :]), axis=1)
+            variable_features = np.nan_to_num(variable_features, nan=0.0, posinf=0.0, neginf=0.0)
+            variable_features = normalize(variable_features, used_features)
+            scores = score_function(variable_features)
+            action = action_set[scores.argmax()]
+            observation, action_set, _, done, info = env.step(action)
+        proc_time = _time.process_time() - t0
+    m = env.model.as_pyscipopt()
+    return proc_time, m.getStatus(), m.getNNodes()
+
+
+def run_one(seed):
+    print(f"[seed={seed}] solving n={CANDIDATE_N}", flush=True)
+    score_function, used_features, function_params, _ = load_program(BA_PROGRAM)
+    score_function = partial(score_function, params=function_params)
+
+    inst_policy = make_instance(seed, CANDIDATE_N)
+    pol_time, pol_status, pol_nodes = solve(inst_policy, "evolve", score_function, used_features)
+    inst_rpb = make_instance(seed, CANDIDATE_N)
+    rpb_time, rpb_status, rpb_nodes = solve(inst_rpb, "relpscost")
+
+    ratio = pol_time / rpb_time if rpb_time > 0 else float("inf")
+    rec = {"seed": seed, "policy_time": pol_time, "policy_status": pol_status, "policy_nodes": pol_nodes,
+           "rpb_time": rpb_time, "rpb_status": rpb_status, "rpb_nodes": rpb_nodes, "ratio": ratio}
+    print(f"[seed={seed}] done: policy={pol_time:.2f}s({pol_status}) rpb={rpb_time:.2f}s({rpb_status}) "
+          f"ratio={ratio:.3f}", flush=True)
+    return rec
+
+
+if __name__ == "__main__":
+    from multiprocessing import Pool
+    print(f"=== calibration: {N_INSTANCES} BA instances at n={CANDIDATE_N} ===", flush=True)
+    with Pool(processes=6) as pool:
+        records = pool.map(run_one, SEEDS)
+    records.sort(key=lambda r: r["seed"])
+    json.dump(records, open(RESULTS_PATH, "w"), indent=2)
+
+    ratios = np.array([r["ratio"] for r in records])
+    times = np.array([r["policy_time"] for r in records])
+    print("\n=== SUMMARY ===", flush=True)
+    print(f"policy_time: min={times.min():.2f}s median={np.median(times):.2f}s max={times.max():.2f}s")
+    print(f"ratio: min={ratios.min():.3f} median={np.median(ratios):.3f} max={ratios.max():.3f}")
+    print(f"n with ratio>1.0 (genuine losers): {int((ratios>1.0).sum())}/{len(ratios)}")
+    decile_n = round(0.10*len(ratios))
+    worst_cut = np.sort(ratios)[-decile_n]
+    print(f"worst-decile cutoff (top {decile_n}): {worst_cut:.3f}")
+    print(f"\nwrote {RESULTS_PATH}")
+    print("=== CALIBRATION_COMPLETE ===", flush=True)

@@ -1,0 +1,222 @@
+{
+  "225e5aa3-b0b1-40e1-862f-c1bec9b96dd2": {
+    "generation": 3,
+    "iteration": 95,
+    "timestamp": 1788931706.214354,
+    "parent_id": "56a3742f-3bed-4399-bf27-ae91b17f218f",
+    "metrics": {
+      "stage1_score": 0.9766422278204376,
+      "validity": 1.0,
+      "avg_time": 2.6008837500000004,
+      "max_time": 4.788202,
+      "mean_time": 2.4364295306731987,
+      "avg_nodes": 2039.875,
+      "max_nodes": 4071.0,
+      "mean_nodes": 1760.4131725276193,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.7753355262980186
+    },
+    "language": "python",
+    "saved_at": 1788943994.782922
+  },
+  "703cf2c7-3a12-45ad-b345-34a560f3539e": {
+    "generation": 3,
+    "iteration": 182,
+    "timestamp": 1788941680.1156979,
+    "parent_id": "571ce67d-b629-4856-aa53-319602bf1211",
+    "metrics": {
+      "stage1_score": 1.4135227057717779,
+      "validity": 1.0,
+      "avg_time": 2.600016,
+      "max_time": 4.79246,
+      "mean_time": 2.434973059872733,
+      "avg_nodes": 2039.875,
+      "max_nodes": 4071.0,
+      "mean_nodes": 1760.4131725276193,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.7753355262980186
+    },
+    "language": "python",
+    "saved_at": 1788943994.783059
+  },
+  "d92d38cf-d99a-4991-b40d-fd589b0027ce": {
+    "generation": 6,
+    "iteration": 196,
+    "timestamp": 1788943632.2763891,
+    "parent_id": "17a4a3af-c99e-4328-87c0-e4479f890de4",
+    "metrics": {
+      "stage1_score": 0.8964251126132728,
+      "validity": 1.0,
+      "avg_time": 2.59539975,
+      "max_time": 4.781781,
+      "mean_time": 2.4325569566538143,
+      "avg_nodes": 2039.875,
+      "max_nodes": 4071.0,
+      "mean_nodes": 1760.4131725276193,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.7753355262980186
+    },
+    "language": "python",
+    "saved_at": 1788943994.783236
+  },
+  "681def8d-48e7-4ecd-96a4-de9bd3a25eb8": {
+    "generation": 6,
+    "iteration": 172,
+    "timestamp": 1788940328.282464,
+    "parent_id": "2f491bf5-8935-4c8c-a760-1a4375be3936",
+    "metrics": {
+      "stage1_score": 1.3940333281882187,
+      "validity": 1.0,
+      "avg_time": 2.602436625,
+      "max_time": 4.798326,
+      "mean_time": 2.4364823014530703,
+      "avg_nodes": 2039.875,
+      "max_nodes": 4071.0,
+      "mean_nodes": 1760.4131725276193,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.7753355262980186
+    },
+    "language": "python",
+    "saved_at": 1788943994.7833312
+  },
+  "1f620d67-19a1-4fe9-b97e-fbc26e79b995": {
+    "generation": 4,
+    "iteration": 108,
+    "timestamp": 1788932936.931243,
+    "parent_id": "317931e1-36d2-4890-aabe-5a1fd00abaa2",
+    "metrics": {
+      "stage1_score": 1.415517178367541,
+      "validity": 1.0,
+      "avg_time": 2.662154125,
+      "max_time": 4.854362,
+      "mean_time": 2.49501180925429,
+      "avg_nodes": 2039.875,
+      "max_nodes": 4071.0,
+      "mean_nodes": 1760.4131725276193,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.7753355262980186
+    },
+    "language": "python",
+    "saved_at": 1788943994.783421
+  },
+  "ba8f235f-f1a4-4101-b6f2-44323d18d12f": {
+    "generation": 4,
+    "iteration": 123,
+    "timestamp": 1788934928.617398,
+    "parent_id": "90b00299-9183-4b6b-9264-6db434422d48",
+    "metrics": {
+      "stage1_score": 1.405441923781073,
+      "validity": 1.0,
+      "avg_time": 2.70231375,
+      "max_time": 5.128928999999999,
+      "mean_time": 2.5051639779175012,
+      "avg_nodes": 2108.125,
+      "max_nodes": 4519.0,
+      "mean_nodes": 1789.1750715798687,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.7480777880252956
+    },
+    "language": "python",
+    "saved_at": 1788943994.7835069
+  },
+  "e5b4e60e-6c35-4443-83b8-deaff679a9a4": {
+    "generation": 5,
+    "iteration": 197,
+    "timestamp": 1788943669.400065,
+    "parent_id": "618b13b8-550b-4de8-901a-f43affa4da30",
+    "metrics": {
+      "stage1_score": 0.8724596651035685,
+      "validity": 1.0,
+      "avg_time": 2.691650125,
+      "max_time": 6.055264,
+      "mean_time": 2.4486472906934384,
+      "avg_nodes": 2172.375,
+      "max_nodes": 5435.0,
+      "mean_nodes": 1767.6926656443136,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.723348000870145
+    },
+    "language": "python",
+    "saved_at": 1788943994.783594
+  },
+  "c14641ef-a84d-4212-8135-2401a76de263": {
+    "generation": 5,
+    "iteration": 167,
+    "timestamp": 1788939702.934241,
+    "parent_id": "1f620d67-19a1-4fe9-b97e-fbc26e79b995",
+    "metrics": {
+      "stage1_score": 1.0328550860697479,
+      "validity": 1.0,
+      "avg_time": 2.766618,
+      "max_time": 4.638084,
+      "mean_time": 2.6112646280022314,
+      "avg_nodes": 2191.375,
+      "max_nodes": 4178.0,
+      "mean_nodes": 1892.714407298727,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.7161995338150309
+    },
+    "language": "python",
+    "saved_at": 1788943994.783679
+  },
+  "618b13b8-550b-4de8-901a-f43affa4da30": {
+    "generation": 4,
+    "iteration": 121,
+    "timestamp": 1788934744.8405418,
+    "parent_id": "7e9a2cea-c3d9-4b13-b872-dfab95178765",
+    "metrics": {
+      "stage1_score": 0.9511099764115,
+      "validity": 1.0,
+      "avg_time": 2.801069625,
+      "max_time": 6.177582999999999,
+      "mean_time": 2.5483987604486815,
+      "avg_nodes": 2199.125,
+      "max_nodes": 5381.0,
+      "mean_nodes": 1795.1759799193744,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.7133046738785662
+    },
+    "language": "python",
+    "saved_at": 1788943994.783766
+  },
+  "c999174c-b18f-42a1-a5df-5fff703910ee": {
+    "generation": 4,
+    "iteration": 178,
+    "timestamp": 1788941015.1836412,
+    "parent_id": "74f4a649-f48b-4a52-8676-12fff31d9c74",
+    "metrics": {
+      "stage1_score": 0.9797089656984187,
+      "validity": 1.0,
+      "avg_time": 2.8083768750000004,
+      "max_time": 6.048614000000001,
+      "mean_time": 2.507908050398899,
+      "avg_nodes": 2239.5,
+      "max_nodes": 5895.0,
+      "mean_nodes": 1677.3944743130512,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 1.6984157999113891
+    },
+    "language": "python",
+    "saved_at": 1788943994.783846
+  }
+}

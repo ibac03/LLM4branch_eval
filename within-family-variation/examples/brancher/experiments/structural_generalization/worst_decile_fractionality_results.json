@@ -1,0 +1,702 @@
+[
+  {
+    "seed": 800000000,
+    "mean_root_fractionality": 0.018192389006342496,
+    "root_fractional_share": 0.022198731501057084,
+    "n_root_candidates": 974,
+    "n_bad": 28
+  },
+  {
+    "seed": 800000001,
+    "mean_root_fractionality": 1.5e-323,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 969,
+    "n_bad": 0
+  },
+  {
+    "seed": 800000002,
+    "mean_root_fractionality": 0.0,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 939,
+    "n_bad": 0
+  },
+  {
+    "seed": 800000003,
+    "mean_root_fractionality": 0.0347744630071599,
+    "root_fractional_share": 0.046539379474940336,
+    "n_root_candidates": 987,
+    "n_bad": 149
+  },
+  {
+    "seed": 800000004,
+    "mean_root_fractionality": 0.019822732012513035,
+    "root_fractional_share": 0.023983315954118872,
+    "n_root_candidates": 980,
+    "n_bad": 21
+  },
+  {
+    "seed": 800000005,
+    "mean_root_fractionality": 0.02024236037934668,
+    "root_fractional_share": 0.02423603793466807,
+    "n_root_candidates": 976,
+    "n_bad": 27
+  },
+  {
+    "seed": 800000006,
+    "mean_root_fractionality": 0.01530902229299363,
+    "root_fractional_share": 0.02335456475583864,
+    "n_root_candidates": 974,
+    "n_bad": 32
+  },
+  {
+    "seed": 800000007,
+    "mean_root_fractionality": 0.02810360884749709,
+    "root_fractional_share": 0.03958090803259604,
+    "n_root_candidates": 978,
+    "n_bad": 119
+  },
+  {
+    "seed": 800000008,
+    "mean_root_fractionality": 0.052815231395348834,
+    "root_fractional_share": 0.06162790697674419,
+    "n_root_candidates": 969,
+    "n_bad": 109
+  },
+  {
+    "seed": 800000009,
+    "mean_root_fractionality": 0.12569154724694498,
+    "root_fractional_share": 0.14545454545454545,
+    "n_root_candidates": 974,
+    "n_bad": 94
+  },
+  {
+    "seed": 800000010,
+    "mean_root_fractionality": 0.040100250626566414,
+    "root_fractional_share": 0.040100250626566414,
+    "n_root_candidates": 983,
+    "n_bad": 584
+  },
+  {
+    "seed": 800000011,
+    "mean_root_fractionality": 0.015027386149003147,
+    "root_fractional_share": 0.022035676810073453,
+    "n_root_candidates": 985,
+    "n_bad": 32
+  },
+  {
+    "seed": 800000012,
+    "mean_root_fractionality": 0.01427776489361702,
+    "root_fractional_share": 0.022340425531914895,
+    "n_root_candidates": 969,
+    "n_bad": 29
+  },
+  {
+    "seed": 800000013,
+    "mean_root_fractionality": 0.05146318416791936,
+    "root_fractional_share": 0.07427341227125941,
+    "n_root_candidates": 975,
+    "n_bad": 46
+  },
+  {
+    "seed": 800000014,
+    "mean_root_fractionality": 0.04126949580713132,
+    "root_fractional_share": 0.04821802935010482,
+    "n_root_candidates": 988,
+    "n_bad": 34
+  },
+  {
+    "seed": 800000015,
+    "mean_root_fractionality": -3.446887939051011e-13,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 989,
+    "n_bad": 58
+  },
+  {
+    "seed": 800000016,
+    "mean_root_fractionality": 2.22079033313e-312,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 979,
+    "n_bad": 164
+  },
+  {
+    "seed": 800000017,
+    "mean_root_fractionality": 0.020952879581151836,
+    "root_fractional_share": 0.025130890052356022,
+    "n_root_candidates": 975,
+    "n_bad": 20
+  },
+  {
+    "seed": 800000018,
+    "mean_root_fractionality": 0.02954968944099379,
+    "root_fractional_share": 0.037267080745341616,
+    "n_root_candidates": 965,
+    "n_bad": 321
+  },
+  {
+    "seed": 800000019,
+    "mean_root_fractionality": 0.023290239304812832,
+    "root_fractional_share": 0.03342245989304813,
+    "n_root_candidates": 976,
+    "n_bad": 228
+  },
+  {
+    "seed": 800000020,
+    "mean_root_fractionality": -4.131238238928985e-14,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 977,
+    "n_bad": 491
+  },
+  {
+    "seed": 800000021,
+    "mean_root_fractionality": 0.013185880042462845,
+    "root_fractional_share": 0.021231422505307854,
+    "n_root_candidates": 974,
+    "n_bad": 32
+  },
+  {
+    "seed": 800000022,
+    "mean_root_fractionality": 0.15158636897767333,
+    "root_fractional_share": 0.15158636897767333,
+    "n_root_candidates": 986,
+    "n_bad": 135
+  },
+  {
+    "seed": 800000023,
+    "mean_root_fractionality": 0.016933614330874605,
+    "root_fractional_share": 0.02423603793466807,
+    "n_root_candidates": 980,
+    "n_bad": 31
+  },
+  {
+    "seed": 800000024,
+    "mean_root_fractionality": 0.1770397601872024,
+    "root_fractional_share": 0.22540045766590389,
+    "n_root_candidates": 985,
+    "n_bad": 111
+  },
+  {
+    "seed": 800000025,
+    "mean_root_fractionality": 0.03957528556593977,
+    "root_fractional_share": 0.04257528556593977,
+    "n_root_candidates": 978,
+    "n_bad": 15
+  },
+  {
+    "seed": 800000026,
+    "mean_root_fractionality": 0.0,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 993,
+    "n_bad": 0
+  },
+  {
+    "seed": 800000027,
+    "mean_root_fractionality": 0.05291923387978142,
+    "root_fractional_share": 0.06120218579234973,
+    "n_root_candidates": 974,
+    "n_bad": 59
+  },
+  {
+    "seed": 800000028,
+    "mean_root_fractionality": 0.024954648526077098,
+    "root_fractional_share": 0.02947845804988662,
+    "n_root_candidates": 983,
+    "n_bad": 101
+  },
+  {
+    "seed": 800000029,
+    "mean_root_fractionality": 0.14940518763679178,
+    "root_fractional_share": 0.1600441501103753,
+    "n_root_candidates": 986,
+    "n_bad": 80
+  },
+  {
+    "seed": 800000030,
+    "mean_root_fractionality": 0.11002200220022001,
+    "root_fractional_share": 0.11441144114411442,
+    "n_root_candidates": 984,
+    "n_bad": 75
+  },
+  {
+    "seed": 800000031,
+    "mean_root_fractionality": 0.004765472680105059,
+    "root_fractional_share": 0.004866180048661801,
+    "n_root_candidates": 985,
+    "n_bad": 163
+  },
+  {
+    "seed": 800000032,
+    "mean_root_fractionality": 0.01597020930232558,
+    "root_fractional_share": 0.024363233665559248,
+    "n_root_candidates": 981,
+    "n_bad": 78
+  },
+  {
+    "seed": 800000033,
+    "mean_root_fractionality": 0.0318655349153219,
+    "root_fractional_share": 0.04695837780149413,
+    "n_root_candidates": 982,
+    "n_bad": 45
+  },
+  {
+    "seed": 800000034,
+    "mean_root_fractionality": 0.16190764863612336,
+    "root_fractional_share": 0.19661016949152543,
+    "n_root_candidates": 967,
+    "n_bad": 82
+  },
+  {
+    "seed": 800000035,
+    "mean_root_fractionality": 0.12040064968168965,
+    "root_fractional_share": 0.12875,
+    "n_root_candidates": 978,
+    "n_bad": 178
+  },
+  {
+    "seed": 800000036,
+    "mean_root_fractionality": 0.022575157811456067,
+    "root_fractional_share": 0.024830699774266364,
+    "n_root_candidates": 985,
+    "n_bad": 542
+  },
+  {
+    "seed": 800000037,
+    "mean_root_fractionality": 0.06029749471030477,
+    "root_fractional_share": 0.07641921397379912,
+    "n_root_candidates": 986,
+    "n_bad": 70
+  },
+  {
+    "seed": 800000038,
+    "mean_root_fractionality": 0.04222079439252336,
+    "root_fractional_share": 0.053738317757009345,
+    "n_root_candidates": 988,
+    "n_bad": 132
+  },
+  {
+    "seed": 800000039,
+    "mean_root_fractionality": 0.020909090909090912,
+    "root_fractional_share": 0.025078369905956112,
+    "n_root_candidates": 985,
+    "n_bad": 28
+  },
+  {
+    "seed": 800000040,
+    "mean_root_fractionality": 0.21713021491782553,
+    "root_fractional_share": 0.21871049304677623,
+    "n_root_candidates": 990,
+    "n_bad": 199
+  },
+  {
+    "seed": 800000041,
+    "mean_root_fractionality": 0.6530172413793146,
+    "root_fractional_share": 0.6870026525198939,
+    "n_root_candidates": 979,
+    "n_bad": 225
+  },
+  {
+    "seed": 800000042,
+    "mean_root_fractionality": 0.01661129568070808,
+    "root_fractional_share": 0.016611295681063124,
+    "n_root_candidates": 980,
+    "n_bad": 77
+  },
+  {
+    "seed": 800000043,
+    "mean_root_fractionality": 0.02284246575342466,
+    "root_fractional_share": 0.0273972602739726,
+    "n_root_candidates": 978,
+    "n_bad": 102
+  },
+  {
+    "seed": 800000044,
+    "mean_root_fractionality": 0.08847205610561056,
+    "root_fractional_share": 0.0968096809680968,
+    "n_root_candidates": 987,
+    "n_bad": 78
+  },
+  {
+    "seed": 800000045,
+    "mean_root_fractionality": 0.18170360620471016,
+    "root_fractional_share": 0.1855072463768116,
+    "n_root_candidates": 975,
+    "n_bad": 285
+  },
+  {
+    "seed": 800000046,
+    "mean_root_fractionality": 0.04334525680579442,
+    "root_fractional_share": 0.061422413793103446,
+    "n_root_candidates": 979,
+    "n_bad": 51
+  },
+  {
+    "seed": 800000047,
+    "mean_root_fractionality": 0.10953012953006294,
+    "root_fractional_share": 0.12319644839067703,
+    "n_root_candidates": 985,
+    "n_bad": 84
+  },
+  {
+    "seed": 800000048,
+    "mean_root_fractionality": 0.07100132190424355,
+    "root_fractional_share": 0.07692307692307693,
+    "n_root_candidates": 984,
+    "n_bad": 74
+  },
+  {
+    "seed": 800000049,
+    "mean_root_fractionality": 0.0677723680978203,
+    "root_fractional_share": 0.09574468085106383,
+    "n_root_candidates": 989,
+    "n_bad": 49
+  },
+  {
+    "seed": 800000050,
+    "mean_root_fractionality": 0.037056233723629095,
+    "root_fractional_share": 0.05391527599486521,
+    "n_root_candidates": 981,
+    "n_bad": 202
+  },
+  {
+    "seed": 800000051,
+    "mean_root_fractionality": 0.037746331236897274,
+    "root_fractional_share": 0.041928721174004195,
+    "n_root_candidates": 983,
+    "n_bad": 29
+  },
+  {
+    "seed": 800000052,
+    "mean_root_fractionality": 0.057250280583613915,
+    "root_fractional_share": 0.06172839506172839,
+    "n_root_candidates": 976,
+    "n_bad": 85
+  },
+  {
+    "seed": 800000053,
+    "mean_root_fractionality": 0.006580708198940631,
+    "root_fractional_share": 0.007216494845360825,
+    "n_root_candidates": 985,
+    "n_bad": 15
+  },
+  {
+    "seed": 800000054,
+    "mean_root_fractionality": 7.780392828e-314,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 978,
+    "n_bad": 277
+  },
+  {
+    "seed": 800000055,
+    "mean_root_fractionality": 0.11642226661586268,
+    "root_fractional_share": 0.13290460878885316,
+    "n_root_candidates": 969,
+    "n_bad": 36
+  },
+  {
+    "seed": 800000056,
+    "mean_root_fractionality": 0.08300395256916997,
+    "root_fractional_share": 0.08300395256916997,
+    "n_root_candidates": 967,
+    "n_bad": 208
+  },
+  {
+    "seed": 800000057,
+    "mean_root_fractionality": 0.027489552816901405,
+    "root_fractional_share": 0.036384976525821594,
+    "n_root_candidates": 977,
+    "n_bad": 125
+  },
+  {
+    "seed": 800000058,
+    "mean_root_fractionality": 0.0328879753340185,
+    "root_fractional_share": 0.0328879753340185,
+    "n_root_candidates": 983,
+    "n_bad": 10
+  },
+  {
+    "seed": 800000059,
+    "mean_root_fractionality": 0.050348155097613874,
+    "root_fractional_share": 0.057483731019522775,
+    "n_root_candidates": 984,
+    "n_bad": 62
+  },
+  {
+    "seed": 800000060,
+    "mean_root_fractionality": 0.5365734058037938,
+    "root_fractional_share": 0.6055045871559633,
+    "n_root_candidates": 989,
+    "n_bad": 117
+  },
+  {
+    "seed": 800000061,
+    "mean_root_fractionality": 0.500267094017094,
+    "root_fractional_share": 0.5160256410256411,
+    "n_root_candidates": 974,
+    "n_bad": 38
+  },
+  {
+    "seed": 800000062,
+    "mean_root_fractionality": 4.911734125e-314,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 982,
+    "n_bad": 277
+  },
+  {
+    "seed": 800000063,
+    "mean_root_fractionality": 1.52474828485e-313,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 959,
+    "n_bad": 0
+  },
+  {
+    "seed": 800000064,
+    "mean_root_fractionality": 0.011220196353436185,
+    "root_fractional_share": 0.011220196353436185,
+    "n_root_candidates": 992,
+    "n_bad": 279
+  },
+  {
+    "seed": 800000065,
+    "mean_root_fractionality": 0.03786286453566236,
+    "root_fractional_share": 0.04946996466431095,
+    "n_root_candidates": 983,
+    "n_bad": 134
+  },
+  {
+    "seed": 800000066,
+    "mean_root_fractionality": 0.0017730496453900709,
+    "root_fractional_share": 0.0017730496453900709,
+    "n_root_candidates": 979,
+    "n_bad": 415
+  },
+  {
+    "seed": 800000067,
+    "mean_root_fractionality": 0.22462544065805207,
+    "root_fractional_share": 0.25616921269095183,
+    "n_root_candidates": 978,
+    "n_bad": 127
+  },
+  {
+    "seed": 800000068,
+    "mean_root_fractionality": 0.02316427783902977,
+    "root_fractional_share": 0.027563395810363836,
+    "n_root_candidates": 974,
+    "n_bad": 67
+  },
+  {
+    "seed": 800000069,
+    "mean_root_fractionality": 0.0582010582010582,
+    "root_fractional_share": 0.0582010582010582,
+    "n_root_candidates": 985,
+    "n_bad": 607
+  },
+  {
+    "seed": 800000070,
+    "mean_root_fractionality": 0.036387207760770694,
+    "root_fractional_share": 0.03917050691244239,
+    "n_root_candidates": 973,
+    "n_bad": 105
+  },
+  {
+    "seed": 800000071,
+    "mean_root_fractionality": 0.0746781187550147,
+    "root_fractional_share": 0.154292343387471,
+    "n_root_candidates": 965,
+    "n_bad": 103
+  },
+  {
+    "seed": 800000072,
+    "mean_root_fractionality": 0.11471294187444503,
+    "root_fractional_share": 0.1385390428211587,
+    "n_root_candidates": 962,
+    "n_bad": 168
+  },
+  {
+    "seed": 800000073,
+    "mean_root_fractionality": 0.08311688311688312,
+    "root_fractional_share": 0.08311688311688312,
+    "n_root_candidates": 983,
+    "n_bad": 213
+  },
+  {
+    "seed": 800000074,
+    "mean_root_fractionality": 0.04892191519823788,
+    "root_fractional_share": 0.05726872246696035,
+    "n_root_candidates": 986,
+    "n_bad": 78
+  },
+  {
+    "seed": 800000075,
+    "mean_root_fractionality": 0.3206084959816502,
+    "root_fractional_share": 0.3214695752009185,
+    "n_root_candidates": 983,
+    "n_bad": 112
+  },
+  {
+    "seed": 800000076,
+    "mean_root_fractionality": 0.023626641119221407,
+    "root_fractional_share": 0.032846715328467155,
+    "n_root_candidates": 981,
+    "n_bad": 159
+  },
+  {
+    "seed": 800000077,
+    "mean_root_fractionality": 0.02084557037683143,
+    "root_fractional_share": 0.03229813664596273,
+    "n_root_candidates": 969,
+    "n_bad": 164
+  },
+  {
+    "seed": 800000078,
+    "mean_root_fractionality": 0.08411214953271028,
+    "root_fractional_share": 0.08411214953271028,
+    "n_root_candidates": 983,
+    "n_bad": 20
+  },
+  {
+    "seed": 800000079,
+    "mean_root_fractionality": 0.017068434224718026,
+    "root_fractional_share": 0.025613660618996798,
+    "n_root_candidates": 985,
+    "n_bad": 48
+  },
+  {
+    "seed": 800000080,
+    "mean_root_fractionality": 0.0031941378670679245,
+    "root_fractional_share": 0.004206098843322818,
+    "n_root_candidates": 985,
+    "n_bad": 34
+  },
+  {
+    "seed": 800000081,
+    "mean_root_fractionality": 0.03911826469338789,
+    "root_fractional_share": 0.050955414012738856,
+    "n_root_candidates": 979,
+    "n_bad": 37
+  },
+  {
+    "seed": 800000082,
+    "mean_root_fractionality": 0.08352941176470588,
+    "root_fractional_share": 0.08352941176470588,
+    "n_root_candidates": 986,
+    "n_bad": 136
+  },
+  {
+    "seed": 800000083,
+    "mean_root_fractionality": 0.040839958097983076,
+    "root_fractional_share": 0.055613850996852045,
+    "n_root_candidates": 986,
+    "n_bad": 33
+  },
+  {
+    "seed": 800000084,
+    "mean_root_fractionality": 0.1528995742769452,
+    "root_fractional_share": 0.16455696202531644,
+    "n_root_candidates": 982,
+    "n_bad": 271
+  },
+  {
+    "seed": 800000085,
+    "mean_root_fractionality": 5.288872131e-314,
+    "root_fractional_share": 0.0,
+    "n_root_candidates": 982,
+    "n_bad": 282
+  },
+  {
+    "seed": 800000086,
+    "mean_root_fractionality": 0.07504864217522882,
+    "root_fractional_share": 0.07602956705385427,
+    "n_root_candidates": 977,
+    "n_bad": 30
+  },
+  {
+    "seed": 800000087,
+    "mean_root_fractionality": 0.08194472204806687,
+    "root_fractional_share": 0.08986415882967608,
+    "n_root_candidates": 988,
+    "n_bad": 31
+  },
+  {
+    "seed": 800000088,
+    "mean_root_fractionality": 0.03281979017627458,
+    "root_fractional_share": 0.038331454340473504,
+    "n_root_candidates": 956,
+    "n_bad": 69
+  },
+  {
+    "seed": 800000089,
+    "mean_root_fractionality": 0.044306076937591234,
+    "root_fractional_share": 0.09035409035409035,
+    "n_root_candidates": 981,
+    "n_bad": 162
+  },
+  {
+    "seed": 800000090,
+    "mean_root_fractionality": 0.01863755303030303,
+    "root_fractional_share": 0.024891774891774892,
+    "n_root_candidates": 960,
+    "n_bad": 36
+  },
+  {
+    "seed": 800000091,
+    "mean_root_fractionality": 0.026535320088300222,
+    "root_fractional_share": 0.03642384105960265,
+    "n_root_candidates": 969,
+    "n_bad": 63
+  },
+  {
+    "seed": 800000092,
+    "mean_root_fractionality": 0.05011194183503696,
+    "root_fractional_share": 0.05023547880690738,
+    "n_root_candidates": 978,
+    "n_bad": 341
+  },
+  {
+    "seed": 800000093,
+    "mean_root_fractionality": 0.22302918261039223,
+    "root_fractional_share": 0.30979827089337175,
+    "n_root_candidates": 974,
+    "n_bad": 280
+  },
+  {
+    "seed": 800000094,
+    "mean_root_fractionality": 0.03434672312729021,
+    "root_fractional_share": 0.060279870828848225,
+    "n_root_candidates": 979,
+    "n_bad": 50
+  },
+  {
+    "seed": 800000095,
+    "mean_root_fractionality": 0.18777013727569072,
+    "root_fractional_share": 0.19221967963386727,
+    "n_root_candidates": 988,
+    "n_bad": 114
+  },
+  {
+    "seed": 800000096,
+    "mean_root_fractionality": 0.07562016001354517,
+    "root_fractional_share": 0.0853517877739331,
+    "n_root_candidates": 978,
+    "n_bad": 111
+  },
+  {
+    "seed": 800000097,
+    "mean_root_fractionality": 0.00798175598631699,
+    "root_fractional_share": 0.00798175598631699,
+    "n_root_candidates": 970,
+    "n_bad": 93
+  },
+  {
+    "seed": 800000098,
+    "mean_root_fractionality": 0.04177545691906005,
+    "root_fractional_share": 0.04177545691906005,
+    "n_root_candidates": 983,
+    "n_bad": 600
+  },
+  {
+    "seed": 800000099,
+    "mean_root_fractionality": 0.023214285714285715,
+    "root_fractional_share": 0.023214285714285715,
+    "n_root_candidates": 972,
+    "n_bad": 412
+  }
+]

@@ -1,0 +1,222 @@
+{
+  "4e4bb50a-d2c4-4274-8b3a-85819e6c1578": {
+    "generation": 7,
+    "iteration": 197,
+    "timestamp": 1788948987.897438,
+    "parent_id": "630f6af7-d993-4b82-b8c2-7c3167205e03",
+    "metrics": {
+      "stage1_score": 1.612842470726754,
+      "validity": 1.0,
+      "avg_time": 0.575834375,
+      "max_time": 0.855122,
+      "mean_time": 0.5656627492568029,
+      "avg_nodes": 322.375,
+      "max_nodes": 585.0,
+      "mean_nodes": 270.6742595425822,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.466353684015811
+    },
+    "language": "python",
+    "saved_at": 1788949078.49134
+  },
+  "9723c15a-479c-47b9-9eb6-306c0f1b2afd": {
+    "generation": 1,
+    "iteration": 6,
+    "timestamp": 1788204218.994576,
+    "parent_id": "ecdb2135-59db-4ae8-bd09-1f4dd4c43aee",
+    "metrics": {
+      "stage1_score": 0.9845566412541608,
+      "validity": 1.0,
+      "avg_time": 0.576049375,
+      "max_time": 0.796272,
+      "mean_time": 0.5671310932719706,
+      "avg_nodes": 326.5,
+      "max_nodes": 572.0,
+      "mean_nodes": 287.9515024617528,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.454038737011219
+    },
+    "language": "python",
+    "saved_at": 1788949078.491694
+  },
+  "e18a7d7e-efc1-483a-811b-7cdbeb89d6c3": {
+    "generation": 3,
+    "iteration": 118,
+    "timestamp": 1788945866.124755,
+    "parent_id": "343dcb8d-708a-4c33-9640-530298e5cf58",
+    "metrics": {
+      "stage1_score": 1.6841845581794457,
+      "validity": 1.0,
+      "avg_time": 0.5477320000000001,
+      "max_time": 0.850303,
+      "mean_time": 0.5385167142830729,
+      "avg_nodes": 329.75,
+      "max_nodes": 663.0,
+      "mean_nodes": 278.22102590848243,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.444448568868127
+    },
+    "language": "python",
+    "saved_at": 1788949078.491921
+  },
+  "e281a3c4-22a2-4761-b960-ac6998c32fd1": {
+    "generation": 3,
+    "iteration": 144,
+    "timestamp": 1788946746.923945,
+    "parent_id": "f5e3ffa7-81e7-48aa-b6e0-bd67082689cc",
+    "metrics": {
+      "stage1_score": 1.6611469725260068,
+      "validity": 1.0,
+      "avg_time": 0.5493155,
+      "max_time": 0.847537,
+      "mean_time": 0.5400655498097635,
+      "avg_nodes": 329.75,
+      "max_nodes": 663.0,
+      "mean_nodes": 278.22102590848243,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.444448568868127
+    },
+    "language": "python",
+    "saved_at": 1788949078.492046
+  },
+  "40b5785e-5e94-47e1-b134-d3580ae86096": {
+    "generation": 3,
+    "iteration": 108,
+    "timestamp": 1788945611.771892,
+    "parent_id": "68da3f69-14d8-4fbe-8a06-bd029b74e232",
+    "metrics": {
+      "stage1_score": 1.3979507380700475,
+      "validity": 1.0,
+      "avg_time": 0.551593875,
+      "max_time": 0.83246,
+      "mean_time": 0.5424979215431049,
+      "avg_nodes": 329.75,
+      "max_nodes": 663.0,
+      "mean_nodes": 278.22102590848243,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.444448568868127
+    },
+    "language": "python",
+    "saved_at": 1788949078.4921432
+  },
+  "b81966ef-7f0d-481b-b93a-a2877c3d138c": {
+    "generation": 5,
+    "iteration": 173,
+    "timestamp": 1788947978.57566,
+    "parent_id": "f69ae86f-bdb6-4f6c-ba95-5a24fc177c5d",
+    "metrics": {
+      "stage1_score": 1.496947191773485,
+      "validity": 1.0,
+      "avg_time": 0.557910125,
+      "max_time": 0.8411069999999999,
+      "mean_time": 0.5494294680636271,
+      "avg_nodes": 335.25,
+      "max_nodes": 647.0,
+      "mean_nodes": 288.6819615093883,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.428439139308347
+    },
+    "language": "python",
+    "saved_at": 1788949078.4922419
+  },
+  "b46e79fc-3fa7-48e0-ae28-a8c870fe708e": {
+    "generation": 5,
+    "iteration": 160,
+    "timestamp": 1788947350.627309,
+    "parent_id": "b26c7370-a231-41ed-87a2-340781c087bc",
+    "metrics": {
+      "stage1_score": 1.7530064485085317,
+      "validity": 1.0,
+      "avg_time": 0.558085125,
+      "max_time": 0.809519,
+      "mean_time": 0.5489923837441806,
+      "avg_nodes": 338.625,
+      "max_nodes": 653.0,
+      "mean_nodes": 280.718490175933,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.4187488600913025
+    },
+    "language": "python",
+    "saved_at": 1788949078.492328
+  },
+  "f83d35ef-d32a-4368-8f5a-f64a29d85d21": {
+    "generation": 3,
+    "iteration": 148,
+    "timestamp": 1788946949.126401,
+    "parent_id": "7c24238c-26be-49db-aa4b-8826414fc287",
+    "metrics": {
+      "stage1_score": 1.7604571566062137,
+      "validity": 1.0,
+      "avg_time": 0.566247875,
+      "max_time": 0.8310690000000001,
+      "mean_time": 0.5570871390747287,
+      "avg_nodes": 338.625,
+      "max_nodes": 653.0,
+      "mean_nodes": 280.718490175933,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.4187488600913025
+    },
+    "language": "python",
+    "saved_at": 1788949078.492413
+  },
+  "0aa15d06-8442-483b-8113-4a577df13ffe": {
+    "generation": 4,
+    "iteration": 138,
+    "timestamp": 1788946505.888627,
+    "parent_id": "e18a7d7e-efc1-483a-811b-7cdbeb89d6c3",
+    "metrics": {
+      "stage1_score": 1.505801242681246,
+      "validity": 1.0,
+      "avg_time": 0.5655415,
+      "max_time": 0.828882,
+      "mean_time": 0.5562601523406414,
+      "avg_nodes": 338.625,
+      "max_nodes": 653.0,
+      "mean_nodes": 280.718490175933,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.4187488600913025
+    },
+    "language": "python",
+    "saved_at": 1788949078.4924989
+  },
+  "5b2d0e46-3a20-4cd0-a314-8e70bc49e19b": {
+    "generation": 3,
+    "iteration": 167,
+    "timestamp": 1788947621.4536178,
+    "parent_id": "f5e3ffa7-81e7-48aa-b6e0-bd67082689cc",
+    "metrics": {
+      "stage1_score": 1.0054068574777768,
+      "validity": 1.0,
+      "avg_time": 0.559635125,
+      "max_time": 0.8506119999999999,
+      "mean_time": 0.5496968817510448,
+      "avg_nodes": 344.625,
+      "max_nodes": 659.0,
+      "mean_nodes": 284.5889690503714,
+      "avg_gap": 0.0,
+      "max_gap": 0.0,
+      "mean_gap": 0.0,
+      "combined_score": 3.4017654707828138
+    },
+    "language": "python",
+    "saved_at": 1788949078.4925911
+  }
+}

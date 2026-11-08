@@ -1,0 +1,3602 @@
+[
+  {
+    "seed": 800000000,
+    "top1_degree": 106,
+    "top2_degree": 74,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.4324324324324325,
+    "top5_degree_share": 0.048443775100401605,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000001,
+    "top1_degree": 99,
+    "top2_degree": 95,
+    "top3_degree": 95,
+    "top1_top2_degree_ratio": 1.0421052631578946,
+    "top5_degree_share": 0.055471887550200806,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000002,
+    "top1_degree": 150,
+    "top2_degree": 123,
+    "top3_degree": 102,
+    "top1_top2_degree_ratio": 1.2195121951219512,
+    "top5_degree_share": 0.06814759036144578,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000003,
+    "top1_degree": 141,
+    "top2_degree": 80,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.7625,
+    "top5_degree_share": 0.053463855421686746,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000004,
+    "top1_degree": 125,
+    "top2_degree": 103,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.2135922330097086,
+    "top5_degree_share": 0.05597389558232932,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000005,
+    "top1_degree": 96,
+    "top2_degree": 95,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.0105263157894737,
+    "top5_degree_share": 0.05584839357429719,
+    "n_near_top_hubs": 6
+  },
+  {
+    "seed": 800000006,
+    "top1_degree": 97,
+    "top2_degree": 89,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0898876404494382,
+    "top5_degree_share": 0.05095381526104418,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000007,
+    "top1_degree": 127,
+    "top2_degree": 116,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.0948275862068966,
+    "top5_degree_share": 0.05823293172690763,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000008,
+    "top1_degree": 129,
+    "top2_degree": 100,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.29,
+    "top5_degree_share": 0.0563504016064257,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000009,
+    "top1_degree": 111,
+    "top2_degree": 101,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.099009900990099,
+    "top5_degree_share": 0.052083333333333336,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000010,
+    "top1_degree": 96,
+    "top2_degree": 85,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.1294117647058823,
+    "top5_degree_share": 0.053338353413654616,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000011,
+    "top1_degree": 95,
+    "top2_degree": 93,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.021505376344086,
+    "top5_degree_share": 0.0528363453815261,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000012,
+    "top1_degree": 101,
+    "top2_degree": 83,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.216867469879518,
+    "top5_degree_share": 0.05145582329317269,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000013,
+    "top1_degree": 75,
+    "top2_degree": 73,
+    "top3_degree": 69,
+    "top1_top2_degree_ratio": 1.0273972602739727,
+    "top5_degree_share": 0.04292168674698795,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000014,
+    "top1_degree": 97,
+    "top2_degree": 83,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.1686746987951808,
+    "top5_degree_share": 0.05133032128514056,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000015,
+    "top1_degree": 115,
+    "top2_degree": 110,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.0454545454545454,
+    "top5_degree_share": 0.059989959839357426,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000016,
+    "top1_degree": 100,
+    "top2_degree": 88,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.1363636363636365,
+    "top5_degree_share": 0.05308734939759036,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000017,
+    "top1_degree": 133,
+    "top2_degree": 98,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.3571428571428572,
+    "top5_degree_share": 0.058358433734939756,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000018,
+    "top1_degree": 114,
+    "top2_degree": 105,
+    "top3_degree": 102,
+    "top1_top2_degree_ratio": 1.0857142857142856,
+    "top5_degree_share": 0.056726907630522086,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000019,
+    "top1_degree": 98,
+    "top2_degree": 96,
+    "top3_degree": 93,
+    "top1_top2_degree_ratio": 1.0208333333333333,
+    "top5_degree_share": 0.05647590361445783,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000020,
+    "top1_degree": 120,
+    "top2_degree": 97,
+    "top3_degree": 97,
+    "top1_top2_degree_ratio": 1.2371134020618557,
+    "top5_degree_share": 0.06124497991967871,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000021,
+    "top1_degree": 101,
+    "top2_degree": 99,
+    "top3_degree": 97,
+    "top1_top2_degree_ratio": 1.02020202020202,
+    "top5_degree_share": 0.05559738955823293,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000022,
+    "top1_degree": 112,
+    "top2_degree": 100,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.12,
+    "top5_degree_share": 0.05409136546184739,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000023,
+    "top1_degree": 125,
+    "top2_degree": 84,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.4880952380952381,
+    "top5_degree_share": 0.05484437751004016,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000024,
+    "top1_degree": 104,
+    "top2_degree": 97,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.0721649484536082,
+    "top5_degree_share": 0.0528363453815261,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000025,
+    "top1_degree": 113,
+    "top2_degree": 98,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.153061224489796,
+    "top5_degree_share": 0.05609939759036144,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000026,
+    "top1_degree": 102,
+    "top2_degree": 95,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.0736842105263158,
+    "top5_degree_share": 0.050075301204819275,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000027,
+    "top1_degree": 134,
+    "top2_degree": 110,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.2181818181818183,
+    "top5_degree_share": 0.05923694779116466,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000028,
+    "top1_degree": 102,
+    "top2_degree": 70,
+    "top3_degree": 69,
+    "top1_top2_degree_ratio": 1.457142857142857,
+    "top5_degree_share": 0.046937751004016065,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000029,
+    "top1_degree": 105,
+    "top2_degree": 103,
+    "top3_degree": 101,
+    "top1_top2_degree_ratio": 1.0194174757281553,
+    "top5_degree_share": 0.05622489959839357,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000030,
+    "top1_degree": 112,
+    "top2_degree": 102,
+    "top3_degree": 99,
+    "top1_top2_degree_ratio": 1.0980392156862746,
+    "top5_degree_share": 0.06212349397590362,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000031,
+    "top1_degree": 100,
+    "top2_degree": 77,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.2987012987012987,
+    "top5_degree_share": 0.04806726907630522,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000032,
+    "top1_degree": 108,
+    "top2_degree": 103,
+    "top3_degree": 67,
+    "top1_top2_degree_ratio": 1.0485436893203883,
+    "top5_degree_share": 0.048694779116465865,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000033,
+    "top1_degree": 110,
+    "top2_degree": 74,
+    "top3_degree": 67,
+    "top1_top2_degree_ratio": 1.4864864864864864,
+    "top5_degree_share": 0.04794176706827309,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000034,
+    "top1_degree": 115,
+    "top2_degree": 114,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.0087719298245614,
+    "top5_degree_share": 0.05622489959839357,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000035,
+    "top1_degree": 134,
+    "top2_degree": 89,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.5056179775280898,
+    "top5_degree_share": 0.053589357429718876,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000036,
+    "top1_degree": 100,
+    "top2_degree": 93,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.075268817204301,
+    "top5_degree_share": 0.05271084337349398,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000037,
+    "top1_degree": 96,
+    "top2_degree": 91,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.054945054945055,
+    "top5_degree_share": 0.04982429718875502,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000038,
+    "top1_degree": 105,
+    "top2_degree": 94,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.1170212765957446,
+    "top5_degree_share": 0.055346385542168676,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000039,
+    "top1_degree": 100,
+    "top2_degree": 88,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.1363636363636365,
+    "top5_degree_share": 0.050075301204819275,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000040,
+    "top1_degree": 106,
+    "top2_degree": 95,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.1157894736842104,
+    "top5_degree_share": 0.05484437751004016,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000041,
+    "top1_degree": 128,
+    "top2_degree": 114,
+    "top3_degree": 108,
+    "top1_top2_degree_ratio": 1.1228070175438596,
+    "top5_degree_share": 0.06676706827309237,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000042,
+    "top1_degree": 129,
+    "top2_degree": 101,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.2772277227722773,
+    "top5_degree_share": 0.058358433734939756,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000043,
+    "top1_degree": 124,
+    "top2_degree": 88,
+    "top3_degree": 68,
+    "top1_top2_degree_ratio": 1.4090909090909092,
+    "top5_degree_share": 0.050200803212851405,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000044,
+    "top1_degree": 106,
+    "top2_degree": 99,
+    "top3_degree": 96,
+    "top1_top2_degree_ratio": 1.0707070707070707,
+    "top5_degree_share": 0.056977911646586346,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000045,
+    "top1_degree": 100,
+    "top2_degree": 78,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.2820512820512822,
+    "top5_degree_share": 0.04982429718875502,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000046,
+    "top1_degree": 91,
+    "top2_degree": 82,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.1097560975609757,
+    "top5_degree_share": 0.04907128514056225,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000047,
+    "top1_degree": 133,
+    "top2_degree": 106,
+    "top3_degree": 103,
+    "top1_top2_degree_ratio": 1.2547169811320755,
+    "top5_degree_share": 0.06752008032128515,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000048,
+    "top1_degree": 92,
+    "top2_degree": 82,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.1219512195121952,
+    "top5_degree_share": 0.04907128514056225,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000049,
+    "top1_degree": 106,
+    "top2_degree": 97,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.092783505154639,
+    "top5_degree_share": 0.05484437751004016,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000050,
+    "top1_degree": 109,
+    "top2_degree": 100,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.09,
+    "top5_degree_share": 0.051706827309236945,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000051,
+    "top1_degree": 111,
+    "top2_degree": 92,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.2065217391304348,
+    "top5_degree_share": 0.05484437751004016,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000052,
+    "top1_degree": 105,
+    "top2_degree": 103,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.0194174757281553,
+    "top5_degree_share": 0.05258534136546185,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000053,
+    "top1_degree": 159,
+    "top2_degree": 106,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.5,
+    "top5_degree_share": 0.06463353413654618,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000054,
+    "top1_degree": 113,
+    "top2_degree": 105,
+    "top3_degree": 103,
+    "top1_top2_degree_ratio": 1.0761904761904761,
+    "top5_degree_share": 0.0563504016064257,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000055,
+    "top1_degree": 92,
+    "top2_degree": 84,
+    "top3_degree": 68,
+    "top1_top2_degree_ratio": 1.0952380952380953,
+    "top5_degree_share": 0.04718875502008032,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000056,
+    "top1_degree": 108,
+    "top2_degree": 79,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.3670886075949367,
+    "top5_degree_share": 0.05082831325301205,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000057,
+    "top1_degree": 93,
+    "top2_degree": 83,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.1204819277108433,
+    "top5_degree_share": 0.05070281124497992,
+    "n_near_top_hubs": 6
+  },
+  {
+    "seed": 800000058,
+    "top1_degree": 91,
+    "top2_degree": 86,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.058139534883721,
+    "top5_degree_share": 0.050200803212851405,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000059,
+    "top1_degree": 130,
+    "top2_degree": 127,
+    "top3_degree": 99,
+    "top1_top2_degree_ratio": 1.0236220472440944,
+    "top5_degree_share": 0.06488453815261044,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000060,
+    "top1_degree": 98,
+    "top2_degree": 80,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.225,
+    "top5_degree_share": 0.04969879518072289,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000061,
+    "top1_degree": 117,
+    "top2_degree": 78,
+    "top3_degree": 68,
+    "top1_top2_degree_ratio": 1.5,
+    "top5_degree_share": 0.04806726907630522,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000062,
+    "top1_degree": 125,
+    "top2_degree": 105,
+    "top3_degree": 94,
+    "top1_top2_degree_ratio": 1.1904761904761905,
+    "top5_degree_share": 0.06187248995983936,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000063,
+    "top1_degree": 122,
+    "top2_degree": 108,
+    "top3_degree": 94,
+    "top1_top2_degree_ratio": 1.1296296296296295,
+    "top5_degree_share": 0.06086847389558233,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000064,
+    "top1_degree": 92,
+    "top2_degree": 88,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.0454545454545454,
+    "top5_degree_share": 0.051706827309236945,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000065,
+    "top1_degree": 111,
+    "top2_degree": 73,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.5205479452054795,
+    "top5_degree_share": 0.04907128514056225,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000066,
+    "top1_degree": 115,
+    "top2_degree": 91,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.2637362637362637,
+    "top5_degree_share": 0.05245983935742972,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000067,
+    "top1_degree": 110,
+    "top2_degree": 106,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.0377358490566038,
+    "top5_degree_share": 0.05798192771084337,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000068,
+    "top1_degree": 94,
+    "top2_degree": 89,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.0561797752808988,
+    "top5_degree_share": 0.048820281124497995,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000069,
+    "top1_degree": 112,
+    "top2_degree": 86,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.302325581395349,
+    "top5_degree_share": 0.05434236947791165,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000070,
+    "top1_degree": 122,
+    "top2_degree": 92,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.326086956521739,
+    "top5_degree_share": 0.0545933734939759,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000071,
+    "top1_degree": 120,
+    "top2_degree": 94,
+    "top3_degree": 93,
+    "top1_top2_degree_ratio": 1.2765957446808511,
+    "top5_degree_share": 0.06124497991967871,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000072,
+    "top1_degree": 108,
+    "top2_degree": 85,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.2705882352941176,
+    "top5_degree_share": 0.04894578313253012,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000073,
+    "top1_degree": 82,
+    "top2_degree": 74,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.1081081081081081,
+    "top5_degree_share": 0.045431726907630525,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000074,
+    "top1_degree": 86,
+    "top2_degree": 85,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.011764705882353,
+    "top5_degree_share": 0.046686746987951805,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000075,
+    "top1_degree": 109,
+    "top2_degree": 98,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.1122448979591837,
+    "top5_degree_share": 0.05823293172690763,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000076,
+    "top1_degree": 115,
+    "top2_degree": 88,
+    "top3_degree": 64,
+    "top1_top2_degree_ratio": 1.3068181818181819,
+    "top5_degree_share": 0.04932228915662651,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000077,
+    "top1_degree": 103,
+    "top2_degree": 103,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.0,
+    "top5_degree_share": 0.05911144578313253,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000078,
+    "top1_degree": 93,
+    "top2_degree": 91,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.021978021978022,
+    "top5_degree_share": 0.05434236947791165,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000079,
+    "top1_degree": 119,
+    "top2_degree": 87,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.367816091954023,
+    "top5_degree_share": 0.05660140562248996,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000080,
+    "top1_degree": 116,
+    "top2_degree": 113,
+    "top3_degree": 97,
+    "top1_top2_degree_ratio": 1.0265486725663717,
+    "top5_degree_share": 0.06187248995983936,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000081,
+    "top1_degree": 90,
+    "top2_degree": 81,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.1111111111111112,
+    "top5_degree_share": 0.050451807228915665,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000082,
+    "top1_degree": 101,
+    "top2_degree": 78,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.294871794871795,
+    "top5_degree_share": 0.04781626506024096,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000083,
+    "top1_degree": 117,
+    "top2_degree": 98,
+    "top3_degree": 95,
+    "top1_top2_degree_ratio": 1.1938775510204083,
+    "top5_degree_share": 0.05434236947791165,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000084,
+    "top1_degree": 137,
+    "top2_degree": 114,
+    "top3_degree": 90,
+    "top1_top2_degree_ratio": 1.2017543859649122,
+    "top5_degree_share": 0.06199799196787149,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000085,
+    "top1_degree": 112,
+    "top2_degree": 95,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.1789473684210525,
+    "top5_degree_share": 0.05747991967871486,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000086,
+    "top1_degree": 127,
+    "top2_degree": 114,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.1140350877192982,
+    "top5_degree_share": 0.059989959839357426,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000087,
+    "top1_degree": 108,
+    "top2_degree": 88,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.2272727272727273,
+    "top5_degree_share": 0.05133032128514056,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000088,
+    "top1_degree": 117,
+    "top2_degree": 100,
+    "top3_degree": 95,
+    "top1_top2_degree_ratio": 1.17,
+    "top5_degree_share": 0.06099397590361446,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000089,
+    "top1_degree": 111,
+    "top2_degree": 87,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.2758620689655173,
+    "top5_degree_share": 0.05409136546184739,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000090,
+    "top1_degree": 159,
+    "top2_degree": 87,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.8275862068965518,
+    "top5_degree_share": 0.0598644578313253,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000091,
+    "top1_degree": 128,
+    "top2_degree": 103,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.2427184466019416,
+    "top5_degree_share": 0.0572289156626506,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000092,
+    "top1_degree": 114,
+    "top2_degree": 106,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.0754716981132075,
+    "top5_degree_share": 0.05559738955823293,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000093,
+    "top1_degree": 111,
+    "top2_degree": 92,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.2065217391304348,
+    "top5_degree_share": 0.05434236947791165,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000094,
+    "top1_degree": 102,
+    "top2_degree": 91,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.120879120879121,
+    "top5_degree_share": 0.05296184738955823,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000095,
+    "top1_degree": 122,
+    "top2_degree": 83,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.4698795180722892,
+    "top5_degree_share": 0.05559738955823293,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000096,
+    "top1_degree": 107,
+    "top2_degree": 93,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.1505376344086022,
+    "top5_degree_share": 0.05660140562248996,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000097,
+    "top1_degree": 113,
+    "top2_degree": 101,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.118811881188119,
+    "top5_degree_share": 0.05973895582329317,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000098,
+    "top1_degree": 112,
+    "top2_degree": 106,
+    "top3_degree": 99,
+    "top1_top2_degree_ratio": 1.0566037735849056,
+    "top5_degree_share": 0.056726907630522086,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000099,
+    "top1_degree": 103,
+    "top2_degree": 86,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.197674418604651,
+    "top5_degree_share": 0.049949799196787145,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000100,
+    "top1_degree": 86,
+    "top2_degree": 77,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.1168831168831168,
+    "top5_degree_share": 0.048443775100401605,
+    "n_near_top_hubs": 6
+  },
+  {
+    "seed": 800000101,
+    "top1_degree": 105,
+    "top2_degree": 89,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.1797752808988764,
+    "top5_degree_share": 0.053840361445783136,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000102,
+    "top1_degree": 116,
+    "top2_degree": 98,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.183673469387755,
+    "top5_degree_share": 0.05308734939759036,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000103,
+    "top1_degree": 112,
+    "top2_degree": 85,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.3176470588235294,
+    "top5_degree_share": 0.050451807228915665,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000104,
+    "top1_degree": 95,
+    "top2_degree": 90,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.0555555555555556,
+    "top5_degree_share": 0.053338353413654616,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000105,
+    "top1_degree": 105,
+    "top2_degree": 86,
+    "top3_degree": 63,
+    "top1_top2_degree_ratio": 1.2209302325581395,
+    "top5_degree_share": 0.04743975903614458,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000106,
+    "top1_degree": 134,
+    "top2_degree": 129,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.0387596899224807,
+    "top5_degree_share": 0.05936244979919679,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000107,
+    "top1_degree": 110,
+    "top2_degree": 81,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.3580246913580247,
+    "top5_degree_share": 0.050075301204819275,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000108,
+    "top1_degree": 134,
+    "top2_degree": 94,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.425531914893617,
+    "top5_degree_share": 0.0545933734939759,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000109,
+    "top1_degree": 91,
+    "top2_degree": 89,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.0224719101123596,
+    "top5_degree_share": 0.05158132530120482,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000110,
+    "top1_degree": 94,
+    "top2_degree": 86,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.0930232558139534,
+    "top5_degree_share": 0.05120481927710843,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000111,
+    "top1_degree": 119,
+    "top2_degree": 91,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.3076923076923077,
+    "top5_degree_share": 0.05296184738955823,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000112,
+    "top1_degree": 80,
+    "top2_degree": 76,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.0526315789473684,
+    "top5_degree_share": 0.04555722891566265,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000113,
+    "top1_degree": 131,
+    "top2_degree": 81,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.617283950617284,
+    "top5_degree_share": 0.05471887550200803,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000114,
+    "top1_degree": 100,
+    "top2_degree": 91,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.098901098901099,
+    "top5_degree_share": 0.050451807228915665,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000115,
+    "top1_degree": 161,
+    "top2_degree": 109,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.4770642201834863,
+    "top5_degree_share": 0.06275100401606426,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000116,
+    "top1_degree": 110,
+    "top2_degree": 98,
+    "top3_degree": 65,
+    "top1_top2_degree_ratio": 1.1224489795918366,
+    "top5_degree_share": 0.050451807228915665,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000117,
+    "top1_degree": 116,
+    "top2_degree": 87,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.3333333333333333,
+    "top5_degree_share": 0.05258534136546185,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000118,
+    "top1_degree": 92,
+    "top2_degree": 83,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.108433734939759,
+    "top5_degree_share": 0.04969879518072289,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000119,
+    "top1_degree": 137,
+    "top2_degree": 95,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.4421052631578948,
+    "top5_degree_share": 0.05296184738955823,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000120,
+    "top1_degree": 96,
+    "top2_degree": 84,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.1428571428571428,
+    "top5_degree_share": 0.049949799196787145,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000121,
+    "top1_degree": 115,
+    "top2_degree": 99,
+    "top3_degree": 96,
+    "top1_top2_degree_ratio": 1.1616161616161615,
+    "top5_degree_share": 0.058734939759036146,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000122,
+    "top1_degree": 104,
+    "top2_degree": 91,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.1428571428571428,
+    "top5_degree_share": 0.05245983935742972,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000123,
+    "top1_degree": 97,
+    "top2_degree": 96,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.0104166666666667,
+    "top5_degree_share": 0.05471887550200803,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000124,
+    "top1_degree": 129,
+    "top2_degree": 95,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.3578947368421053,
+    "top5_degree_share": 0.055346385542168676,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000125,
+    "top1_degree": 124,
+    "top2_degree": 111,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.117117117117117,
+    "top5_degree_share": 0.05823293172690763,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000126,
+    "top1_degree": 109,
+    "top2_degree": 106,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.028301886792453,
+    "top5_degree_share": 0.05584839357429719,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000127,
+    "top1_degree": 99,
+    "top2_degree": 93,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.064516129032258,
+    "top5_degree_share": 0.0545933734939759,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000128,
+    "top1_degree": 97,
+    "top2_degree": 94,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.0319148936170213,
+    "top5_degree_share": 0.05308734939759036,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000129,
+    "top1_degree": 113,
+    "top2_degree": 87,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.2988505747126438,
+    "top5_degree_share": 0.05396586345381526,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000130,
+    "top1_degree": 87,
+    "top2_degree": 87,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.0,
+    "top5_degree_share": 0.04756526104417671,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000131,
+    "top1_degree": 98,
+    "top2_degree": 88,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.1136363636363635,
+    "top5_degree_share": 0.05133032128514056,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000132,
+    "top1_degree": 130,
+    "top2_degree": 126,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.0317460317460319,
+    "top5_degree_share": 0.05961345381526104,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000133,
+    "top1_degree": 92,
+    "top2_degree": 89,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.0337078651685394,
+    "top5_degree_share": 0.049949799196787145,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000134,
+    "top1_degree": 143,
+    "top2_degree": 110,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.3,
+    "top5_degree_share": 0.06450803212851405,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000135,
+    "top1_degree": 101,
+    "top2_degree": 89,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.1348314606741574,
+    "top5_degree_share": 0.0510793172690763,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000136,
+    "top1_degree": 113,
+    "top2_degree": 105,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.0761904761904761,
+    "top5_degree_share": 0.05609939759036144,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000137,
+    "top1_degree": 87,
+    "top2_degree": 78,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.1153846153846154,
+    "top5_degree_share": 0.04718875502008032,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000138,
+    "top1_degree": 109,
+    "top2_degree": 103,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.058252427184466,
+    "top5_degree_share": 0.05296184738955823,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000139,
+    "top1_degree": 113,
+    "top2_degree": 108,
+    "top3_degree": 106,
+    "top1_top2_degree_ratio": 1.0462962962962963,
+    "top5_degree_share": 0.05798192771084337,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000140,
+    "top1_degree": 104,
+    "top2_degree": 98,
+    "top3_degree": 94,
+    "top1_top2_degree_ratio": 1.0612244897959184,
+    "top5_degree_share": 0.05911144578313253,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000141,
+    "top1_degree": 114,
+    "top2_degree": 102,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.1176470588235294,
+    "top5_degree_share": 0.05773092369477912,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000142,
+    "top1_degree": 119,
+    "top2_degree": 91,
+    "top3_degree": 90,
+    "top1_top2_degree_ratio": 1.3076923076923077,
+    "top5_degree_share": 0.05622489959839357,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000143,
+    "top1_degree": 118,
+    "top2_degree": 78,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.5128205128205128,
+    "top5_degree_share": 0.04806726907630522,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000144,
+    "top1_degree": 127,
+    "top2_degree": 80,
+    "top3_degree": 65,
+    "top1_top2_degree_ratio": 1.5875,
+    "top5_degree_share": 0.04919678714859438,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000145,
+    "top1_degree": 113,
+    "top2_degree": 106,
+    "top3_degree": 93,
+    "top1_top2_degree_ratio": 1.0660377358490567,
+    "top5_degree_share": 0.05396586345381526,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000146,
+    "top1_degree": 101,
+    "top2_degree": 101,
+    "top3_degree": 95,
+    "top1_top2_degree_ratio": 1.0,
+    "top5_degree_share": 0.060115461847389556,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000147,
+    "top1_degree": 121,
+    "top2_degree": 103,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.174757281553398,
+    "top5_degree_share": 0.0581074297188755,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000148,
+    "top1_degree": 110,
+    "top2_degree": 80,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.375,
+    "top5_degree_share": 0.05070281124497992,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000149,
+    "top1_degree": 104,
+    "top2_degree": 86,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.2093023255813953,
+    "top5_degree_share": 0.05308734939759036,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000150,
+    "top1_degree": 107,
+    "top2_degree": 87,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.2298850574712643,
+    "top5_degree_share": 0.050326305220883535,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000151,
+    "top1_degree": 111,
+    "top2_degree": 97,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.1443298969072164,
+    "top5_degree_share": 0.05647590361445783,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000152,
+    "top1_degree": 136,
+    "top2_degree": 100,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.36,
+    "top5_degree_share": 0.05773092369477912,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000153,
+    "top1_degree": 141,
+    "top2_degree": 97,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.4536082474226804,
+    "top5_degree_share": 0.0572289156626506,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000154,
+    "top1_degree": 110,
+    "top2_degree": 79,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.3924050632911393,
+    "top5_degree_share": 0.05158132530120482,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000155,
+    "top1_degree": 94,
+    "top2_degree": 78,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.205128205128205,
+    "top5_degree_share": 0.04819277108433735,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000156,
+    "top1_degree": 113,
+    "top2_degree": 100,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.13,
+    "top5_degree_share": 0.056977911646586346,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000157,
+    "top1_degree": 104,
+    "top2_degree": 98,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.0612244897959184,
+    "top5_degree_share": 0.052083333333333336,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000158,
+    "top1_degree": 103,
+    "top2_degree": 97,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.0618556701030928,
+    "top5_degree_share": 0.0528363453815261,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000159,
+    "top1_degree": 160,
+    "top2_degree": 94,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.702127659574468,
+    "top5_degree_share": 0.06224899598393574,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000160,
+    "top1_degree": 105,
+    "top2_degree": 102,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.0294117647058822,
+    "top5_degree_share": 0.053840361445783136,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000161,
+    "top1_degree": 84,
+    "top2_degree": 79,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.0632911392405062,
+    "top5_degree_share": 0.048443775100401605,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000162,
+    "top1_degree": 116,
+    "top2_degree": 97,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.1958762886597938,
+    "top5_degree_share": 0.05471887550200803,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000163,
+    "top1_degree": 106,
+    "top2_degree": 100,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.06,
+    "top5_degree_share": 0.055095381526104416,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000164,
+    "top1_degree": 105,
+    "top2_degree": 104,
+    "top3_degree": 99,
+    "top1_top2_degree_ratio": 1.0096153846153846,
+    "top5_degree_share": 0.055346385542168676,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000165,
+    "top1_degree": 86,
+    "top2_degree": 85,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.011764705882353,
+    "top5_degree_share": 0.049949799196787145,
+    "n_near_top_hubs": 6
+  },
+  {
+    "seed": 800000166,
+    "top1_degree": 107,
+    "top2_degree": 75,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.4266666666666667,
+    "top5_degree_share": 0.050326305220883535,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000167,
+    "top1_degree": 108,
+    "top2_degree": 87,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.2413793103448276,
+    "top5_degree_share": 0.054969879518072286,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000168,
+    "top1_degree": 112,
+    "top2_degree": 93,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.2043010752688172,
+    "top5_degree_share": 0.055095381526104416,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000169,
+    "top1_degree": 108,
+    "top2_degree": 92,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.173913043478261,
+    "top5_degree_share": 0.04932228915662651,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000170,
+    "top1_degree": 108,
+    "top2_degree": 96,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.125,
+    "top5_degree_share": 0.0545933734939759,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000171,
+    "top1_degree": 93,
+    "top2_degree": 88,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.0568181818181819,
+    "top5_degree_share": 0.051706827309236945,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000172,
+    "top1_degree": 169,
+    "top2_degree": 101,
+    "top3_degree": 101,
+    "top1_top2_degree_ratio": 1.6732673267326732,
+    "top5_degree_share": 0.06463353413654618,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000173,
+    "top1_degree": 107,
+    "top2_degree": 89,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.202247191011236,
+    "top5_degree_share": 0.055095381526104416,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000174,
+    "top1_degree": 109,
+    "top2_degree": 88,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.2386363636363635,
+    "top5_degree_share": 0.052083333333333336,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000175,
+    "top1_degree": 121,
+    "top2_degree": 107,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.1308411214953271,
+    "top5_degree_share": 0.05609939759036144,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000176,
+    "top1_degree": 113,
+    "top2_degree": 107,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.0560747663551402,
+    "top5_degree_share": 0.05484437751004016,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000177,
+    "top1_degree": 83,
+    "top2_degree": 83,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.0,
+    "top5_degree_share": 0.04907128514056225,
+    "n_near_top_hubs": 6
+  },
+  {
+    "seed": 800000178,
+    "top1_degree": 113,
+    "top2_degree": 106,
+    "top3_degree": 105,
+    "top1_top2_degree_ratio": 1.0660377358490567,
+    "top5_degree_share": 0.058609437751004016,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000179,
+    "top1_degree": 112,
+    "top2_degree": 84,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.3333333333333333,
+    "top5_degree_share": 0.05321285140562249,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000180,
+    "top1_degree": 92,
+    "top2_degree": 82,
+    "top3_degree": 64,
+    "top1_top2_degree_ratio": 1.1219512195121952,
+    "top5_degree_share": 0.04480421686746988,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000181,
+    "top1_degree": 124,
+    "top2_degree": 87,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.4252873563218391,
+    "top5_degree_share": 0.05095381526104418,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000182,
+    "top1_degree": 150,
+    "top2_degree": 110,
+    "top3_degree": 106,
+    "top1_top2_degree_ratio": 1.3636363636363635,
+    "top5_degree_share": 0.06187248995983936,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000183,
+    "top1_degree": 110,
+    "top2_degree": 98,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.1224489795918366,
+    "top5_degree_share": 0.05911144578313253,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000184,
+    "top1_degree": 95,
+    "top2_degree": 81,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.1728395061728396,
+    "top5_degree_share": 0.04907128514056225,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000185,
+    "top1_degree": 143,
+    "top2_degree": 87,
+    "top3_degree": 60,
+    "top1_top2_degree_ratio": 1.6436781609195403,
+    "top5_degree_share": 0.0510793172690763,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000186,
+    "top1_degree": 100,
+    "top2_degree": 92,
+    "top3_degree": 90,
+    "top1_top2_degree_ratio": 1.0869565217391304,
+    "top5_degree_share": 0.056852409638554216,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000187,
+    "top1_degree": 109,
+    "top2_degree": 97,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.1237113402061856,
+    "top5_degree_share": 0.0545933734939759,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000188,
+    "top1_degree": 120,
+    "top2_degree": 103,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.1650485436893203,
+    "top5_degree_share": 0.06061746987951807,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000189,
+    "top1_degree": 103,
+    "top2_degree": 96,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.0729166666666667,
+    "top5_degree_share": 0.05647590361445783,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000190,
+    "top1_degree": 129,
+    "top2_degree": 107,
+    "top3_degree": 105,
+    "top1_top2_degree_ratio": 1.205607476635514,
+    "top5_degree_share": 0.058358433734939756,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000191,
+    "top1_degree": 124,
+    "top2_degree": 81,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.5308641975308641,
+    "top5_degree_share": 0.05296184738955823,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000192,
+    "top1_degree": 112,
+    "top2_degree": 71,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.5774647887323943,
+    "top5_degree_share": 0.04769076305220884,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000193,
+    "top1_degree": 131,
+    "top2_degree": 106,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.2358490566037736,
+    "top5_degree_share": 0.056852409638554216,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000194,
+    "top1_degree": 133,
+    "top2_degree": 127,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.047244094488189,
+    "top5_degree_share": 0.060115461847389556,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000195,
+    "top1_degree": 122,
+    "top2_degree": 105,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.161904761904762,
+    "top5_degree_share": 0.05584839357429719,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000196,
+    "top1_degree": 113,
+    "top2_degree": 112,
+    "top3_degree": 94,
+    "top1_top2_degree_ratio": 1.0089285714285714,
+    "top5_degree_share": 0.05961345381526104,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000197,
+    "top1_degree": 95,
+    "top2_degree": 87,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0919540229885059,
+    "top5_degree_share": 0.05158132530120482,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000198,
+    "top1_degree": 109,
+    "top2_degree": 102,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.0686274509803921,
+    "top5_degree_share": 0.052083333333333336,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000199,
+    "top1_degree": 111,
+    "top2_degree": 100,
+    "top3_degree": 95,
+    "top1_top2_degree_ratio": 1.11,
+    "top5_degree_share": 0.0607429718875502,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000200,
+    "top1_degree": 100,
+    "top2_degree": 91,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.098901098901099,
+    "top5_degree_share": 0.049949799196787145,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000201,
+    "top1_degree": 124,
+    "top2_degree": 88,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.4090909090909092,
+    "top5_degree_share": 0.05622489959839357,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000202,
+    "top1_degree": 126,
+    "top2_degree": 120,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.05,
+    "top5_degree_share": 0.055346385542168676,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000203,
+    "top1_degree": 115,
+    "top2_degree": 92,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.25,
+    "top5_degree_share": 0.05597389558232932,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000204,
+    "top1_degree": 101,
+    "top2_degree": 90,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.1222222222222222,
+    "top5_degree_share": 0.05158132530120482,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000205,
+    "top1_degree": 102,
+    "top2_degree": 100,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.02,
+    "top5_degree_share": 0.0545933734939759,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000206,
+    "top1_degree": 112,
+    "top2_degree": 110,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.018181818181818,
+    "top5_degree_share": 0.05597389558232932,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000207,
+    "top1_degree": 100,
+    "top2_degree": 99,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.0101010101010102,
+    "top5_degree_share": 0.05823293172690763,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000208,
+    "top1_degree": 112,
+    "top2_degree": 96,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.1666666666666667,
+    "top5_degree_share": 0.051957831325301206,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000209,
+    "top1_degree": 100,
+    "top2_degree": 95,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.0526315789473684,
+    "top5_degree_share": 0.055095381526104416,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000210,
+    "top1_degree": 104,
+    "top2_degree": 104,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0,
+    "top5_degree_share": 0.055471887550200806,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000211,
+    "top1_degree": 87,
+    "top2_degree": 85,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.0235294117647058,
+    "top5_degree_share": 0.046937751004016065,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000212,
+    "top1_degree": 115,
+    "top2_degree": 91,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.2637362637362637,
+    "top5_degree_share": 0.05220883534136546,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000213,
+    "top1_degree": 97,
+    "top2_degree": 94,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.0319148936170213,
+    "top5_degree_share": 0.056977911646586346,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000214,
+    "top1_degree": 102,
+    "top2_degree": 94,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.0851063829787233,
+    "top5_degree_share": 0.054969879518072286,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000215,
+    "top1_degree": 91,
+    "top2_degree": 80,
+    "top3_degree": 69,
+    "top1_top2_degree_ratio": 1.1375,
+    "top5_degree_share": 0.046812248995983935,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000216,
+    "top1_degree": 102,
+    "top2_degree": 85,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.2,
+    "top5_degree_share": 0.05070281124497992,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000217,
+    "top1_degree": 101,
+    "top2_degree": 99,
+    "top3_degree": 93,
+    "top1_top2_degree_ratio": 1.02020202020202,
+    "top5_degree_share": 0.05446787148594377,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000218,
+    "top1_degree": 99,
+    "top2_degree": 93,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.064516129032258,
+    "top5_degree_share": 0.05760542168674699,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000219,
+    "top1_degree": 89,
+    "top2_degree": 79,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.1265822784810127,
+    "top5_degree_share": 0.048694779116465865,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000220,
+    "top1_degree": 105,
+    "top2_degree": 84,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.25,
+    "top5_degree_share": 0.04932228915662651,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000221,
+    "top1_degree": 127,
+    "top2_degree": 88,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.4431818181818181,
+    "top5_degree_share": 0.05559738955823293,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000222,
+    "top1_degree": 105,
+    "top2_degree": 104,
+    "top3_degree": 95,
+    "top1_top2_degree_ratio": 1.0096153846153846,
+    "top5_degree_share": 0.05647590361445783,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000223,
+    "top1_degree": 121,
+    "top2_degree": 118,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0254237288135593,
+    "top5_degree_share": 0.0581074297188755,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000224,
+    "top1_degree": 125,
+    "top2_degree": 93,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.3440860215053763,
+    "top5_degree_share": 0.056726907630522086,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000225,
+    "top1_degree": 106,
+    "top2_degree": 87,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.2183908045977012,
+    "top5_degree_share": 0.053840361445783136,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000226,
+    "top1_degree": 110,
+    "top2_degree": 84,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.3095238095238095,
+    "top5_degree_share": 0.048569277108433735,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000227,
+    "top1_degree": 105,
+    "top2_degree": 91,
+    "top3_degree": 90,
+    "top1_top2_degree_ratio": 1.1538461538461537,
+    "top5_degree_share": 0.05421686746987952,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000228,
+    "top1_degree": 125,
+    "top2_degree": 92,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.358695652173913,
+    "top5_degree_share": 0.0581074297188755,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000229,
+    "top1_degree": 102,
+    "top2_degree": 94,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0851063829787233,
+    "top5_degree_share": 0.0545933734939759,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000230,
+    "top1_degree": 105,
+    "top2_degree": 68,
+    "top3_degree": 61,
+    "top1_top2_degree_ratio": 1.5441176470588236,
+    "top5_degree_share": 0.04405120481927711,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000231,
+    "top1_degree": 94,
+    "top2_degree": 93,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.010752688172043,
+    "top5_degree_share": 0.05434236947791165,
+    "n_near_top_hubs": 6
+  },
+  {
+    "seed": 800000232,
+    "top1_degree": 118,
+    "top2_degree": 97,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.2164948453608246,
+    "top5_degree_share": 0.0563504016064257,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000233,
+    "top1_degree": 109,
+    "top2_degree": 84,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.2976190476190477,
+    "top5_degree_share": 0.04944779116465863,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000234,
+    "top1_degree": 129,
+    "top2_degree": 93,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.3870967741935485,
+    "top5_degree_share": 0.058358433734939756,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000235,
+    "top1_degree": 93,
+    "top2_degree": 85,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.0941176470588236,
+    "top5_degree_share": 0.05308734939759036,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000236,
+    "top1_degree": 95,
+    "top2_degree": 85,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.1176470588235294,
+    "top5_degree_share": 0.049949799196787145,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000237,
+    "top1_degree": 135,
+    "top2_degree": 101,
+    "top3_degree": 96,
+    "top1_top2_degree_ratio": 1.3366336633663367,
+    "top5_degree_share": 0.06224899598393574,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000238,
+    "top1_degree": 150,
+    "top2_degree": 90,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.6666666666666667,
+    "top5_degree_share": 0.05911144578313253,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000239,
+    "top1_degree": 90,
+    "top2_degree": 90,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.0,
+    "top5_degree_share": 0.05258534136546185,
+    "n_near_top_hubs": 6
+  },
+  {
+    "seed": 800000240,
+    "top1_degree": 89,
+    "top2_degree": 81,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.0987654320987654,
+    "top5_degree_share": 0.04605923694779116,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000241,
+    "top1_degree": 89,
+    "top2_degree": 69,
+    "top3_degree": 65,
+    "top1_top2_degree_ratio": 1.289855072463768,
+    "top5_degree_share": 0.04279618473895582,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000242,
+    "top1_degree": 127,
+    "top2_degree": 84,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.5119047619047619,
+    "top5_degree_share": 0.050451807228915665,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000243,
+    "top1_degree": 95,
+    "top2_degree": 92,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.0326086956521738,
+    "top5_degree_share": 0.05057730923694779,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000244,
+    "top1_degree": 74,
+    "top2_degree": 69,
+    "top3_degree": 69,
+    "top1_top2_degree_ratio": 1.0724637681159421,
+    "top5_degree_share": 0.043423694779116465,
+    "n_near_top_hubs": 7
+  },
+  {
+    "seed": 800000245,
+    "top1_degree": 97,
+    "top2_degree": 91,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.065934065934066,
+    "top5_degree_share": 0.04982429718875502,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000246,
+    "top1_degree": 108,
+    "top2_degree": 99,
+    "top3_degree": 90,
+    "top1_top2_degree_ratio": 1.0909090909090908,
+    "top5_degree_share": 0.057103413654618476,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000247,
+    "top1_degree": 107,
+    "top2_degree": 96,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.1145833333333333,
+    "top5_degree_share": 0.05409136546184739,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000248,
+    "top1_degree": 100,
+    "top2_degree": 78,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.2820512820512822,
+    "top5_degree_share": 0.04819277108433735,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000249,
+    "top1_degree": 122,
+    "top2_degree": 104,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.1730769230769231,
+    "top5_degree_share": 0.055220883534136546,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000250,
+    "top1_degree": 101,
+    "top2_degree": 85,
+    "top3_degree": 61,
+    "top1_top2_degree_ratio": 1.188235294117647,
+    "top5_degree_share": 0.04568273092369478,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000251,
+    "top1_degree": 158,
+    "top2_degree": 111,
+    "top3_degree": 90,
+    "top1_top2_degree_ratio": 1.4234234234234233,
+    "top5_degree_share": 0.06287650602409639,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000252,
+    "top1_degree": 107,
+    "top2_degree": 95,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.1263157894736842,
+    "top5_degree_share": 0.05446787148594377,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000253,
+    "top1_degree": 107,
+    "top2_degree": 98,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.0918367346938775,
+    "top5_degree_share": 0.05609939759036144,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000254,
+    "top1_degree": 114,
+    "top2_degree": 96,
+    "top3_degree": 90,
+    "top1_top2_degree_ratio": 1.1875,
+    "top5_degree_share": 0.05760542168674699,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000255,
+    "top1_degree": 132,
+    "top2_degree": 117,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.1282051282051282,
+    "top5_degree_share": 0.056977911646586346,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000256,
+    "top1_degree": 90,
+    "top2_degree": 79,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.139240506329114,
+    "top5_degree_share": 0.046937751004016065,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000257,
+    "top1_degree": 146,
+    "top2_degree": 99,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.4747474747474747,
+    "top5_degree_share": 0.05911144578313253,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000258,
+    "top1_degree": 100,
+    "top2_degree": 94,
+    "top3_degree": 68,
+    "top1_top2_degree_ratio": 1.0638297872340425,
+    "top5_degree_share": 0.04894578313253012,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000259,
+    "top1_degree": 90,
+    "top2_degree": 73,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.2328767123287672,
+    "top5_degree_share": 0.045431726907630525,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000260,
+    "top1_degree": 95,
+    "top2_degree": 93,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.021505376344086,
+    "top5_degree_share": 0.050200803212851405,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000261,
+    "top1_degree": 129,
+    "top2_degree": 120,
+    "top3_degree": 65,
+    "top1_top2_degree_ratio": 1.075,
+    "top5_degree_share": 0.05484437751004016,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000262,
+    "top1_degree": 124,
+    "top2_degree": 83,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.4939759036144578,
+    "top5_degree_share": 0.05421686746987952,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000263,
+    "top1_degree": 89,
+    "top2_degree": 87,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.0229885057471264,
+    "top5_degree_share": 0.051832329317269075,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000264,
+    "top1_degree": 112,
+    "top2_degree": 107,
+    "top3_degree": 106,
+    "top1_top2_degree_ratio": 1.0467289719626167,
+    "top5_degree_share": 0.0581074297188755,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000265,
+    "top1_degree": 92,
+    "top2_degree": 81,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.1358024691358024,
+    "top5_degree_share": 0.048443775100401605,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000266,
+    "top1_degree": 117,
+    "top2_degree": 71,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.647887323943662,
+    "top5_degree_share": 0.04932228915662651,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000267,
+    "top1_degree": 90,
+    "top2_degree": 76,
+    "top3_degree": 58,
+    "top1_top2_degree_ratio": 1.1842105263157894,
+    "top5_degree_share": 0.04229417670682731,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000268,
+    "top1_degree": 160,
+    "top2_degree": 110,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.4545454545454546,
+    "top5_degree_share": 0.06538654618473895,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000269,
+    "top1_degree": 118,
+    "top2_degree": 112,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.0535714285714286,
+    "top5_degree_share": 0.055095381526104416,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000270,
+    "top1_degree": 108,
+    "top2_degree": 88,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.2272727272727273,
+    "top5_degree_share": 0.052083333333333336,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000271,
+    "top1_degree": 99,
+    "top2_degree": 97,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.0206185567010309,
+    "top5_degree_share": 0.05296184738955823,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000272,
+    "top1_degree": 81,
+    "top2_degree": 80,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.0125,
+    "top5_degree_share": 0.04756526104417671,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000273,
+    "top1_degree": 132,
+    "top2_degree": 103,
+    "top3_degree": 98,
+    "top1_top2_degree_ratio": 1.2815533980582525,
+    "top5_degree_share": 0.05760542168674699,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000274,
+    "top1_degree": 125,
+    "top2_degree": 123,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.016260162601626,
+    "top5_degree_share": 0.05785642570281124,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000275,
+    "top1_degree": 109,
+    "top2_degree": 85,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.2823529411764707,
+    "top5_degree_share": 0.05409136546184739,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000276,
+    "top1_degree": 97,
+    "top2_degree": 88,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.1022727272727273,
+    "top5_degree_share": 0.049949799196787145,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000277,
+    "top1_degree": 139,
+    "top2_degree": 87,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.5977011494252873,
+    "top5_degree_share": 0.055220883534136546,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000278,
+    "top1_degree": 129,
+    "top2_degree": 95,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.3578947368421053,
+    "top5_degree_share": 0.0581074297188755,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000279,
+    "top1_degree": 123,
+    "top2_degree": 100,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.23,
+    "top5_degree_share": 0.05747991967871486,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000280,
+    "top1_degree": 99,
+    "top2_degree": 75,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.32,
+    "top5_degree_share": 0.04743975903614458,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000281,
+    "top1_degree": 150,
+    "top2_degree": 92,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.6304347826086956,
+    "top5_degree_share": 0.06325301204819277,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000282,
+    "top1_degree": 124,
+    "top2_degree": 90,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.3777777777777778,
+    "top5_degree_share": 0.0545933734939759,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000283,
+    "top1_degree": 98,
+    "top2_degree": 87,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.1264367816091954,
+    "top5_degree_share": 0.053338353413654616,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000284,
+    "top1_degree": 108,
+    "top2_degree": 86,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.255813953488372,
+    "top5_degree_share": 0.05120481927710843,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000285,
+    "top1_degree": 89,
+    "top2_degree": 86,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.0348837209302326,
+    "top5_degree_share": 0.04932228915662651,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000286,
+    "top1_degree": 103,
+    "top2_degree": 95,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.0842105263157895,
+    "top5_degree_share": 0.053463855421686746,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000287,
+    "top1_degree": 101,
+    "top2_degree": 86,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.1744186046511629,
+    "top5_degree_share": 0.0510793172690763,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000288,
+    "top1_degree": 105,
+    "top2_degree": 95,
+    "top3_degree": 65,
+    "top1_top2_degree_ratio": 1.105263157894737,
+    "top5_degree_share": 0.04894578313253012,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000289,
+    "top1_degree": 99,
+    "top2_degree": 87,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.1379310344827587,
+    "top5_degree_share": 0.05095381526104418,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000290,
+    "top1_degree": 103,
+    "top2_degree": 88,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.1704545454545454,
+    "top5_degree_share": 0.05220883534136546,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000291,
+    "top1_degree": 110,
+    "top2_degree": 103,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.0679611650485437,
+    "top5_degree_share": 0.05258534136546185,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000292,
+    "top1_degree": 117,
+    "top2_degree": 96,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.21875,
+    "top5_degree_share": 0.05823293172690763,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000293,
+    "top1_degree": 87,
+    "top2_degree": 74,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.1756756756756757,
+    "top5_degree_share": 0.04618473895582329,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000294,
+    "top1_degree": 126,
+    "top2_degree": 99,
+    "top3_degree": 96,
+    "top1_top2_degree_ratio": 1.2727272727272727,
+    "top5_degree_share": 0.057103413654618476,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000295,
+    "top1_degree": 87,
+    "top2_degree": 86,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0116279069767442,
+    "top5_degree_share": 0.050200803212851405,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000296,
+    "top1_degree": 130,
+    "top2_degree": 124,
+    "top3_degree": 100,
+    "top1_top2_degree_ratio": 1.0483870967741935,
+    "top5_degree_share": 0.06325301204819277,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000297,
+    "top1_degree": 144,
+    "top2_degree": 102,
+    "top3_degree": 100,
+    "top1_top2_degree_ratio": 1.411764705882353,
+    "top5_degree_share": 0.06237449799196787,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000298,
+    "top1_degree": 96,
+    "top2_degree": 89,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0786516853932584,
+    "top5_degree_share": 0.0510793172690763,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000299,
+    "top1_degree": 131,
+    "top2_degree": 104,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.2596153846153846,
+    "top5_degree_share": 0.05773092369477912,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000300,
+    "top1_degree": 115,
+    "top2_degree": 104,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.1057692307692308,
+    "top5_degree_share": 0.0572289156626506,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000301,
+    "top1_degree": 99,
+    "top2_degree": 80,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.2375,
+    "top5_degree_share": 0.050451807228915665,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000302,
+    "top1_degree": 103,
+    "top2_degree": 103,
+    "top3_degree": 102,
+    "top1_top2_degree_ratio": 1.0,
+    "top5_degree_share": 0.056726907630522086,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000303,
+    "top1_degree": 88,
+    "top2_degree": 78,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.1282051282051282,
+    "top5_degree_share": 0.048694779116465865,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000304,
+    "top1_degree": 118,
+    "top2_degree": 102,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.1568627450980393,
+    "top5_degree_share": 0.058358433734939756,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000305,
+    "top1_degree": 109,
+    "top2_degree": 104,
+    "top3_degree": 93,
+    "top1_top2_degree_ratio": 1.0480769230769231,
+    "top5_degree_share": 0.054969879518072286,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000306,
+    "top1_degree": 116,
+    "top2_degree": 93,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.2473118279569892,
+    "top5_degree_share": 0.05409136546184739,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000307,
+    "top1_degree": 116,
+    "top2_degree": 79,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.4683544303797469,
+    "top5_degree_share": 0.05145582329317269,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000308,
+    "top1_degree": 108,
+    "top2_degree": 96,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.125,
+    "top5_degree_share": 0.051832329317269075,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000309,
+    "top1_degree": 109,
+    "top2_degree": 108,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.0092592592592593,
+    "top5_degree_share": 0.05559738955823293,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000310,
+    "top1_degree": 106,
+    "top2_degree": 100,
+    "top3_degree": 100,
+    "top1_top2_degree_ratio": 1.06,
+    "top5_degree_share": 0.056726907630522086,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000311,
+    "top1_degree": 103,
+    "top2_degree": 96,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.0729166666666667,
+    "top5_degree_share": 0.05396586345381526,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000312,
+    "top1_degree": 124,
+    "top2_degree": 93,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.3333333333333333,
+    "top5_degree_share": 0.053463855421686746,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000313,
+    "top1_degree": 114,
+    "top2_degree": 92,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.2391304347826086,
+    "top5_degree_share": 0.053714859437751006,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000314,
+    "top1_degree": 114,
+    "top2_degree": 87,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.3103448275862069,
+    "top5_degree_share": 0.05434236947791165,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000315,
+    "top1_degree": 104,
+    "top2_degree": 94,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.1063829787234043,
+    "top5_degree_share": 0.055220883534136546,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000316,
+    "top1_degree": 139,
+    "top2_degree": 103,
+    "top3_degree": 95,
+    "top1_top2_degree_ratio": 1.3495145631067962,
+    "top5_degree_share": 0.06212349397590362,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000317,
+    "top1_degree": 104,
+    "top2_degree": 99,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.0505050505050506,
+    "top5_degree_share": 0.05145582329317269,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000318,
+    "top1_degree": 121,
+    "top2_degree": 105,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.1523809523809523,
+    "top5_degree_share": 0.056977911646586346,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000319,
+    "top1_degree": 105,
+    "top2_degree": 82,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.2804878048780488,
+    "top5_degree_share": 0.050200803212851405,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000320,
+    "top1_degree": 113,
+    "top2_degree": 103,
+    "top3_degree": 94,
+    "top1_top2_degree_ratio": 1.0970873786407767,
+    "top5_degree_share": 0.0589859437751004,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000321,
+    "top1_degree": 120,
+    "top2_degree": 91,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.3186813186813187,
+    "top5_degree_share": 0.05434236947791165,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000322,
+    "top1_degree": 92,
+    "top2_degree": 86,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.069767441860465,
+    "top5_degree_share": 0.05271084337349398,
+    "n_near_top_hubs": 7
+  },
+  {
+    "seed": 800000323,
+    "top1_degree": 133,
+    "top2_degree": 81,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.6419753086419753,
+    "top5_degree_share": 0.05446787148594377,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000324,
+    "top1_degree": 92,
+    "top2_degree": 88,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.0454545454545454,
+    "top5_degree_share": 0.051957831325301206,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000325,
+    "top1_degree": 87,
+    "top2_degree": 86,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.0116279069767442,
+    "top5_degree_share": 0.050326305220883535,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000326,
+    "top1_degree": 99,
+    "top2_degree": 91,
+    "top3_degree": 90,
+    "top1_top2_degree_ratio": 1.0879120879120878,
+    "top5_degree_share": 0.05647590361445783,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000327,
+    "top1_degree": 90,
+    "top2_degree": 86,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.0465116279069768,
+    "top5_degree_share": 0.0528363453815261,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000328,
+    "top1_degree": 137,
+    "top2_degree": 108,
+    "top3_degree": 94,
+    "top1_top2_degree_ratio": 1.2685185185185186,
+    "top5_degree_share": 0.06450803212851405,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000329,
+    "top1_degree": 95,
+    "top2_degree": 92,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.0326086956521738,
+    "top5_degree_share": 0.05446787148594377,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000330,
+    "top1_degree": 120,
+    "top2_degree": 103,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.1650485436893203,
+    "top5_degree_share": 0.05434236947791165,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000331,
+    "top1_degree": 119,
+    "top2_degree": 81,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.4691358024691359,
+    "top5_degree_share": 0.050451807228915665,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000332,
+    "top1_degree": 122,
+    "top2_degree": 102,
+    "top3_degree": 94,
+    "top1_top2_degree_ratio": 1.196078431372549,
+    "top5_degree_share": 0.05773092369477912,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000333,
+    "top1_degree": 121,
+    "top2_degree": 84,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.4404761904761905,
+    "top5_degree_share": 0.05120481927710843,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000334,
+    "top1_degree": 96,
+    "top2_degree": 73,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.3150684931506849,
+    "top5_degree_share": 0.04819277108433735,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000335,
+    "top1_degree": 108,
+    "top2_degree": 101,
+    "top3_degree": 93,
+    "top1_top2_degree_ratio": 1.0693069306930694,
+    "top5_degree_share": 0.05973895582329317,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000336,
+    "top1_degree": 145,
+    "top2_degree": 113,
+    "top3_degree": 96,
+    "top1_top2_degree_ratio": 1.2831858407079646,
+    "top5_degree_share": 0.06325301204819277,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000337,
+    "top1_degree": 110,
+    "top2_degree": 102,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.0784313725490196,
+    "top5_degree_share": 0.05609939759036144,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000338,
+    "top1_degree": 82,
+    "top2_degree": 81,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.0123456790123457,
+    "top5_degree_share": 0.04806726907630522,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000339,
+    "top1_degree": 109,
+    "top2_degree": 84,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.2976190476190477,
+    "top5_degree_share": 0.05434236947791165,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000340,
+    "top1_degree": 99,
+    "top2_degree": 95,
+    "top3_degree": 90,
+    "top1_top2_degree_ratio": 1.0421052631578946,
+    "top5_degree_share": 0.05484437751004016,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000341,
+    "top1_degree": 104,
+    "top2_degree": 86,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.2093023255813953,
+    "top5_degree_share": 0.05095381526104418,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000342,
+    "top1_degree": 138,
+    "top2_degree": 97,
+    "top3_degree": 96,
+    "top1_top2_degree_ratio": 1.422680412371134,
+    "top5_degree_share": 0.060115461847389556,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000343,
+    "top1_degree": 99,
+    "top2_degree": 91,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.0879120879120878,
+    "top5_degree_share": 0.053338353413654616,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000344,
+    "top1_degree": 104,
+    "top2_degree": 90,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.1555555555555554,
+    "top5_degree_share": 0.05245983935742972,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000345,
+    "top1_degree": 99,
+    "top2_degree": 92,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.076086956521739,
+    "top5_degree_share": 0.05484437751004016,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000346,
+    "top1_degree": 96,
+    "top2_degree": 78,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.2307692307692308,
+    "top5_degree_share": 0.04819277108433735,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000347,
+    "top1_degree": 114,
+    "top2_degree": 103,
+    "top3_degree": 89,
+    "top1_top2_degree_ratio": 1.1067961165048543,
+    "top5_degree_share": 0.05471887550200803,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000348,
+    "top1_degree": 135,
+    "top2_degree": 87,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.5517241379310345,
+    "top5_degree_share": 0.05773092369477912,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000349,
+    "top1_degree": 95,
+    "top2_degree": 74,
+    "top3_degree": 73,
+    "top1_top2_degree_ratio": 1.2837837837837838,
+    "top5_degree_share": 0.04781626506024096,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000350,
+    "top1_degree": 115,
+    "top2_degree": 83,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.3855421686746987,
+    "top5_degree_share": 0.05070281124497992,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000351,
+    "top1_degree": 112,
+    "top2_degree": 96,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.1666666666666667,
+    "top5_degree_share": 0.05647590361445783,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000352,
+    "top1_degree": 82,
+    "top2_degree": 79,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.0379746835443038,
+    "top5_degree_share": 0.048318273092369475,
+    "n_near_top_hubs": 7
+  },
+  {
+    "seed": 800000353,
+    "top1_degree": 104,
+    "top2_degree": 79,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.3164556962025316,
+    "top5_degree_share": 0.04944779116465863,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000354,
+    "top1_degree": 116,
+    "top2_degree": 114,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0175438596491229,
+    "top5_degree_share": 0.058609437751004016,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000355,
+    "top1_degree": 122,
+    "top2_degree": 73,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.6712328767123288,
+    "top5_degree_share": 0.04894578313253012,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000356,
+    "top1_degree": 118,
+    "top2_degree": 85,
+    "top3_degree": 85,
+    "top1_top2_degree_ratio": 1.388235294117647,
+    "top5_degree_share": 0.053840361445783136,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000357,
+    "top1_degree": 91,
+    "top2_degree": 78,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.1666666666666667,
+    "top5_degree_share": 0.04769076305220884,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000358,
+    "top1_degree": 107,
+    "top2_degree": 90,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.1888888888888889,
+    "top5_degree_share": 0.053463855421686746,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000359,
+    "top1_degree": 155,
+    "top2_degree": 136,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.1397058823529411,
+    "top5_degree_share": 0.06262550200803213,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000360,
+    "top1_degree": 123,
+    "top2_degree": 114,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.0789473684210527,
+    "top5_degree_share": 0.06300200803212852,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000361,
+    "top1_degree": 123,
+    "top2_degree": 110,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.1181818181818182,
+    "top5_degree_share": 0.05823293172690763,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000362,
+    "top1_degree": 120,
+    "top2_degree": 71,
+    "top3_degree": 70,
+    "top1_top2_degree_ratio": 1.6901408450704225,
+    "top5_degree_share": 0.050200803212851405,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000363,
+    "top1_degree": 100,
+    "top2_degree": 87,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.1494252873563218,
+    "top5_degree_share": 0.053589357429718876,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000364,
+    "top1_degree": 111,
+    "top2_degree": 87,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.2758620689655173,
+    "top5_degree_share": 0.055095381526104416,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000365,
+    "top1_degree": 80,
+    "top2_degree": 76,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.0526315789473684,
+    "top5_degree_share": 0.045306224899598395,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000366,
+    "top1_degree": 131,
+    "top2_degree": 118,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.1101694915254237,
+    "top5_degree_share": 0.05572289156626506,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000367,
+    "top1_degree": 113,
+    "top2_degree": 86,
+    "top3_degree": 81,
+    "top1_top2_degree_ratio": 1.313953488372093,
+    "top5_degree_share": 0.051832329317269075,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000368,
+    "top1_degree": 103,
+    "top2_degree": 80,
+    "top3_degree": 78,
+    "top1_top2_degree_ratio": 1.2875,
+    "top5_degree_share": 0.05057730923694779,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000369,
+    "top1_degree": 137,
+    "top2_degree": 102,
+    "top3_degree": 98,
+    "top1_top2_degree_ratio": 1.3431372549019607,
+    "top5_degree_share": 0.06061746987951807,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000370,
+    "top1_degree": 105,
+    "top2_degree": 105,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.0,
+    "top5_degree_share": 0.05609939759036144,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000371,
+    "top1_degree": 107,
+    "top2_degree": 88,
+    "top3_degree": 75,
+    "top1_top2_degree_ratio": 1.2159090909090908,
+    "top5_degree_share": 0.04982429718875502,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000372,
+    "top1_degree": 91,
+    "top2_degree": 90,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.011111111111111,
+    "top5_degree_share": 0.04957329317269076,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000373,
+    "top1_degree": 96,
+    "top2_degree": 95,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.0105263157894737,
+    "top5_degree_share": 0.05245983935742972,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000374,
+    "top1_degree": 135,
+    "top2_degree": 82,
+    "top3_degree": 69,
+    "top1_top2_degree_ratio": 1.646341463414634,
+    "top5_degree_share": 0.05245983935742972,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000375,
+    "top1_degree": 95,
+    "top2_degree": 94,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0106382978723405,
+    "top5_degree_share": 0.05233433734939759,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000376,
+    "top1_degree": 95,
+    "top2_degree": 90,
+    "top3_degree": 86,
+    "top1_top2_degree_ratio": 1.0555555555555556,
+    "top5_degree_share": 0.04932228915662651,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000377,
+    "top1_degree": 107,
+    "top2_degree": 81,
+    "top3_degree": 77,
+    "top1_top2_degree_ratio": 1.3209876543209877,
+    "top5_degree_share": 0.05070281124497992,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000378,
+    "top1_degree": 134,
+    "top2_degree": 127,
+    "top3_degree": 120,
+    "top1_top2_degree_ratio": 1.0551181102362204,
+    "top5_degree_share": 0.06639056224899599,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000379,
+    "top1_degree": 104,
+    "top2_degree": 102,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.0196078431372548,
+    "top5_degree_share": 0.05584839357429719,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000380,
+    "top1_degree": 105,
+    "top2_degree": 90,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.1666666666666667,
+    "top5_degree_share": 0.050451807228915665,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000381,
+    "top1_degree": 114,
+    "top2_degree": 104,
+    "top3_degree": 82,
+    "top1_top2_degree_ratio": 1.0961538461538463,
+    "top5_degree_share": 0.05609939759036144,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000382,
+    "top1_degree": 111,
+    "top2_degree": 102,
+    "top3_degree": 88,
+    "top1_top2_degree_ratio": 1.088235294117647,
+    "top5_degree_share": 0.05773092369477912,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000383,
+    "top1_degree": 96,
+    "top2_degree": 88,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.0909090909090908,
+    "top5_degree_share": 0.051706827309236945,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000384,
+    "top1_degree": 99,
+    "top2_degree": 93,
+    "top3_degree": 91,
+    "top1_top2_degree_ratio": 1.064516129032258,
+    "top5_degree_share": 0.051832329317269075,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000385,
+    "top1_degree": 122,
+    "top2_degree": 90,
+    "top3_degree": 87,
+    "top1_top2_degree_ratio": 1.3555555555555556,
+    "top5_degree_share": 0.0545933734939759,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000386,
+    "top1_degree": 121,
+    "top2_degree": 70,
+    "top3_degree": 59,
+    "top1_top2_degree_ratio": 1.7285714285714286,
+    "top5_degree_share": 0.04568273092369478,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000387,
+    "top1_degree": 101,
+    "top2_degree": 90,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.1222222222222222,
+    "top5_degree_share": 0.05296184738955823,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000388,
+    "top1_degree": 100,
+    "top2_degree": 80,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.25,
+    "top5_degree_share": 0.04944779116465863,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000389,
+    "top1_degree": 103,
+    "top2_degree": 82,
+    "top3_degree": 80,
+    "top1_top2_degree_ratio": 1.2560975609756098,
+    "top5_degree_share": 0.05082831325301205,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000390,
+    "top1_degree": 107,
+    "top2_degree": 101,
+    "top3_degree": 92,
+    "top1_top2_degree_ratio": 1.0594059405940595,
+    "top5_degree_share": 0.0563504016064257,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000391,
+    "top1_degree": 99,
+    "top2_degree": 83,
+    "top3_degree": 79,
+    "top1_top2_degree_ratio": 1.1927710843373494,
+    "top5_degree_share": 0.05057730923694779,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000392,
+    "top1_degree": 92,
+    "top2_degree": 83,
+    "top3_degree": 76,
+    "top1_top2_degree_ratio": 1.108433734939759,
+    "top5_degree_share": 0.050075301204819275,
+    "n_near_top_hubs": 4
+  },
+  {
+    "seed": 800000393,
+    "top1_degree": 99,
+    "top2_degree": 92,
+    "top3_degree": 84,
+    "top1_top2_degree_ratio": 1.076086956521739,
+    "top5_degree_share": 0.055095381526104416,
+    "n_near_top_hubs": 5
+  },
+  {
+    "seed": 800000394,
+    "top1_degree": 87,
+    "top2_degree": 83,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.0481927710843373,
+    "top5_degree_share": 0.045431726907630525,
+    "n_near_top_hubs": 3
+  },
+  {
+    "seed": 800000395,
+    "top1_degree": 121,
+    "top2_degree": 109,
+    "top3_degree": 83,
+    "top1_top2_degree_ratio": 1.110091743119266,
+    "top5_degree_share": 0.058860441767068276,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000396,
+    "top1_degree": 129,
+    "top2_degree": 102,
+    "top3_degree": 72,
+    "top1_top2_degree_ratio": 1.2647058823529411,
+    "top5_degree_share": 0.05484437751004016,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000397,
+    "top1_degree": 100,
+    "top2_degree": 96,
+    "top3_degree": 71,
+    "top1_top2_degree_ratio": 1.0416666666666667,
+    "top5_degree_share": 0.05057730923694779,
+    "n_near_top_hubs": 2
+  },
+  {
+    "seed": 800000398,
+    "top1_degree": 105,
+    "top2_degree": 82,
+    "top3_degree": 74,
+    "top1_top2_degree_ratio": 1.2804878048780488,
+    "top5_degree_share": 0.04982429718875502,
+    "n_near_top_hubs": 1
+  },
+  {
+    "seed": 800000399,
+    "top1_degree": 119,
+    "top2_degree": 70,
+    "top3_degree": 69,
+    "top1_top2_degree_ratio": 1.7,
+    "top5_degree_share": 0.04919678714859438,
+    "n_near_top_hubs": 1
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "pscostweight": 2.0,
+  "conflictweight": 1.0,
+  "inferenceweight": 0.015204060175039136,
+  "cutoffweight": 1.0,
+  "minreliable": 2.577657720037425
+}

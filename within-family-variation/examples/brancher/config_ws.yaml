@@ -1,0 +1,96 @@
+# RR (random-regular graph IndSet) structural evolution config.
+# WS (Watts-Strogatz, clustered/small-world) evolution: the third
+# structural regime. Calibration confirmed n=200,k=20,p=0.25 is a
+# genuinely fresh challenge for both Original (geomean=30.08s) and
+# Evolved-RR-tuned-on-BA (geomean=20.32s) -- neither already handles it
+# well, so it's worth its own evolved structure.
+max_iterations: 50
+checkpoint_interval: 10
+log_level: "INFO"
+
+# LLM configuration
+llm:
+  models:
+    - name: "us.deepseek.r1-v1:0"
+      weight: 1.0
+  primary_model: "us.deepseek.r1-v1:0"
+  primary_model_weight: 1.0
+  key_set: "./configs/my_key_set.yaml"
+  temperature: 0.7
+  timeout: 3600
+  top_p: 0.95
+  max_tokens: 8192
+
+# Prompt configuration
+prompt:
+  system_message: |
+    You are an expert in machine learning for combinatorial optimization. Design a Python function that scores a candidate variable for branching in a branch and bound algorithm.
+    The function will receive a feature vector (numpy.ndarray with dimension (n, 91)) including the 91 features of n decision variables and params you extract to use in your score function. You should use these features to compute a score for each variable, return np.ndarray with dimension (n,)
+    Use at most 10 features in total.
+
+    IMPORTANT CONTEXT: these instances are Maximum Independent Set on
+    WATTS-STROGATZ (clustered/small-world) graphs -- unlike hub-heavy
+    graphs (a few high-degree vertices dominate) or random-regular
+    graphs (uniform degree, no local structure), these have uniform-ish
+    degree AND strong local clustering (many triangles/overlapping
+    neighborhoods, from a ring lattice with light rewiring). A policy
+    tuned for hub-degree signal or plain fractionality alone may not
+    exploit this: which vertices share neighbors with each other
+    (local clustering/triangle structure) may matter more than raw
+    degree here. Consider features related to constraint co-membership,
+    pseudocost, or dynamic degree drift, not just static degree.
+
+    Ensure good generalization, avoid overfitting, and keep model complexity appropriate.
+    You may use nonlinear transformations and nested functions for feature interactions, but maintain computational efficiency.
+
+    Input features (all normalized to [0,1]) are structured as follows:
+
+    Part 1 - NodeBipartite Features (indices 0-18):
+    0: objective coefficient
+    1-4: binary indicators (binary, integer, implicit integer, continuous)
+    5-6: bound indicators (has lower/upper bound)
+    7: normalized reduced cost
+    8-9: LP solution value and fractional part
+    10-11: LP solution bound indicators
+    12: scaled age (iterations since last basic)
+    13-14: incumbent value and average value
+    15-18: basis status indicators (lower, basic, upper, zero)
+
+    Part 2 - Khalil2016 Features (indices 19-90):
+    19-21: objective coefficient (raw, positive part, negative part)
+    22: number of participating constraints
+    23-26: static constraint degree stats (mean, std, min, max)
+    27-31: positive constraint coefficients (count, mean, std, min, max)
+    32-36: negative constraint coefficients (count, mean, std, min, max)
+    37-38: fractional distance and ceiling distance
+    39-43: pseudocost values (up, down, ratio, sum, product)
+    44-47: cutoff counts and ratios (up/down)
+    48-54: dynamic constraint degrees (mean, std, min, max) and ratios to static (mean, min, max)
+    55-66: coefficient-to-RHS ratios and coefficient interaction ratios (min/max for positive/negative cases)
+    67-90: active constraint statistics under four weighting schemes (unit, 1/sum_all, 1/sum_candidate, dual_cost), each including count, sum, mean, std, min, max.
+  num_top_programs: 0
+  num_diverse_programs: 0
+  use_template_stochasticity: true
+
+# Database configuration -- scaled down from Category G's 120/8-island
+# setup to match the smaller 50-iteration budget
+database:
+  population_size: 40
+  archive_size: 10
+  num_islands: 4
+  migration_interval: 15
+  migration_rate: 0.1
+  elite_selection_ratio: 0.2
+  exploitation_ratio: 0.7
+
+# Evaluator configuration
+evaluator:
+  timeout: 10000
+  cascade_evaluation: true
+  cascade_thresholds: [0.85, 0.75]
+  parallel_evaluations: 4
+  use_llm_feedback: false
+
+# Evolution settings
+diff_based_evolution: false
+allow_full_rewrites: true

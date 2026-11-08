@@ -1,0 +1,2002 @@
+[
+  {
+    "seed": 900000000,
+    "policy_time": 0.663258,
+    "policy_status": "optimal",
+    "policy_nodes": 19,
+    "rpb_time": 0.921627,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.7196599057970308
+  },
+  {
+    "seed": 900000001,
+    "policy_time": 0.5732079999999999,
+    "policy_status": "optimal",
+    "policy_nodes": 13,
+    "rpb_time": 0.7475200000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.7668129280821915
+  },
+  {
+    "seed": 900000002,
+    "policy_time": 0.5684909999999999,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.5512040000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.031362254265208
+  },
+  {
+    "seed": 900000003,
+    "policy_time": 0.6123409999999998,
+    "policy_status": "optimal",
+    "policy_nodes": 39,
+    "rpb_time": 0.7274449999999995,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.841769480854223
+  },
+  {
+    "seed": 900000004,
+    "policy_time": 0.5121039999999999,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.527997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9698994501862697
+  },
+  {
+    "seed": 900000005,
+    "policy_time": 0.5177120000000004,
+    "policy_status": "optimal",
+    "policy_nodes": 7,
+    "rpb_time": 0.8027569999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.6449174532268178
+  },
+  {
+    "seed": 900000006,
+    "policy_time": 0.561922,
+    "policy_status": "optimal",
+    "policy_nodes": 4,
+    "rpb_time": 0.5545059999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0133740662860278
+  },
+  {
+    "seed": 900000007,
+    "policy_time": 0.4978960000000008,
+    "policy_status": "optimal",
+    "policy_nodes": 18,
+    "rpb_time": 0.6903500000000005,
+    "rpb_status": "optimal",
+    "rpb_nodes": 2,
+    "ratio": 0.7212225682624762
+  },
+  {
+    "seed": 900000008,
+    "policy_time": 0.4785319999999995,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.4733059999999991,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0110414826771696
+  },
+  {
+    "seed": 900000009,
+    "policy_time": 0.457414,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.475093,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9627883382832414
+  },
+  {
+    "seed": 900000010,
+    "policy_time": 0.5787340000000001,
+    "policy_status": "optimal",
+    "policy_nodes": 43,
+    "rpb_time": 1.242612,
+    "rpb_status": "optimal",
+    "rpb_nodes": 14,
+    "ratio": 0.46573990915909397
+  },
+  {
+    "seed": 900000011,
+    "policy_time": 0.33493200000000023,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.36275999999999975,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9232881243797565
+  },
+  {
+    "seed": 900000012,
+    "policy_time": 0.48633700000000024,
+    "policy_status": "optimal",
+    "policy_nodes": 7,
+    "rpb_time": 0.5251400000000004,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9261092280153862
+  },
+  {
+    "seed": 900000013,
+    "policy_time": 0.421373,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.4460350000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9447083749033144
+  },
+  {
+    "seed": 900000014,
+    "policy_time": 0.3523240000000003,
+    "policy_status": "optimal",
+    "policy_nodes": 16,
+    "rpb_time": 0.33355400000000035,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0562727474411937
+  },
+  {
+    "seed": 900000015,
+    "policy_time": 0.45296000000000003,
+    "policy_status": "optimal",
+    "policy_nodes": 13,
+    "rpb_time": 0.45034699999999983,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0058021925315372
+  },
+  {
+    "seed": 900000016,
+    "policy_time": 0.6185329999999993,
+    "policy_status": "optimal",
+    "policy_nodes": 13,
+    "rpb_time": 1.0996990000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.5624566358612668
+  },
+  {
+    "seed": 900000017,
+    "policy_time": 0.6047770000000003,
+    "policy_status": "optimal",
+    "policy_nodes": 50,
+    "rpb_time": 0.9606479999999991,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.6295510946777602
+  },
+  {
+    "seed": 900000018,
+    "policy_time": 0.233996,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.22824099999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0252145758211717
+  },
+  {
+    "seed": 900000019,
+    "policy_time": 0.739226,
+    "policy_status": "optimal",
+    "policy_nodes": 75,
+    "rpb_time": 1.316137,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.5616634134592372
+  },
+  {
+    "seed": 900000020,
+    "policy_time": 0.483876,
+    "policy_status": "optimal",
+    "policy_nodes": 4,
+    "rpb_time": 0.5598399999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.8643112317805088
+  },
+  {
+    "seed": 900000021,
+    "policy_time": 0.564756,
+    "policy_status": "optimal",
+    "policy_nodes": 12,
+    "rpb_time": 0.8720290000000004,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.6476344250019206
+  },
+  {
+    "seed": 900000022,
+    "policy_time": 0.5265330000000006,
+    "policy_status": "optimal",
+    "policy_nodes": 12,
+    "rpb_time": 0.5353529999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9835248891852681
+  },
+  {
+    "seed": 900000023,
+    "policy_time": 0.5746880000000001,
+    "policy_status": "optimal",
+    "policy_nodes": 27,
+    "rpb_time": 1.3032480000000009,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.4409659558272867
+  },
+  {
+    "seed": 900000024,
+    "policy_time": 0.5983619999999998,
+    "policy_status": "optimal",
+    "policy_nodes": 37,
+    "rpb_time": 0.7182519999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.8330808685530985
+  },
+  {
+    "seed": 900000025,
+    "policy_time": 0.596997,
+    "policy_status": "optimal",
+    "policy_nodes": 43,
+    "rpb_time": 0.9457319999999996,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.6312538858788751
+  },
+  {
+    "seed": 900000026,
+    "policy_time": 0.6443969999999997,
+    "policy_status": "optimal",
+    "policy_nodes": 7,
+    "rpb_time": 0.6341760000000001,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.016116976990614
+  },
+  {
+    "seed": 900000027,
+    "policy_time": 0.16415799999999997,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.158074,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0384883029467211
+  },
+  {
+    "seed": 900000028,
+    "policy_time": 0.42973599999999995,
+    "policy_status": "optimal",
+    "policy_nodes": 16,
+    "rpb_time": 0.7168929999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.5994423156593801
+  },
+  {
+    "seed": 900000029,
+    "policy_time": 0.6006960000000001,
+    "policy_status": "optimal",
+    "policy_nodes": 21,
+    "rpb_time": 1.328071,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.4523071432174937
+  },
+  {
+    "seed": 900000030,
+    "policy_time": 0.2942090000000004,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.2894770000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0163467218466413
+  },
+  {
+    "seed": 900000031,
+    "policy_time": 0.6841940000000006,
+    "policy_status": "optimal",
+    "policy_nodes": 39,
+    "rpb_time": 1.1584029999999998,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.5906355560197969
+  },
+  {
+    "seed": 900000032,
+    "policy_time": 0.2674460000000005,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.2793739999999998,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9573045451616855
+  },
+  {
+    "seed": 900000033,
+    "policy_time": 0.5705860000000005,
+    "policy_status": "optimal",
+    "policy_nodes": 39,
+    "rpb_time": 1.3064019999999994,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.4367614256561156
+  },
+  {
+    "seed": 900000034,
+    "policy_time": 0.5674200000000003,
+    "policy_status": "optimal",
+    "policy_nodes": 15,
+    "rpb_time": 1.2376719999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.4584574911608248
+  },
+  {
+    "seed": 900000035,
+    "policy_time": 0.4194969999999998,
+    "policy_status": "optimal",
+    "policy_nodes": 14,
+    "rpb_time": 1.2043980000000012,
+    "rpb_status": "optimal",
+    "rpb_nodes": 11,
+    "ratio": 0.34830429808086644
+  },
+  {
+    "seed": 900000036,
+    "policy_time": 0.49360099999999996,
+    "policy_status": "optimal",
+    "policy_nodes": 82,
+    "rpb_time": 0.5584950000000001,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.8838055846516082
+  },
+  {
+    "seed": 900000037,
+    "policy_time": 0.49919899999999995,
+    "policy_status": "optimal",
+    "policy_nodes": 13,
+    "rpb_time": 0.552136,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9041232594867931
+  },
+  {
+    "seed": 900000038,
+    "policy_time": 0.2627489999999999,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.2467349999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0649036415587583
+  },
+  {
+    "seed": 900000039,
+    "policy_time": 0.43870799999999965,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.44111900000000004,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9945343546752682
+  },
+  {
+    "seed": 900000040,
+    "policy_time": 0.4658730000000002,
+    "policy_status": "optimal",
+    "policy_nodes": 4,
+    "rpb_time": 0.45378200000000035,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.026644952862828
+  },
+  {
+    "seed": 900000041,
+    "policy_time": 0.35954200000000025,
+    "policy_status": "optimal",
+    "policy_nodes": 34,
+    "rpb_time": 0.57646,
+    "rpb_status": "optimal",
+    "rpb_nodes": 6,
+    "ratio": 0.6237067619609344
+  },
+  {
+    "seed": 900000042,
+    "policy_time": 0.4013579999999992,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.41057899999999936,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9775414719213594
+  },
+  {
+    "seed": 900000043,
+    "policy_time": 0.42335799999999946,
+    "policy_status": "optimal",
+    "policy_nodes": 23,
+    "rpb_time": 0.6086229999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.6955997390831429
+  },
+  {
+    "seed": 900000044,
+    "policy_time": 0.4185829999999999,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.41560499999999934,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0071654575859303
+  },
+  {
+    "seed": 900000045,
+    "policy_time": 0.5811080000000001,
+    "policy_status": "optimal",
+    "policy_nodes": 17,
+    "rpb_time": 0.7589620000000001,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.7656615219207286
+  },
+  {
+    "seed": 900000046,
+    "policy_time": 0.570173,
+    "policy_status": "optimal",
+    "policy_nodes": 9,
+    "rpb_time": 0.7802709999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.7307371413265392
+  },
+  {
+    "seed": 900000047,
+    "policy_time": 0.4785910000000002,
+    "policy_status": "optimal",
+    "policy_nodes": 11,
+    "rpb_time": 0.569448,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.8404472401343059
+  },
+  {
+    "seed": 900000048,
+    "policy_time": 0.46175900000000025,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.4592659999999995,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0054282267792538
+  },
+  {
+    "seed": 900000049,
+    "policy_time": 0.506373,
+    "policy_status": "optimal",
+    "policy_nodes": 3,
+    "rpb_time": 0.5000550000000006,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0126346101928776
+  },
+  {
+    "seed": 900000050,
+    "policy_time": 0.5397029999999994,
+    "policy_status": "optimal",
+    "policy_nodes": 23,
+    "rpb_time": 0.5152189999999992,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0475215393842234
+  },
+  {
+    "seed": 900000051,
+    "policy_time": 0.38469899999999946,
+    "policy_status": "optimal",
+    "policy_nodes": 14,
+    "rpb_time": 0.5881989999999995,
+    "rpb_status": "optimal",
+    "rpb_nodes": 4,
+    "ratio": 0.6540286535679248
+  },
+  {
+    "seed": 900000052,
+    "policy_time": 0.4875539999999994,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.49185699999999954,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9912515222920479
+  },
+  {
+    "seed": 900000053,
+    "policy_time": 0.4950860000000006,
+    "policy_status": "optimal",
+    "policy_nodes": 9,
+    "rpb_time": 0.5115100000000012,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9678911458231498
+  },
+  {
+    "seed": 900000054,
+    "policy_time": 0.5335590000000003,
+    "policy_status": "optimal",
+    "policy_nodes": 34,
+    "rpb_time": 1.2788709999999988,
+    "rpb_status": "optimal",
+    "rpb_nodes": 12,
+    "ratio": 0.4172109618562004
+  },
+  {
+    "seed": 900000055,
+    "policy_time": 0.3199909999999999,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.317202,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0087925044608796
+  },
+  {
+    "seed": 900000056,
+    "policy_time": 0.505469999999999,
+    "policy_status": "optimal",
+    "policy_nodes": 4,
+    "rpb_time": 0.5127369999999996,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9858270419337778
+  },
+  {
+    "seed": 900000057,
+    "policy_time": 0.5315699999999985,
+    "policy_status": "optimal",
+    "policy_nodes": 10,
+    "rpb_time": 0.5215829999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0191474798833529
+  },
+  {
+    "seed": 900000058,
+    "policy_time": 0.5151979999999998,
+    "policy_status": "optimal",
+    "policy_nodes": 9,
+    "rpb_time": 0.5098380000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.010513143390645
+  },
+  {
+    "seed": 900000059,
+    "policy_time": 0.25228699999999904,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.25180199999999964,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0019261165518916
+  },
+  {
+    "seed": 900000060,
+    "policy_time": 0.37355299999999936,
+    "policy_status": "optimal",
+    "policy_nodes": 7,
+    "rpb_time": 0.3625260000000008,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.030417128702489
+  },
+  {
+    "seed": 900000061,
+    "policy_time": 0.3722820000000002,
+    "policy_status": "optimal",
+    "policy_nodes": 3,
+    "rpb_time": 0.5659220000000005,
+    "rpb_status": "optimal",
+    "rpb_nodes": 2,
+    "ratio": 0.6578327048603869
+  },
+  {
+    "seed": 900000062,
+    "policy_time": 0.05084499999999892,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.050806999999998936,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0007479284350578
+  },
+  {
+    "seed": 900000063,
+    "policy_time": 0.4478050000000007,
+    "policy_status": "optimal",
+    "policy_nodes": 16,
+    "rpb_time": 0.5840730000000001,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.7666935468682864
+  },
+  {
+    "seed": 900000064,
+    "policy_time": 0.412230000000001,
+    "policy_status": "optimal",
+    "policy_nodes": 23,
+    "rpb_time": 1.1174730000000004,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.36889481893522336
+  },
+  {
+    "seed": 900000065,
+    "policy_time": 0.4468180000000004,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.44588500000000053,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0020924677887793
+  },
+  {
+    "seed": 900000066,
+    "policy_time": 0.5427409999999995,
+    "policy_status": "optimal",
+    "policy_nodes": 12,
+    "rpb_time": 0.6126500000000004,
+    "rpb_status": "optimal",
+    "rpb_nodes": 2,
+    "ratio": 0.8858908022525082
+  },
+  {
+    "seed": 900000067,
+    "policy_time": 0.49731599999999965,
+    "policy_status": "optimal",
+    "policy_nodes": 11,
+    "rpb_time": 0.5443309999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 2,
+    "ratio": 0.9136279212464473
+  },
+  {
+    "seed": 900000068,
+    "policy_time": 0.24150599999999933,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.2559119999999986,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9437072118540775
+  },
+  {
+    "seed": 900000069,
+    "policy_time": 0.559467999999999,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.5613930000000025,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9965710295639534
+  },
+  {
+    "seed": 900000070,
+    "policy_time": 0.48497799999999813,
+    "policy_status": "optimal",
+    "policy_nodes": 25,
+    "rpb_time": 0.7263240000000017,
+    "rpb_status": "optimal",
+    "rpb_nodes": 4,
+    "ratio": 0.6677157852418438
+  },
+  {
+    "seed": 900000071,
+    "policy_time": 0.6262330000000027,
+    "policy_status": "optimal",
+    "policy_nodes": 29,
+    "rpb_time": 1.1157409999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.5612709401196181
+  },
+  {
+    "seed": 900000072,
+    "policy_time": 0.21992000000000012,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.2195779999999985,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0015575330861999
+  },
+  {
+    "seed": 900000073,
+    "policy_time": 0.4461630000000003,
+    "policy_status": "optimal",
+    "policy_nodes": 6,
+    "rpb_time": 0.46263199999999927,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9644015113524378
+  },
+  {
+    "seed": 900000074,
+    "policy_time": 0.4690070000000013,
+    "policy_status": "optimal",
+    "policy_nodes": 57,
+    "rpb_time": 1.3170099999999998,
+    "rpb_status": "optimal",
+    "rpb_nodes": 11,
+    "ratio": 0.3561149877373758
+  },
+  {
+    "seed": 900000075,
+    "policy_time": 0.524813,
+    "policy_status": "optimal",
+    "policy_nodes": 6,
+    "rpb_time": 0.5196550000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0099258161664946
+  },
+  {
+    "seed": 900000076,
+    "policy_time": 0.5147879999999994,
+    "policy_status": "optimal",
+    "policy_nodes": 44,
+    "rpb_time": 0.9695499999999981,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.5309555979578159
+  },
+  {
+    "seed": 900000077,
+    "policy_time": 0.5152889999999992,
+    "policy_status": "optimal",
+    "policy_nodes": 15,
+    "rpb_time": 0.9497860000000031,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.5425316860850734
+  },
+  {
+    "seed": 900000078,
+    "policy_time": 0.11071400000000153,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.1108930000000008,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9983858313870194
+  },
+  {
+    "seed": 900000079,
+    "policy_time": 0.6121669999999995,
+    "policy_status": "optimal",
+    "policy_nodes": 72,
+    "rpb_time": 1.4937639999999988,
+    "rpb_status": "optimal",
+    "rpb_nodes": 14,
+    "ratio": 0.40981507118929095
+  },
+  {
+    "seed": 900000080,
+    "policy_time": 0.38744399999999857,
+    "policy_status": "optimal",
+    "policy_nodes": 7,
+    "rpb_time": 0.39094499999999854,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.991044776119403
+  },
+  {
+    "seed": 900000081,
+    "policy_time": 0.48080500000000015,
+    "policy_status": "optimal",
+    "policy_nodes": 4,
+    "rpb_time": 0.5441859999999998,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.8835306310709946
+  },
+  {
+    "seed": 900000082,
+    "policy_time": 0.3996019999999998,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.39912799999999926,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.001187588943899
+  },
+  {
+    "seed": 900000083,
+    "policy_time": 0.39263399999999926,
+    "policy_status": "optimal",
+    "policy_nodes": 10,
+    "rpb_time": 0.3752290000000009,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0463850075553816
+  },
+  {
+    "seed": 900000084,
+    "policy_time": 0.23029099999999936,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.22852600000000045,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0077234100277381
+  },
+  {
+    "seed": 900000085,
+    "policy_time": 0.5464939999999991,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.5421180000000003,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0080720433558723
+  },
+  {
+    "seed": 900000086,
+    "policy_time": 0.44725900000000074,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.45419000000000054,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9847398665756626
+  },
+  {
+    "seed": 900000087,
+    "policy_time": 0.430298999999998,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.43491500000000016,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9893864318315023
+  },
+  {
+    "seed": 900000088,
+    "policy_time": 0.6331020000000009,
+    "policy_status": "optimal",
+    "policy_nodes": 33,
+    "rpb_time": 1.2694410000000005,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.49872502936331875
+  },
+  {
+    "seed": 900000089,
+    "policy_time": 0.5927240000000005,
+    "policy_status": "optimal",
+    "policy_nodes": 4,
+    "rpb_time": 0.5876730000000023,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0085949158800867
+  },
+  {
+    "seed": 900000090,
+    "policy_time": 0.10711099999999973,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.10730799999999974,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.998164162970142
+  },
+  {
+    "seed": 900000091,
+    "policy_time": 0.42243600000000114,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.4167810000000003,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0135682768648304
+  },
+  {
+    "seed": 900000092,
+    "policy_time": 0.3691300000000002,
+    "policy_status": "optimal",
+    "policy_nodes": 10,
+    "rpb_time": 0.736263000000001,
+    "rpb_status": "optimal",
+    "rpb_nodes": 6,
+    "ratio": 0.5013561729979636
+  },
+  {
+    "seed": 900000093,
+    "policy_time": 0.4245289999999997,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.4233589999999996,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0027636119699832
+  },
+  {
+    "seed": 900000094,
+    "policy_time": 0.518459,
+    "policy_status": "optimal",
+    "policy_nodes": 6,
+    "rpb_time": 0.5122829999999983,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0120558363248473
+  },
+  {
+    "seed": 900000095,
+    "policy_time": 0.43719100000000033,
+    "policy_status": "optimal",
+    "policy_nodes": 6,
+    "rpb_time": 0.4391309999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9955821839041211
+  },
+  {
+    "seed": 900000096,
+    "policy_time": 0.5257119999999986,
+    "policy_status": "optimal",
+    "policy_nodes": 11,
+    "rpb_time": 0.5079780000000014,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0349109607108915
+  },
+  {
+    "seed": 900000097,
+    "policy_time": 0.4551899999999982,
+    "policy_status": "optimal",
+    "policy_nodes": 15,
+    "rpb_time": 0.5976160000000021,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.7616763942063074
+  },
+  {
+    "seed": 900000098,
+    "policy_time": 0.43149899999999874,
+    "policy_status": "optimal",
+    "policy_nodes": 9,
+    "rpb_time": 0.5652679999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.763352958242814
+  },
+  {
+    "seed": 900000099,
+    "policy_time": 0.6068040000000003,
+    "policy_status": "optimal",
+    "policy_nodes": 40,
+    "rpb_time": 0.9815509999999996,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.61820934419098
+  },
+  {
+    "seed": 900000100,
+    "policy_time": 0.5250240000000002,
+    "policy_status": "optimal",
+    "policy_nodes": 19,
+    "rpb_time": 0.7096480000000014,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.7398372150700053
+  },
+  {
+    "seed": 900000101,
+    "policy_time": 0.4044749999999997,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.4052509999999998,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9980851373593154
+  },
+  {
+    "seed": 900000102,
+    "policy_time": 0.4591429999999992,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.49592799999999926,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9258259263441465
+  },
+  {
+    "seed": 900000103,
+    "policy_time": 0.40183500000000194,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.4031860000000016,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9966491892079594
+  },
+  {
+    "seed": 900000104,
+    "policy_time": 0.4130760000000002,
+    "policy_status": "optimal",
+    "policy_nodes": 8,
+    "rpb_time": 0.5158549999999984,
+    "rpb_status": "optimal",
+    "rpb_nodes": 2,
+    "ratio": 0.8007599034612468
+  },
+  {
+    "seed": 900000105,
+    "policy_time": 0.8051689999999994,
+    "policy_status": "optimal",
+    "policy_nodes": 150,
+    "rpb_time": 2.0700709999999987,
+    "rpb_status": "optimal",
+    "rpb_nodes": 30,
+    "ratio": 0.3889571903572389
+  },
+  {
+    "seed": 900000106,
+    "policy_time": 0.5792229999999989,
+    "policy_status": "optimal",
+    "policy_nodes": 26,
+    "rpb_time": 0.915414000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 6,
+    "ratio": 0.6327443102246608
+  },
+  {
+    "seed": 900000107,
+    "policy_time": 0.49556499999999915,
+    "policy_status": "optimal",
+    "policy_nodes": 56,
+    "rpb_time": 1.1523830000000004,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.4300349796899112
+  },
+  {
+    "seed": 900000108,
+    "policy_time": 0.5521279999999997,
+    "policy_status": "optimal",
+    "policy_nodes": 30,
+    "rpb_time": 1.1412290000000027,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.48380123533488756
+  },
+  {
+    "seed": 900000109,
+    "policy_time": 0.5034930000000024,
+    "policy_status": "optimal",
+    "policy_nodes": 17,
+    "rpb_time": 0.4804569999999977,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0479460180619802
+  },
+  {
+    "seed": 900000110,
+    "policy_time": 0.4840699999999991,
+    "policy_status": "optimal",
+    "policy_nodes": 3,
+    "rpb_time": 0.4940470000000019,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9798055650575699
+  },
+  {
+    "seed": 900000111,
+    "policy_time": 0.4468899999999998,
+    "policy_status": "optimal",
+    "policy_nodes": 11,
+    "rpb_time": 0.6616239999999998,
+    "rpb_status": "optimal",
+    "rpb_nodes": 4,
+    "ratio": 0.6754440588612263
+  },
+  {
+    "seed": 900000112,
+    "policy_time": 0.26938000000000173,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.30125500000000116,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.8941926275082595
+  },
+  {
+    "seed": 900000113,
+    "policy_time": 0.47979799999999884,
+    "policy_status": "optimal",
+    "policy_nodes": 18,
+    "rpb_time": 0.7185500000000005,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.6677308468443373
+  },
+  {
+    "seed": 900000114,
+    "policy_time": 0.5493290000000002,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.5479860000000016,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.002450792538493
+  },
+  {
+    "seed": 900000115,
+    "policy_time": 0.43167500000000203,
+    "policy_status": "optimal",
+    "policy_nodes": 25,
+    "rpb_time": 0.5392469999999996,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.8005144210352628
+  },
+  {
+    "seed": 900000116,
+    "policy_time": 0.4458660000000023,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.44795999999999836,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9953254754888917
+  },
+  {
+    "seed": 900000117,
+    "policy_time": 0.323677,
+    "policy_status": "optimal",
+    "policy_nodes": 4,
+    "rpb_time": 0.3576359999999994,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9050459126038781
+  },
+  {
+    "seed": 900000118,
+    "policy_time": 0.47413099999999986,
+    "policy_status": "optimal",
+    "policy_nodes": 9,
+    "rpb_time": 0.8493579999999987,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.5582227988669095
+  },
+  {
+    "seed": 900000119,
+    "policy_time": 0.5733059999999988,
+    "policy_status": "optimal",
+    "policy_nodes": 6,
+    "rpb_time": 0.5591969999999975,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0252308220537687
+  },
+  {
+    "seed": 900000120,
+    "policy_time": 0.5170890000000021,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.6014049999999997,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.8598016311803234
+  },
+  {
+    "seed": 900000121,
+    "policy_time": 0.34409700000000143,
+    "policy_status": "optimal",
+    "policy_nodes": 3,
+    "rpb_time": 0.34773600000000116,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9895351646076342
+  },
+  {
+    "seed": 900000122,
+    "policy_time": 0.5490290000000009,
+    "policy_status": "optimal",
+    "policy_nodes": 15,
+    "rpb_time": 0.7178979999999981,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.7647729900347993
+  },
+  {
+    "seed": 900000123,
+    "policy_time": 0.2123589999999993,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.21086199999999877,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.007099429958933
+  },
+  {
+    "seed": 900000124,
+    "policy_time": 0.35861500000000035,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.37759100000000245,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9497445648863401
+  },
+  {
+    "seed": 900000125,
+    "policy_time": 0.4425360000000005,
+    "policy_status": "optimal",
+    "policy_nodes": 7,
+    "rpb_time": 0.9244489999999992,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.47870244870187634
+  },
+  {
+    "seed": 900000126,
+    "policy_time": 0.45158699999999996,
+    "policy_status": "optimal",
+    "policy_nodes": 8,
+    "rpb_time": 0.46043900000000093,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9807748692009127
+  },
+  {
+    "seed": 900000127,
+    "policy_time": 0.6359589999999997,
+    "policy_status": "optimal",
+    "policy_nodes": 4,
+    "rpb_time": 0.5954280000000018,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0680703628314385
+  },
+  {
+    "seed": 900000128,
+    "policy_time": 0.5589250000000021,
+    "policy_status": "optimal",
+    "policy_nodes": 39,
+    "rpb_time": 1.607137999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 15,
+    "ratio": 0.34777660661374593
+  },
+  {
+    "seed": 900000129,
+    "policy_time": 0.5819929999999971,
+    "policy_status": "optimal",
+    "policy_nodes": 41,
+    "rpb_time": 0.7262909999999998,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.8013220596152193
+  },
+  {
+    "seed": 900000130,
+    "policy_time": 0.5327369999999974,
+    "policy_status": "optimal",
+    "policy_nodes": 16,
+    "rpb_time": 1.1404969999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.4671095145362043
+  },
+  {
+    "seed": 900000131,
+    "policy_time": 0.4628120000000031,
+    "policy_status": "optimal",
+    "policy_nodes": 14,
+    "rpb_time": 0.937737000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.4935413660759916
+  },
+  {
+    "seed": 900000132,
+    "policy_time": 0.44309399999999854,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.435573999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0172645750205465
+  },
+  {
+    "seed": 900000133,
+    "policy_time": 0.48627699999999763,
+    "policy_status": "optimal",
+    "policy_nodes": 13,
+    "rpb_time": 0.5566169999999993,
+    "rpb_status": "optimal",
+    "rpb_nodes": 2,
+    "ratio": 0.8736294435850832
+  },
+  {
+    "seed": 900000134,
+    "policy_time": 0.6212739999999997,
+    "policy_status": "optimal",
+    "policy_nodes": 88,
+    "rpb_time": 1.2499509999999994,
+    "rpb_status": "optimal",
+    "rpb_nodes": 12,
+    "ratio": 0.4970386839164095
+  },
+  {
+    "seed": 900000135,
+    "policy_time": 0.49208499999999944,
+    "policy_status": "optimal",
+    "policy_nodes": 4,
+    "rpb_time": 0.5330380000000012,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9231705807090644
+  },
+  {
+    "seed": 900000136,
+    "policy_time": 0.6254920000000013,
+    "policy_status": "optimal",
+    "policy_nodes": 11,
+    "rpb_time": 0.6062349999999981,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0317649096472543
+  },
+  {
+    "seed": 900000137,
+    "policy_time": 0.5560789999999969,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.5734630000000003,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9696859256830809
+  },
+  {
+    "seed": 900000138,
+    "policy_time": 0.4867239999999988,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.4838179999999994,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0060063908329153
+  },
+  {
+    "seed": 900000139,
+    "policy_time": 0.2278550000000017,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.2254560000000012,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0106406571570528
+  },
+  {
+    "seed": 900000140,
+    "policy_time": 0.5575140000000012,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.5630769999999998,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9901203565409373
+  },
+  {
+    "seed": 900000141,
+    "policy_time": 0.4920220000000022,
+    "policy_status": "optimal",
+    "policy_nodes": 30,
+    "rpb_time": 0.8388069999999992,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.5865735502922634
+  },
+  {
+    "seed": 900000142,
+    "policy_time": 0.42086399999999813,
+    "policy_status": "optimal",
+    "policy_nodes": 10,
+    "rpb_time": 0.4053609999999992,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0382449224271673
+  },
+  {
+    "seed": 900000143,
+    "policy_time": 0.6623719999999977,
+    "policy_status": "optimal",
+    "policy_nodes": 32,
+    "rpb_time": 0.8544180000000026,
+    "rpb_status": "optimal",
+    "rpb_nodes": 4,
+    "ratio": 0.7752317952103019
+  },
+  {
+    "seed": 900000144,
+    "policy_time": 0.4109790000000011,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.44014999999999915,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9337248665227806
+  },
+  {
+    "seed": 900000145,
+    "policy_time": 0.5483790000000006,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.6891980000000011,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.795677004286141
+  },
+  {
+    "seed": 900000146,
+    "policy_time": 0.4205840000000016,
+    "policy_status": "optimal",
+    "policy_nodes": 18,
+    "rpb_time": 0.44571499999999986,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9436164365121249
+  },
+  {
+    "seed": 900000147,
+    "policy_time": 0.1862300000000019,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.18564200000000142,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0031673866905144
+  },
+  {
+    "seed": 900000148,
+    "policy_time": 0.4505680000000005,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.45849899999999977,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.982702252349516
+  },
+  {
+    "seed": 900000149,
+    "policy_time": 0.5101629999999986,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.513031999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9944077562413252
+  },
+  {
+    "seed": 900000150,
+    "policy_time": 0.4071099999999994,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.40551400000000015,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0039357457449047
+  },
+  {
+    "seed": 900000151,
+    "policy_time": 0.3734119999999983,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.38515100000000047,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9695210449927375
+  },
+  {
+    "seed": 900000152,
+    "policy_time": 0.7403879999999994,
+    "policy_status": "optimal",
+    "policy_nodes": 98,
+    "rpb_time": 2.326787000000003,
+    "rpb_status": "optimal",
+    "rpb_nodes": 15,
+    "ratio": 0.31820188096288937
+  },
+  {
+    "seed": 900000153,
+    "policy_time": 0.546361000000001,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.5312160000000006,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0285100599379544
+  },
+  {
+    "seed": 900000154,
+    "policy_time": 0.5991859999999996,
+    "policy_status": "optimal",
+    "policy_nodes": 18,
+    "rpb_time": 0.8058720000000008,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.743525026306906
+  },
+  {
+    "seed": 900000155,
+    "policy_time": 0.5400600000000004,
+    "policy_status": "optimal",
+    "policy_nodes": 16,
+    "rpb_time": 0.7233260000000001,
+    "rpb_status": "optimal",
+    "rpb_nodes": 4,
+    "ratio": 0.7466342976749077
+  },
+  {
+    "seed": 900000156,
+    "policy_time": 0.3292939999999973,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.3349109999999982,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9832283800770925
+  },
+  {
+    "seed": 900000157,
+    "policy_time": 0.5524740000000001,
+    "policy_status": "optimal",
+    "policy_nodes": 42,
+    "rpb_time": 0.8851520000000015,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.6241572068977974
+  },
+  {
+    "seed": 900000158,
+    "policy_time": 0.5586239999999982,
+    "policy_status": "optimal",
+    "policy_nodes": 34,
+    "rpb_time": 1.1506149999999984,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.4855003628494318
+  },
+  {
+    "seed": 900000159,
+    "policy_time": 0.4789129999999986,
+    "policy_status": "optimal",
+    "policy_nodes": 37,
+    "rpb_time": 1.214349999999996,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.39437806233787637
+  },
+  {
+    "seed": 900000160,
+    "policy_time": 0.38237500000000324,
+    "policy_status": "optimal",
+    "policy_nodes": 19,
+    "rpb_time": 0.737878000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 6,
+    "ratio": 0.518208972214922
+  },
+  {
+    "seed": 900000161,
+    "policy_time": 0.39710500000000337,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.39078899999999805,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.016162174472683
+  },
+  {
+    "seed": 900000162,
+    "policy_time": 0.5561170000000004,
+    "policy_status": "optimal",
+    "policy_nodes": 24,
+    "rpb_time": 0.9033630000000024,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.6156074579100528
+  },
+  {
+    "seed": 900000163,
+    "policy_time": 0.11832700000000074,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.10593800000000186,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.1169457607279603
+  },
+  {
+    "seed": 900000164,
+    "policy_time": 0.6329910000000005,
+    "policy_status": "optimal",
+    "policy_nodes": 33,
+    "rpb_time": 1.4996569999999991,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.42209051803179054
+  },
+  {
+    "seed": 900000165,
+    "policy_time": 0.10989999999999966,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.11065900000000184,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9931410910996651
+  },
+  {
+    "seed": 900000166,
+    "policy_time": 0.5382899999999999,
+    "policy_status": "optimal",
+    "policy_nodes": 11,
+    "rpb_time": 0.7163029999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.7514836598478577
+  },
+  {
+    "seed": 900000167,
+    "policy_time": 0.4208120000000015,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.43508300000000233,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9671993619608196
+  },
+  {
+    "seed": 900000168,
+    "policy_time": 0.5154219999999974,
+    "policy_status": "optimal",
+    "policy_nodes": 26,
+    "rpb_time": 0.8973489999999984,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.5743829881127613
+  },
+  {
+    "seed": 900000169,
+    "policy_time": 0.552546999999997,
+    "policy_status": "optimal",
+    "policy_nodes": 12,
+    "rpb_time": 0.8778050000000022,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.6294644026862408
+  },
+  {
+    "seed": 900000170,
+    "policy_time": 0.07977499999999793,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.06864199999999698,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.162189330147744
+  },
+  {
+    "seed": 900000171,
+    "policy_time": 0.49410199999999804,
+    "policy_status": "optimal",
+    "policy_nodes": 2,
+    "rpb_time": 0.4907010000000014,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0069309008948355
+  },
+  {
+    "seed": 900000172,
+    "policy_time": 0.5259880000000017,
+    "policy_status": "optimal",
+    "policy_nodes": 24,
+    "rpb_time": 0.8590230000000005,
+    "rpb_status": "optimal",
+    "rpb_nodes": 9,
+    "ratio": 0.612309565634449
+  },
+  {
+    "seed": 900000173,
+    "policy_time": 0.09846800000000044,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.09783599999999737,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0064597898524377
+  },
+  {
+    "seed": 900000174,
+    "policy_time": 0.5061460000000011,
+    "policy_status": "optimal",
+    "policy_nodes": 6,
+    "rpb_time": 0.523340000000001,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9671456414567969
+  },
+  {
+    "seed": 900000175,
+    "policy_time": 0.3008299999999977,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.30315799999999626,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9923208359997144
+  },
+  {
+    "seed": 900000176,
+    "policy_time": 0.5746970000000005,
+    "policy_status": "optimal",
+    "policy_nodes": 30,
+    "rpb_time": 0.8776939999999982,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.6547805955150675
+  },
+  {
+    "seed": 900000177,
+    "policy_time": 0.29036399999999674,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.30962000000000245,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.937807635165669
+  },
+  {
+    "seed": 900000178,
+    "policy_time": 0.5530369999999962,
+    "policy_status": "optimal",
+    "policy_nodes": 7,
+    "rpb_time": 0.5267729999999986,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0498582881051186
+  },
+  {
+    "seed": 900000179,
+    "policy_time": 0.5918279999999996,
+    "policy_status": "optimal",
+    "policy_nodes": 6,
+    "rpb_time": 0.6549759999999978,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.903587307015832
+  },
+  {
+    "seed": 900000180,
+    "policy_time": 0.4393570000000011,
+    "policy_status": "optimal",
+    "policy_nodes": 9,
+    "rpb_time": 0.41994399999999743,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0462275922504043
+  },
+  {
+    "seed": 900000181,
+    "policy_time": 0.6937120000000014,
+    "policy_status": "optimal",
+    "policy_nodes": 35,
+    "rpb_time": 0.7975729999999999,
+    "rpb_status": "optimal",
+    "rpb_nodes": 4,
+    "ratio": 0.8697786911041391
+  },
+  {
+    "seed": 900000182,
+    "policy_time": 0.31698800000000205,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.3156309999999962,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.004299324210885
+  },
+  {
+    "seed": 900000183,
+    "policy_time": 0.4145779999999988,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.4154370000000043,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.997932297797246
+  },
+  {
+    "seed": 900000184,
+    "policy_time": 0.48324700000000576,
+    "policy_status": "optimal",
+    "policy_nodes": 8,
+    "rpb_time": 0.5901190000000014,
+    "rpb_status": "optimal",
+    "rpb_nodes": 2,
+    "ratio": 0.8188975443935962
+  },
+  {
+    "seed": 900000185,
+    "policy_time": 0.4357609999999994,
+    "policy_status": "optimal",
+    "policy_nodes": 14,
+    "rpb_time": 0.5224960000000038,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.8339987291768668
+  },
+  {
+    "seed": 900000186,
+    "policy_time": 0.5776949999999985,
+    "policy_status": "optimal",
+    "policy_nodes": 35,
+    "rpb_time": 0.9658530000000027,
+    "rpb_status": "optimal",
+    "rpb_nodes": 7,
+    "ratio": 0.5981189684144449
+  },
+  {
+    "seed": 900000187,
+    "policy_time": 0.4408589999999961,
+    "policy_status": "optimal",
+    "policy_nodes": 5,
+    "rpb_time": 0.4409390000000002,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9998185690084024
+  },
+  {
+    "seed": 900000188,
+    "policy_time": 0.08789099999999905,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.0874600000000001,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.004927967070649
+  },
+  {
+    "seed": 900000189,
+    "policy_time": 0.6058489999999992,
+    "policy_status": "optimal",
+    "policy_nodes": 21,
+    "rpb_time": 0.7094419999999992,
+    "rpb_status": "optimal",
+    "rpb_nodes": 3,
+    "ratio": 0.8539796065076495
+  },
+  {
+    "seed": 900000190,
+    "policy_time": 0.44712099999999566,
+    "policy_status": "optimal",
+    "policy_nodes": 9,
+    "rpb_time": 0.5381009999999975,
+    "rpb_status": "optimal",
+    "rpb_nodes": 2,
+    "ratio": 0.8309239343543271
+  },
+  {
+    "seed": 900000191,
+    "policy_time": 0.49199000000000126,
+    "policy_status": "optimal",
+    "policy_nodes": 22,
+    "rpb_time": 0.7587279999999978,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.6484405478643238
+  },
+  {
+    "seed": 900000192,
+    "policy_time": 0.5166699999999977,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.5358529999999959,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.964201002886989
+  },
+  {
+    "seed": 900000193,
+    "policy_time": 0.6036450000000002,
+    "policy_status": "optimal",
+    "policy_nodes": 112,
+    "rpb_time": 1.462765999999995,
+    "rpb_status": "optimal",
+    "rpb_nodes": 17,
+    "ratio": 0.41267366072222234
+  },
+  {
+    "seed": 900000194,
+    "policy_time": 0.6117589999999993,
+    "policy_status": "optimal",
+    "policy_nodes": 6,
+    "rpb_time": 0.6443889999999968,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.9493628848413029
+  },
+  {
+    "seed": 900000195,
+    "policy_time": 0.565016,
+    "policy_status": "optimal",
+    "policy_nodes": 3,
+    "rpb_time": 0.5353250000000003,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0554635034791944
+  },
+  {
+    "seed": 900000196,
+    "policy_time": 0.4437769999999972,
+    "policy_status": "optimal",
+    "policy_nodes": 11,
+    "rpb_time": 0.9135530000000003,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 0.48577039317915555
+  },
+  {
+    "seed": 900000197,
+    "policy_time": 0.44228199999999873,
+    "policy_status": "optimal",
+    "policy_nodes": 3,
+    "rpb_time": 0.44045799999999957,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0041411439910257
+  },
+  {
+    "seed": 900000198,
+    "policy_time": 0.41741700000000037,
+    "policy_status": "optimal",
+    "policy_nodes": 1,
+    "rpb_time": 0.41621400000000364,
+    "rpb_status": "optimal",
+    "rpb_nodes": 1,
+    "ratio": 1.0028903400654392
+  },
+  {
+    "seed": 900000199,
+    "policy_time": 0.5784349999999989,
+    "policy_status": "optimal",
+    "policy_nodes": 40,
+    "rpb_time": 1.1399550000000005,
+    "rpb_status": "optimal",
+    "rpb_nodes": 5,
+    "ratio": 0.5074191525104049
+  }
+]
