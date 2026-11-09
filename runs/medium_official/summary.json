@@ -1,0 +1,39 @@
+{
+  "title": "official test seeds",
+  "n_instances": 1293,
+  "seeds": [
+    999999999,
+    1000001298
+  ],
+  "time_cap_s": 3600,
+  "decile_size": 129,
+  "timeouts_policy": 0,
+  "timeouts_rpb": 2,
+  "policy_mean_s": 99.24163959783449,
+  "rpb_mean_s": 227.34075792730084,
+  "policy_gmean_s": 44.44056934921791,
+  "rpb_gmean_s": 129.6957132273857,
+  "policy_median_s": 35.64,
+  "rpb_median_s": 134.76,
+  "policy_gmean_nodes": 2000.8434290750656,
+  "rpb_gmean_nodes": 3487.4709629256736,
+  "ratio_median": 0.33589251439539347,
+  "ratio_mean": 0.36923712580954615,
+  "ratio_min": 0.08920926718710652,
+  "ratio_max": 1.507330031812666,
+  "n_policy_slower_than_rpb": 13,
+  "worst_ratio_cutoff": 0.5597362920083615,
+  "worst_time_cutoff_s": 223.03,
+  "overlap_ratio_vs_time_deciles": 66,
+  "slowest_decile_share_of_policy_time": 0.5567248423153965,
+  "spearman_policy_vs_rpb_time": 0.9425178531961884,
+  "unfinished_seeds": [
+    1000000445,
+    1000000466,
+    1000000756,
+    1000000757,
+    1000001171,
+    1000001266,
+    1000001267
+  ]
+}

@@ -1,80 +1,74 @@
 # LLM4Branch evaluation
 
-Experiments on [LLM4Branch](https://github.com/hzn18/LLM4Branch)'s evolved branching policy for
-Independent Set on Barabási–Albert graphs (Ecole `IndependentSetGenerator`, affinity 4), following the
-future-work items of Hardik's *LLM4Branch Within-Family Variation* report:
+This repository tests the LLM4Branch branching policy for Independent Set problems on
+Barabási–Albert (BA) graphs. It compares the policy with the SCIP default rule (RPB, `relpscost`).
+It also compares the results with Hardik's report, *LLM4Branch Within-Family Variation*.
 
-1. Run the official Indset policy and SCIP's default RPB (`relpscost`) on the official test instances.
-2. Plot the time-ratio histogram (policy / RPB) and study the slowest 10% of instances.
-3. Evolve a specialist policy for the hard instances and pick between the two policies online
-   from a cheap 50-node probe (task 4, in progress).
+## Contents
 
-## Layout
-
-| Path | What it is |
+| Path | Contents |
 |---|---|
-| `setup/install.sh` | One-time setup on Ubuntu 24.04: Miniforge, the `ecole-fork` conda env (exact versions in `conda-linux-64.lock` + `pip-requirements.txt`), clones the two official repos into `external/` at the commits used and builds the Ecole fork |
-| `external/` | *(not in git)* `LLM4Branch` and `LLM4Branch-ecole`, unmodified |
-| `within-family-variation/` | Hardik's code exactly as received (first commit), plus our task-4 changes (see below) |
-| `scripts/` | Our scripts (table below) |
-| `results/tasks1-3_easy/` | Official tester run on all 1300 easy instances (EC2 c7a.8xlarge, 32 cores) and its figures |
-| `results/medium_partial/` | 74 medium (n=1000) instances, stopped early; biased toward fast instances |
-| `results/task4_pilot/` | 50-node probe on the 1300 easy instances, the hard-set split, and two short evolution attempts |
+| `LLM4Branch/` | The official LLM4Branch code ([hzn18/LLM4Branch](https://github.com/hzn18/LLM4Branch)). `setup/install.sh` downloads it. Not in git. |
+| `LLM4Branch-ecole/` | The custom Ecole of the LLM4Branch authors. `setup/install.sh` downloads and builds it. Not in git. |
+| `within-family-variation/` | Hardik's code. The first commit has his code as he sent it. |
+| `setup/` | The install script and the exact package versions. |
+| `scripts/` | `run_tester.py` runs the official tester. `analyze.py` makes the tables and plots. `compare.py` compares with Hardik's results. |
+| `runs/` | The results. Each folder has the tester log, a CSV with one row for each instance, a summary and the plots. |
 
-### Scripts
+## Install
 
-| Script | Purpose |
-|---|---|
-| `run_tester.py` | Runs the official `tester_parallel` (RPB + policy) → `results/runs/<level>.log` |
-| `analyze_repo_log.py` | Tester log → per-instance CSV, summary JSON, ratio histogram, time scatter |
-| `probe_selector_features.py` | Runs the policy for the first 1/10/25/50 nodes of each instance and records the gap and time |
-| `make_specialist_split.py` | Slowest 10% by policy time → 4 train / 4 valid / 122 held-out test instances |
-| `selector_signal.py` | How well the probe features predict the hard set |
-| `run_specialist_evolution.sh` | Launches the specialist evolution (needs an API key, see below) |
-| `make_tuned_program.py` | Bakes the tuned PARAMS of an evolved program into the file the tester reads |
-| `selector_sim.py` | Simulates RPB / original / specialist / selector / oracle on the 1300 instances |
-
-## Setup
+Use Ubuntu 24.04 (x86_64). The script puts all files in this folder (`.conda/` has Python and SCIP).
 
 ```bash
-git clone https://github.com/ibac03/LLM4branch_eval.git && cd LLM4branch_eval
-bash setup/install.sh            # ~10-20 min, most of it compiling Ecole
-conda activate ecole-fork
+bash setup/install.sh
+source .conda/etc/profile.d/conda.sh && conda activate ecole-fork
 ```
 
-## Reproduce tasks 1-3
+## Run
+
+The medium level has graphs with 1000 nodes. The official test set starts at seed 999999999.
+Hardik used seeds 800000000 to 800001299 and a 900 s time limit.
 
 ```bash
-N=1300 python scripts/run_tester.py easy
-python scripts/analyze_repo_log.py results/runs/easy.log results/runs/easy
+python scripts/run_tester.py --seed 999999999 --n 1300 --log runs/medium_official/tester.log
+python scripts/analyze.py runs/medium_official/tester.log --title "official test seeds"
+python scripts/compare.py
 ```
 
-Solve times depend on the CPU, so compare timings only within one machine. Node counts are
-deterministic and should match `results/tasks1-3_easy/easy.log` exactly.
+`run_tester.py` uses cores 8 to 127 by default. Change this with `--cores`.
 
-Results on EC2 (1300 easy instances, n=750): policy mean 10.67 s vs RPB 24.50 s (geometric means
-7.04 vs 17.61 s); median time ratio 0.378, 90th-percentile ratio 0.594; 14 instances where the policy
-is slower than RPB. The slowest 10% of instances account for 44.8% of the policy's total time.
+## Results (tasks 1 to 3)
 
-## Task 4 (in progress)
+Run: 1300 medium instances from the official test set (seeds 999999999 to 1000001298), on a
+Carolina Cloud VM (AMD EPYC Genoa, 120 solves at the same time). 1293 instances finished. We
+stopped 7 very slow instances by hand. `runs/medium_official/summary.json` lists their seeds.
 
-Changes to Hardik's code (second commit, `git diff HEAD~1 -- within-family-variation` shows them):
+The ratio is the policy time divided by the RPB time. A ratio below 1 means that the policy is faster.
 
-- `evaluator_specialist.py`: our train/valid seeds; plain `fork` multiprocessing on Linux
-  (the forkserver failed inside openevolve's worker processes with `ChildProcessError`).
-- `openevolve/llm/openai.py`: headers required by the OpenCode Go API.
-- `config_specialist_easy.yaml`, `run_specialist_easy.py`: easy-instance version of his specialist run
-  (DeepSeek v4.1 flash via OpenCode Go, 40 iterations, all cores).
-- `configs/my_key_set.example.yaml`: copy it to `my_key_set.yaml` (git-ignored) and add the key.
+| Metric | Ours (official seeds) | Hardik (PDF) |
+|---|---|---|
+| Instances | 1293 | 1300 |
+| Median ratio | 0.337 | 0.327 |
+| 10% / 90% ratio quantiles | 0.21 / 0.58 | 0.20 / 0.58 |
+| Worst-decile cutoff (ratio) | 0.582 | 0.576 |
+| Instances with ratio above 1 | 12 | 14 |
+| Slowest 10% of instances: part of the total policy time | 52% | 55% |
+| Mean time, policy / RPB | 91 s / 201 s | 58 s / 124 s |
 
-Pilot status: the 50-node probe works (gap after 50 nodes has Spearman 0.912 with policy time and
-flags 74 of the 130 slowest instances). Re-tuning the original policy's parameters on the hard set gave
-PARAMS [0.0, 0.0, 1.5058, 2.0] (a candidate "cheap specialist"). No LLM-written candidate passed
-the stage-1 screen yet.
+Both columns use a 900 s limit (`runs/comparison/summary_table.csv`).
 
-Next steps:
+- The ratio distributions are almost the same. A Kolmogorov–Smirnov test does not find a
+  difference (statistic 0.046, p = 0.12). Thus, we did not run Hardik's seeds again.
+- Our solve times are approximately 1.6 times longer than Hardik's times on his Mac. This does not
+  change the ratios. But more of our solves reach the 900 s limit (68, Hardik: 17).
 
-1. Cap the stage-1 solves at ~210 s; bad candidates otherwise run for the full hour.
-2. Rerun the evolution, then test the re-tuned original and the best specialist on the 122 held-out
-   hard instances with the official tester.
-3. Run `selector_sim.py` to see whether probe-then-switch lowers the average solve time.
+Plots: `runs/medium_official/ratio_hist.png` (task 3 histogram), `runs/medium_official/time_scatter.png`,
+`runs/comparison/ratio_vs_pdf.png` (our histogram on top of Hardik's histogram).
+
+## Notes
+
+- The solve time changes with the CPU. Compare times only from the same machine.
+- One instance can have a very different time on a different CPU, because SCIP can take a
+  different search path. Thus, compare the distribution of many instances, not single instances.
+- The official tester stops a solve after 3600 s. Hardik stopped a solve after 900 s.
+  `compare.py` cuts our times at 900 s before it compares them with Hardik's results.

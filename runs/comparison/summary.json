@@ -1,0 +1,44 @@
+{
+  "ours_official_seeds": {
+    "n_instances": 1293,
+    "ratio_median": 0.3373500260824205,
+    "ratio_mean": 0.37690647358139834,
+    "ratio_q10": 0.20649916578254482,
+    "ratio_q25": 0.26120457172210093,
+    "ratio_q75": 0.43907971484121844,
+    "ratio_q90": 0.5783499741246738,
+    "worst_decile_ratio_cutoff": 0.5819159178433889,
+    "n_ratio_above_1": 12,
+    "policy_mean_s": 91.46621809744781,
+    "rpb_mean_s": 200.68529002320187,
+    "policy_median_s": 35.64,
+    "rpb_median_s": 134.76,
+    "n_time_outs_900s": 68,
+    "slowest_decile_share_of_policy_time": 0.5190426109589398,
+    "worst_ratio_vs_slowest_time_decile_overlap": 79,
+    "n_unfinished (stopped, not in the numbers)": 7
+  },
+  "hardik_pdf": {
+    "n_instances": 1300,
+    "ratio_median": 0.32692065782191776,
+    "ratio_mean": 0.36688805968780286,
+    "ratio_q10": 0.20486233106704838,
+    "ratio_q25": 0.2544390897395237,
+    "ratio_q75": 0.42610082584305525,
+    "ratio_q90": 0.5755149350043212,
+    "worst_decile_ratio_cutoff": 0.5763677012856171,
+    "n_ratio_above_1": 14,
+    "policy_mean_s": 57.51671208307693,
+    "rpb_mean_s": 123.74892065846153,
+    "policy_median_s": 20.542747499999678,
+    "rpb_median_s": 76.01453899999949,
+    "n_time_outs_900s": 17,
+    "slowest_decile_share_of_policy_time": 0.5541859762983445,
+    "worst_ratio_vs_slowest_time_decile_overlap": 88,
+    "n_unfinished (stopped, not in the numbers)": 0
+  },
+  "ratio_distribution_test": {
+    "ks_statistic": 0.046437622702123864,
+    "ks_p_value": 0.11673472526692374
+  }
+}

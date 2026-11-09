@@ -1,6 +1,7 @@
-# Official repos, cloned by setup/install.sh
-external/
-# Scratch: locks, build logs
+# Made by setup/install.sh
+.conda/
+LLM4Branch/
+LLM4Branch-ecole/
 tmp/
 within-family-variation/examples/brancher/tmp/
 
