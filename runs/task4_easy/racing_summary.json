@@ -1,0 +1,55 @@
+{
+  "n_instances": 1292,
+  "configs_in_order": [
+    "orig_s0",
+    "orig_s1",
+    "orig_retuned_s0",
+    "degree_s0",
+    "orig_s2",
+    "orig_retuned_s1",
+    "degree_s1"
+  ],
+  "mean_probe_time_s": 4.069365620814131,
+  "probe_time_%_of_mean_solve": 33.84561001487729,
+  "within_instance_signal_vs_orig_s0": {
+    "orig_s1": {
+      "spearman_gap50_diff_vs_time_ratio": 0.36708945083258965,
+      "spearman_model_diff_vs_time_ratio": 0.4108048345595658,
+      "model_picks_the_faster_%": 63.854489164086694
+    },
+    "orig_retuned_s0": {
+      "spearman_gap50_diff_vs_time_ratio": 0.3414486292481359,
+      "spearman_model_diff_vs_time_ratio": 0.3548022878771961,
+      "model_picks_the_faster_%": 61.145510835913306
+    },
+    "degree_s0": {
+      "spearman_gap50_diff_vs_time_ratio": 0.41173021298631285,
+      "spearman_model_diff_vs_time_ratio": 0.4167696032189986,
+      "model_picks_the_faster_%": 63.46749226006192
+    },
+    "orig_s2": {
+      "spearman_gap50_diff_vs_time_ratio": 0.35340048800029256,
+      "spearman_model_diff_vs_time_ratio": 0.39902049466461653,
+      "model_picks_the_faster_%": 65.24767801857585
+    },
+    "orig_retuned_s1": {
+      "spearman_gap50_diff_vs_time_ratio": 0.408076607132262,
+      "spearman_model_diff_vs_time_ratio": 0.4507794772870957,
+      "model_picks_the_faster_%": 67.02786377708978
+    },
+    "degree_s1": {
+      "spearman_gap50_diff_vs_time_ratio": 0.4509575151055248,
+      "spearman_model_diff_vs_time_ratio": 0.4832573999966866,
+      "model_picks_the_faster_%": 66.71826625386997
+    }
+  },
+  "across_instances_spearman_pred_vs_time": 0.9232486916512782,
+  "best_strategy": {
+    "strategy": "original policy, one run",
+    "configs": 1,
+    "mean_time_s": 12.023318885448917,
+    "mean_time_slowest_10%_s": 49.99900775193799,
+    "vs_original_%": 0.0,
+    "mean_probes_started": 1.0
+  }
+}

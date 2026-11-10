@@ -289,7 +289,7 @@ def evaluate_stage1(program_path, config):
         seeds = TRAIN_SEEDS
         score_function, used_features, function_params, bound_params = load_program(program_path)
         if config.target in ['time', 'nodes']:
-            scip_params = get_scip_params()
+            scip_params = get_scip_params(time_limit=210)  # was 3600 s: bad candidates ran for one hour
         elif config.target == 'gap':
             scip_params = get_scip_params(time_limit=180)
         tasks = []

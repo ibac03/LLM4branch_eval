@@ -1,0 +1,40 @@
+{
+  "n_instances": 400,
+  "cap_s": 900.0,
+  "excluded_seeds": [],
+  "slowest_decile_same_with_other_seed": "33 of 40",
+  "seed_control": {
+    "time, orig vs orig@seed1": {
+      "spearman": 0.9379763746799645,
+      "median_factor": 1.245927897607618,
+      "p90_factor": 1.7052486838146557
+    },
+    "time, orig vs orig@seed2": {
+      "spearman": 0.9373148181160394,
+      "median_factor": 1.2445175826614634,
+      "p90_factor": 1.7742259935653428
+    },
+    "nodes, orig vs orig@seed1": {
+      "spearman": 0.9453011096566992,
+      "median_factor": 1.4141275117058296,
+      "p90_factor": 2.3345808059458655
+    },
+    "nodes, orig vs orig@seed2": {
+      "spearman": 0.9416076466836485,
+      "median_factor": 1.4283305662865333,
+      "p90_factor": 2.2773901491427058
+    },
+    "mean_time_orig_s": 70.5684925,
+    "mean_time_best_of_2_seeds_s": 60.7360225,
+    "mean_time_best_of_all_seeds_s": 58.8164325
+  },
+  "hard_prediction": {
+    "spearman_ceiling_from_seed_noise": 0.9379763746799645
+  },
+  "router_policies": [
+    "orig",
+    "orig_retuned",
+    "evolved",
+    "degree"
+  ]
+}

@@ -1,0 +1,6 @@
+PROBE_DONE 1300 instances in 10.6 min -> runs/task4_easy/probes/orig_s1.csv
+PROBE_DONE 1300 instances in 10.6 min -> runs/task4_easy/probes/orig_s2.csv
+PROBE_DONE 1300 instances in 10.5 min -> runs/task4_easy/probes/orig_retuned_s0.csv
+PROBE_DONE 1300 instances in 10.0 min -> runs/task4_easy/probes/degree_s0.csv
+PROBE_DONE 1300 instances in 2.5 min -> runs/task4_easy/probes/orig_retuned_s1.csv
+PROBE_DONE 1300 instances in 2.5 min -> runs/task4_easy/probes/degree_s1.csv

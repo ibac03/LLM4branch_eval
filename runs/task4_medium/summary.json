@@ -1,0 +1,12 @@
+{
+  "n_instances": 1293,
+  "cap_s": 3600.0,
+  "excluded_seeds": [],
+  "hard_prediction": {
+    "spearman_ceiling_from_seed_noise": null
+  },
+  "router_policies": [
+    "orig",
+    "rpb"
+  ]
+}

@@ -1,0 +1,773 @@
+Initial program (WARM START): /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/program/indset/program.py
+Evaluation file: /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+Output dir: /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output
+Max iterations: 40
+Random seed: 20260915
+cascade_thresholds: [0.6, 0.75]
+2026-11-10 08:14:15,015 - openevolve.controller - INFO - Logging to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/logs/openevolve_20261110_081415.log
+2026-11-10 08:14:15,015 - INFO - Logging to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/logs/openevolve_20261110_081415.log
+2026-11-10 08:14:15,015 - openevolve.controller - INFO - {'target': 'nodes', 'train_seed': 0, 'train_num': 4, 'valid_seed': 0, 'valid_num': 4, 'max_workers': 4, 'cores_list': [96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127], 'lock_dir': '/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/tmp/cpu_locks/specialist_evolution', 'dataset': 'specialist', 'rpb': True, 'parameter_opt': True, 'n_calls': 15, 'n_initial': 5, 'stage1_timeout': 4500, 'stage2_timeout': 6000}
+2026-11-10 08:14:15,015 - INFO - {'target': 'nodes', 'train_seed': 0, 'train_num': 4, 'valid_seed': 0, 'valid_num': 4, 'max_workers': 4, 'cores_list': [96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127], 'lock_dir': '/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/tmp/cpu_locks/specialist_evolution', 'dataset': 'specialist', 'rpb': True, 'parameter_opt': True, 'n_calls': 15, 'n_initial': 5, 'stage1_timeout': 4500, 'stage2_timeout': 6000}
+2026-11-10 08:14:15,015 - openevolve.controller - INFO - Set random seed to 20260915 for reproducibility
+2026-11-10 08:14:15,015 - INFO - Set random seed to 20260915 for reproducibility
+2026-11-10 08:14:15,042 - openevolve.llm.openai - INFO - Initialized OpenAI LLM with model: deepseek-v4.1-flash
+2026-11-10 08:14:15,042 - INFO - Initialized OpenAI LLM with model: deepseek-v4.1-flash
+2026-11-10 08:14:15,043 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: deepseek-v4.1-flash (weight: 1.00)
+2026-11-10 08:14:15,043 - INFO - Initialized LLM ensemble with models: deepseek-v4.1-flash (weight: 1.00)
+2026-11-10 08:14:15,044 - openevolve.prompt.sampler - INFO - Initialized prompt sampler
+2026-11-10 08:14:15,044 - INFO - Initialized prompt sampler
+2026-11-10 08:14:15,044 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:14:15,044 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:14:15,044 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-11-10 08:14:15,044 - INFO - Initialized program database with 0 programs
+2026-11-10 08:14:15,044 - openevolve.evaluator - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:14:15,044 - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:14:15,044 - openevolve.controller - INFO - Initialized OpenEvolve with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/program/indset/program.py
+2026-11-10 08:14:15,044 - INFO - Initialized OpenEvolve with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/program/indset/program.py
+2026-11-10 08:14:15,044 - openevolve.controller - INFO - Adding initial program to database
+2026-11-10 08:14:15,044 - INFO - Adding initial program to database
+2026-11-10 08:30:34,299 - openevolve.evaluator - INFO - Evaluated program da8dc60c-7211-45a5-8175-c08e9f94bd48 in 979.26s: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 08:30:34,299 - INFO - Evaluated program da8dc60c-7211-45a5-8175-c08e9f94bd48 in 979.26s: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 08:30:34,300 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 5, 'diversity': 0}
+2026-11-10 08:30:34,300 - INFO - New MAP-Elites cell occupied: {'complexity': 5, 'diversity': 0}
+2026-11-10 08:30:34,300 - openevolve.process_parallel - INFO - Initialized process parallel controller with 8 workers
+2026-11-10 08:30:34,300 - INFO - Initialized process parallel controller with 8 workers
+2026-11-10 08:30:34,301 - openevolve.process_parallel - INFO - Started process pool with 8 processes
+2026-11-10 08:30:34,301 - INFO - Started process pool with 8 processes
+2026-11-10 08:30:34,301 - openevolve.controller - INFO - Using island-based evolution with 4 islands
+2026-11-10 08:30:34,301 - INFO - Using island-based evolution with 4 islands
+2026-11-10 08:30:34,301 - openevolve.database - INFO - Island Status:
+2026-11-10 08:30:34,301 - INFO - Island Status:
+2026-11-10 08:30:34,301 - openevolve.database - INFO -  * Island 0: 1 programs, best=1.2161, avg=1.2161, diversity=0.00, gen=0 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 08:30:34,301 - INFO -  * Island 0: 1 programs, best=1.2161, avg=1.2161, diversity=0.00, gen=0 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 08:30:34,302 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-10 08:30:34,302 - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-10 08:30:34,302 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-10 08:30:34,302 - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-10 08:30:34,302 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-10 08:30:34,302 - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-11-10 08:30:34,302 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 40 iterations (total: 41)
+2026-11-10 08:30:34,302 - INFO - Starting process-based evolution from iteration 1 for 40 iterations (total: 41)
+2026-11-10 08:30:34,383 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,383 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,383 - openevolve.evaluator - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,383 - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,383 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,383 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,383 - openevolve.evaluator - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,383 - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,384 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,384 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,384 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,384 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,384 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,384 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,384 - openevolve.evaluator - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,384 - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,387 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,387 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,387 - openevolve.evaluator - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,387 - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,388 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,388 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,389 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,389 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,392 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,392 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,392 - openevolve.evaluator - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,392 - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,393 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,393 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,394 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,394 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,395 - openevolve.evaluator - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,395 - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,396 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,395 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,396 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,395 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,396 - openevolve.evaluator - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,396 - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,398 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,398 - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-11-10 08:30:34,398 - openevolve.evaluator - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,398 - INFO - Initialized evaluator with /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py
+2026-11-10 08:30:34,399 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,399 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,400 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:30:34,400 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:31:40,232 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:31:40,232 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:31:47,185 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:31:47,185 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:31:48,100 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:31:48,100 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:32:04,714 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:32:04,714 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:32:32,771 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:32:32,771 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:32:49,557 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:32:49,557 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:32:58,754 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:32:58,754 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:34:02,334 - openevolve.evaluator - INFO - Evaluated program 3d16ae0d-fa1e-4139-b510-0011b966fc65 in 142.09s: validity=0.0000, staga1_score=0.0000, error_info_stage1=Generate an exception Traceback (most recent call last):
+  File "/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py", line 132, in execute_specialist
+    sb_scores = score_function(variable_features)
+  File "/tmp/tmphc3jshbh.py", line 26, in score_function
+    degree = (np.log1p(num_c + 1.0)
+NameError: name 'np' is not defined
+
+2026-11-10 08:34:02,334 - INFO - Evaluated program 3d16ae0d-fa1e-4139-b510-0011b966fc65 in 142.09s: validity=0.0000, staga1_score=0.0000, error_info_stage1=Generate an exception Traceback (most recent call last):
+  File "/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py", line 132, in execute_specialist
+    sb_scores = score_function(variable_features)
+  File "/tmp/tmphc3jshbh.py", line 26, in score_function
+    degree = (np.log1p(num_c + 1.0)
+NameError: name 'np' is not defined
+
+2026-11-10 08:34:02,337 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:34:02,337 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:34:02,341 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 5}
+2026-11-10 08:34:02,341 - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 5}
+2026-11-10 08:34:02,341 - openevolve.process_parallel - INFO - Iteration 3: Program 3d16ae0d-fa1e-4139-b510-0011b966fc65 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 207.95s
+2026-11-10 08:34:02,341 - INFO - Iteration 3: Program 3d16ae0d-fa1e-4139-b510-0011b966fc65 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 207.95s
+2026-11-10 08:34:02,341 - openevolve.process_parallel - INFO - Metrics: validity=0.0000, staga1_score=0.0000, error_info_stage1=Generate an exception Traceback (most recent call last):
+  File "/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py", line 132, in execute_specialist
+    sb_scores = score_function(variable_features)
+  File "/tmp/tmphc3jshbh.py", line 26, in score_function
+    degree = (np.log1p(num_c + 1.0)
+NameError: name 'np' is not defined
+
+2026-11-10 08:34:02,341 - INFO - Metrics: validity=0.0000, staga1_score=0.0000, error_info_stage1=Generate an exception Traceback (most recent call last):
+  File "/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py", line 132, in execute_specialist
+    sb_scores = score_function(variable_features)
+  File "/tmp/tmphc3jshbh.py", line 26, in score_function
+    degree = (np.log1p(num_c + 1.0)
+NameError: name 'np' is not defined
+
+2026-11-10 08:34:02,341 - openevolve.process_parallel - WARNING - ⚠️  No 'combined_score' metric found in evaluation results. Using average of all numeric metrics (0.0000) for evolution guidance. For better evolution results, please modify your evaluator to return a 'combined_score' metric that properly weights different aspects of program performance.
+2026-11-10 08:34:02,341 - WARNING - ⚠️  No 'combined_score' metric found in evaluation results. Using average of all numeric metrics (0.0000) for evolution guidance. For better evolution results, please modify your evaluator to return a 'combined_score' metric that properly weights different aspects of program performance.
+2026-11-10 08:34:04,838 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:34:04,838 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:35:03,864 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:35:03,864 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:35:29,533 - openevolve.evaluator - INFO - Evaluated program 57929124-8a84-4dfe-8aab-afcccc7bff97 in 221.42s: stage1_score=0.3378, error_info_stage1=None
+2026-11-10 08:35:29,533 - INFO - Evaluated program 57929124-8a84-4dfe-8aab-afcccc7bff97 in 221.42s: stage1_score=0.3378, error_info_stage1=None
+2026-11-10 08:35:29,541 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:35:29,541 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:35:29,549 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 1, 'diversity': 0}
+2026-11-10 08:35:29,549 - INFO - New MAP-Elites cell occupied: {'complexity': 1, 'diversity': 0}
+2026-11-10 08:35:29,549 - openevolve.process_parallel - INFO - Iteration 2: Program 57929124-8a84-4dfe-8aab-afcccc7bff97 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 295.16s
+2026-11-10 08:35:29,549 - INFO - Iteration 2: Program 57929124-8a84-4dfe-8aab-afcccc7bff97 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 295.16s
+2026-11-10 08:35:29,550 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.3378, error_info_stage1=None
+2026-11-10 08:35:29,550 - INFO - Metrics: stage1_score=0.3378, error_info_stage1=None
+2026-11-10 08:36:53,677 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:36:53,677 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:37:01,196 - openevolve.evaluator - INFO - Evaluated program 8d022756-1b0d-4c28-9759-f0cfcf2311ce in 242.42s: stage1_score=0.2821, error_info_stage1=None
+2026-11-10 08:37:01,196 - INFO - Evaluated program 8d022756-1b0d-4c28-9759-f0cfcf2311ce in 242.42s: stage1_score=0.2821, error_info_stage1=None
+2026-11-10 08:37:01,198 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:37:01,198 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:37:01,204 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 7, 'diversity': 6}
+2026-11-10 08:37:01,204 - INFO - New MAP-Elites cell occupied: {'complexity': 7, 'diversity': 6}
+2026-11-10 08:37:01,204 - openevolve.process_parallel - INFO - Iteration 4: Program 8d022756-1b0d-4c28-9759-f0cfcf2311ce (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 386.81s
+2026-11-10 08:37:01,204 - INFO - Iteration 4: Program 8d022756-1b0d-4c28-9759-f0cfcf2311ce (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 386.81s
+2026-11-10 08:37:01,204 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2821, error_info_stage1=None
+2026-11-10 08:37:01,204 - INFO - Metrics: stage1_score=0.2821, error_info_stage1=None
+2026-11-10 08:37:28,088 - openevolve.evaluator - INFO - Evaluated program dc1c4806-dc1b-4f19-a705-8846083eff4b in 144.21s: validity=0.0000, staga1_score=0.0000, error_info_stage1=Generate an exception Traceback (most recent call last):
+  File "/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py", line 132, in execute_specialist
+    sb_scores = score_function(variable_features)
+  File "/tmp/tmpqaw7hq9g.py", line 13, in score_function
+    pc_balance = np.minimum(pc_down * frac, pc_up * (1.0 - frac))
+NameError: name 'np' is not defined
+
+2026-11-10 08:37:28,088 - INFO - Evaluated program dc1c4806-dc1b-4f19-a705-8846083eff4b in 144.21s: validity=0.0000, staga1_score=0.0000, error_info_stage1=Generate an exception Traceback (most recent call last):
+  File "/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py", line 132, in execute_specialist
+    sb_scores = score_function(variable_features)
+  File "/tmp/tmpqaw7hq9g.py", line 13, in score_function
+    pc_balance = np.minimum(pc_down * frac, pc_up * (1.0 - frac))
+NameError: name 'np' is not defined
+
+2026-11-10 08:37:28,094 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:37:28,094 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:37:28,094 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 4, 'diversity': 0}
+2026-11-10 08:37:28,094 - INFO - New MAP-Elites cell occupied: {'complexity': 4, 'diversity': 0}
+2026-11-10 08:37:28,094 - openevolve.process_parallel - INFO - Iteration 9: Program dc1c4806-dc1b-4f19-a705-8846083eff4b (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 205.76s
+2026-11-10 08:37:28,094 - INFO - Iteration 9: Program dc1c4806-dc1b-4f19-a705-8846083eff4b (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 205.76s
+2026-11-10 08:37:28,094 - openevolve.process_parallel - INFO - Metrics: validity=0.0000, staga1_score=0.0000, error_info_stage1=Generate an exception Traceback (most recent call last):
+  File "/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py", line 132, in execute_specialist
+    sb_scores = score_function(variable_features)
+  File "/tmp/tmpqaw7hq9g.py", line 13, in score_function
+    pc_balance = np.minimum(pc_down * frac, pc_up * (1.0 - frac))
+NameError: name 'np' is not defined
+
+2026-11-10 08:37:28,094 - INFO - Metrics: validity=0.0000, staga1_score=0.0000, error_info_stage1=Generate an exception Traceback (most recent call last):
+  File "/home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/evaluator_specialist.py", line 132, in execute_specialist
+    sb_scores = score_function(variable_features)
+  File "/tmp/tmpqaw7hq9g.py", line 13, in score_function
+    pc_balance = np.minimum(pc_down * frac, pc_up * (1.0 - frac))
+NameError: name 'np' is not defined
+
+2026-11-10 08:38:32,975 - openevolve.evaluator - INFO - Evaluated program 4dd51107-529b-43b8-a6d2-60f6b2fd70ac in 405.78s: stage1_score=0.3016, error_info_stage1=None
+2026-11-10 08:38:32,975 - INFO - Evaluated program 4dd51107-529b-43b8-a6d2-60f6b2fd70ac in 405.78s: stage1_score=0.3016, error_info_stage1=None
+2026-11-10 08:38:32,979 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:38:32,979 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:38:32,987 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 7, 'diversity': 9}
+2026-11-10 08:38:32,987 - INFO - New MAP-Elites cell occupied: {'complexity': 7, 'diversity': 9}
+2026-11-10 08:38:32,987 - openevolve.process_parallel - INFO - Iteration 5: Program 4dd51107-529b-43b8-a6d2-60f6b2fd70ac (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 478.59s
+2026-11-10 08:38:32,987 - INFO - Iteration 5: Program 4dd51107-529b-43b8-a6d2-60f6b2fd70ac (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 478.59s
+2026-11-10 08:38:32,987 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.3016, error_info_stage1=None
+2026-11-10 08:38:32,987 - INFO - Metrics: stage1_score=0.3016, error_info_stage1=None
+2026-11-10 08:39:10,148 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:39:10,148 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:39:48,412 - openevolve.evaluator - INFO - Evaluated program 22356e6a-d8ef-4f12-89da-0d60ba86c103 in 418.84s: stage1_score=0.3127, error_info_stage1=None
+2026-11-10 08:39:48,412 - INFO - Evaluated program 22356e6a-d8ef-4f12-89da-0d60ba86c103 in 418.84s: stage1_score=0.3127, error_info_stage1=None
+2026-11-10 08:39:48,420 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:39:48,420 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:39:48,422 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 1, 'diversity': 3}
+2026-11-10 08:39:48,422 - INFO - New MAP-Elites cell occupied: {'complexity': 1, 'diversity': 3}
+2026-11-10 08:39:48,423 - openevolve.process_parallel - INFO - Iteration 7: Program 22356e6a-d8ef-4f12-89da-0d60ba86c103 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 554.02s
+2026-11-10 08:39:48,423 - INFO - Iteration 7: Program 22356e6a-d8ef-4f12-89da-0d60ba86c103 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 554.02s
+2026-11-10 08:39:48,423 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.3127, error_info_stage1=None
+2026-11-10 08:39:48,423 - INFO - Metrics: stage1_score=0.3127, error_info_stage1=None
+2026-11-10 08:40:41,186 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:40:41,186 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:41:22,494 - openevolve.evaluator - INFO - Evaluated program 7f9eae22-cbae-4bef-8245-269aadd4ad11 in 437.62s: stage1_score=0.3048, error_info_stage1=None
+2026-11-10 08:41:22,494 - INFO - Evaluated program 7f9eae22-cbae-4bef-8245-269aadd4ad11 in 437.62s: stage1_score=0.3048, error_info_stage1=None
+2026-11-10 08:41:22,496 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:41:22,496 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:41:22,504 - openevolve.process_parallel - INFO - Iteration 8: Program 7f9eae22-cbae-4bef-8245-269aadd4ad11 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 648.10s
+2026-11-10 08:41:22,504 - INFO - Iteration 8: Program 7f9eae22-cbae-4bef-8245-269aadd4ad11 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 648.10s
+2026-11-10 08:41:22,504 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.3048, error_info_stage1=None
+2026-11-10 08:41:22,504 - INFO - Metrics: stage1_score=0.3048, error_info_stage1=None
+2026-11-10 08:42:14,018 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:42:14,018 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:42:25,734 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:42:25,734 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:42:31,438 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:42:31,438 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:43:45,068 - openevolve.evaluator - INFO - Evaluated program e1dea07e-0ac9-4fe5-8d0a-507ab634df07 in 411.38s: stage1_score=0.2523, error_info_stage1=None
+2026-11-10 08:43:45,068 - INFO - Evaluated program e1dea07e-0ac9-4fe5-8d0a-507ab634df07 in 411.38s: stage1_score=0.2523, error_info_stage1=None
+2026-11-10 08:43:45,078 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:43:45,078 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:43:45,082 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 3, 'diversity': 0}
+2026-11-10 08:43:45,082 - INFO - New MAP-Elites cell occupied: {'complexity': 3, 'diversity': 0}
+2026-11-10 08:43:45,082 - openevolve.process_parallel - INFO - Iteration 10: Program e1dea07e-0ac9-4fe5-8d0a-507ab634df07 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 495.54s
+2026-11-10 08:43:45,082 - INFO - Iteration 10: Program e1dea07e-0ac9-4fe5-8d0a-507ab634df07 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 495.54s
+2026-11-10 08:43:45,082 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2523, error_info_stage1=None
+2026-11-10 08:43:45,082 - INFO - Metrics: stage1_score=0.2523, error_info_stage1=None
+2026-11-10 08:43:45,082 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-11-10 08:43:45,082 - INFO - Checkpoint interval reached at iteration 10
+2026-11-10 08:43:45,083 - openevolve.database - INFO - Island Status:
+2026-11-10 08:43:45,083 - INFO - Island Status:
+2026-11-10 08:43:45,083 - openevolve.database - INFO -    Island 0: 4 programs, best=1.2161, avg=0.4666, diversity=144.58, gen=2 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 08:43:45,083 - INFO -    Island 0: 4 programs, best=1.2161, avg=0.4666, diversity=144.58, gen=2 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 08:43:45,083 - openevolve.database - INFO -    Island 1: 3 programs, best=1.2161, avg=0.6010, diversity=229.67, gen=2 (best: 7f9eae22-cbae-4bef-8245-269aadd4ad11)
+2026-11-10 08:43:45,083 - INFO -    Island 1: 3 programs, best=1.2161, avg=0.6010, diversity=229.67, gen=2 (best: 7f9eae22-cbae-4bef-8245-269aadd4ad11)
+2026-11-10 08:43:45,083 - openevolve.database - INFO -    Island 2: 3 programs, best=1.2161, avg=0.4895, diversity=156.67, gen=2 (best: e1dea07e-0ac9-4fe5-8d0a-507ab634df07)
+2026-11-10 08:43:45,083 - INFO -    Island 2: 3 programs, best=1.2161, avg=0.4895, diversity=156.67, gen=2 (best: e1dea07e-0ac9-4fe5-8d0a-507ab634df07)
+2026-11-10 08:43:45,083 - openevolve.database - INFO -  * Island 3: 1 programs, best=0.3016, avg=0.3016, diversity=0.00, gen=2 (best: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac)
+2026-11-10 08:43:45,083 - INFO -  * Island 3: 1 programs, best=0.3016, avg=0.3016, diversity=0.00, gen=2 (best: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac)
+2026-11-10 08:43:45,085 - openevolve.database - INFO - Saved database with 9 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_10
+2026-11-10 08:43:45,085 - INFO - Saved database with 9 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_10
+2026-11-10 08:43:45,086 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 08:43:45,086 - INFO - Saved best program at checkpoint 10 with metrics: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 08:43:45,086 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_10
+2026-11-10 08:43:45,086 - INFO - Saved checkpoint at iteration 10 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_10
+2026-11-10 08:45:16,366 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:45:16,366 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:46:31,832 - openevolve.evaluator - INFO - Evaluated program 58e4f058-db40-4ab3-9470-7860304966e8 in 441.68s: stage1_score=0.2847, error_info_stage1=None
+2026-11-10 08:46:31,832 - INFO - Evaluated program 58e4f058-db40-4ab3-9470-7860304966e8 in 441.68s: stage1_score=0.2847, error_info_stage1=None
+2026-11-10 08:46:31,839 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:46:31,839 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:46:31,840 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 6, 'diversity': 0}
+2026-11-10 08:46:31,840 - INFO - New MAP-Elites cell occupied: {'complexity': 6, 'diversity': 0}
+2026-11-10 08:46:31,840 - openevolve.process_parallel - INFO - Iteration 12: Program 58e4f058-db40-4ab3-9470-7860304966e8 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 543.74s
+2026-11-10 08:46:31,840 - INFO - Iteration 12: Program 58e4f058-db40-4ab3-9470-7860304966e8 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 543.74s
+2026-11-10 08:46:31,840 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2847, error_info_stage1=None
+2026-11-10 08:46:31,840 - INFO - Metrics: stage1_score=0.2847, error_info_stage1=None
+2026-11-10 08:46:43,863 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:46:43,863 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:47:40,395 - openevolve.evaluator - INFO - Evaluated program 651e7d4d-5626-4d5e-8cee-adb0c76dd588 in 419.20s: stage1_score=0.2892, error_info_stage1=None
+2026-11-10 08:47:40,395 - INFO - Evaluated program 651e7d4d-5626-4d5e-8cee-adb0c76dd588 in 419.20s: stage1_score=0.2892, error_info_stage1=None
+2026-11-10 08:47:40,404 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:47:40,404 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:47:40,413 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 1, 'diversity': 1}
+2026-11-10 08:47:40,413 - INFO - New MAP-Elites cell occupied: {'complexity': 1, 'diversity': 1}
+2026-11-10 08:47:40,413 - openevolve.database - INFO - MAP-Elites coverage reached 10.0% (10/100 cells)
+2026-11-10 08:47:40,413 - INFO - MAP-Elites coverage reached 10.0% (10/100 cells)
+2026-11-10 08:47:40,413 - openevolve.process_parallel - INFO - Iteration 11: Program 651e7d4d-5626-4d5e-8cee-adb0c76dd588 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 639.20s
+2026-11-10 08:47:40,413 - INFO - Iteration 11: Program 651e7d4d-5626-4d5e-8cee-adb0c76dd588 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 639.20s
+2026-11-10 08:47:40,413 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2892, error_info_stage1=None
+2026-11-10 08:47:40,413 - INFO - Metrics: stage1_score=0.2892, error_info_stage1=None
+2026-11-10 08:49:03,482 - openevolve.evaluator - INFO - Evaluated program b74c4ccc-93ad-4c15-84b3-1a12a7474843 in 409.45s: stage1_score=0.2532, error_info_stage1=None
+2026-11-10 08:49:03,482 - INFO - Evaluated program b74c4ccc-93ad-4c15-84b3-1a12a7474843 in 409.45s: stage1_score=0.2532, error_info_stage1=None
+2026-11-10 08:49:03,485 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:49:03,485 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:49:03,496 - openevolve.process_parallel - INFO - Iteration 13: Program b74c4ccc-93ad-4c15-84b3-1a12a7474843 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 630.50s
+2026-11-10 08:49:03,496 - INFO - Iteration 13: Program b74c4ccc-93ad-4c15-84b3-1a12a7474843 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 630.50s
+2026-11-10 08:49:03,496 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2532, error_info_stage1=None
+2026-11-10 08:49:03,496 - INFO - Metrics: stage1_score=0.2532, error_info_stage1=None
+2026-11-10 08:49:14,570 - openevolve.evaluator - INFO - Evaluated program 8ed9fbd2-b0a6-4dec-aa56-fd32f6cdca66 in 408.83s: stage1_score=0.2551, error_info_stage1=None
+2026-11-10 08:49:14,570 - INFO - Evaluated program 8ed9fbd2-b0a6-4dec-aa56-fd32f6cdca66 in 408.83s: stage1_score=0.2551, error_info_stage1=None
+2026-11-10 08:49:14,573 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:49:14,573 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:49:14,584 - openevolve.process_parallel - INFO - Iteration 14: Program 8ed9fbd2-b0a6-4dec-aa56-fd32f6cdca66 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 566.15s
+2026-11-10 08:49:14,584 - INFO - Iteration 14: Program 8ed9fbd2-b0a6-4dec-aa56-fd32f6cdca66 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 566.15s
+2026-11-10 08:49:14,584 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2551, error_info_stage1=None
+2026-11-10 08:49:14,584 - INFO - Metrics: stage1_score=0.2551, error_info_stage1=None
+2026-11-10 08:49:25,851 - openevolve.evaluator - INFO - Evaluated program 78fee78f-b883-45c5-8a8d-af54b5b7faa4 in 414.41s: stage1_score=0.2754, error_info_stage1=None
+2026-11-10 08:49:25,851 - INFO - Evaluated program 78fee78f-b883-45c5-8a8d-af54b5b7faa4 in 414.41s: stage1_score=0.2754, error_info_stage1=None
+2026-11-10 08:49:25,854 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:49:25,854 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:49:25,856 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 5, 'diversity': 2}
+2026-11-10 08:49:25,856 - INFO - New MAP-Elites cell occupied: {'complexity': 5, 'diversity': 2}
+2026-11-10 08:49:25,856 - openevolve.process_parallel - INFO - Iteration 15: Program 78fee78f-b883-45c5-8a8d-af54b5b7faa4 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 483.36s
+2026-11-10 08:49:25,856 - INFO - Iteration 15: Program 78fee78f-b883-45c5-8a8d-af54b5b7faa4 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 483.36s
+2026-11-10 08:49:25,856 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2754, error_info_stage1=None
+2026-11-10 08:49:25,856 - INFO - Metrics: stage1_score=0.2754, error_info_stage1=None
+2026-11-10 08:49:36,936 - openevolve.evaluator - INFO - Evaluated program 5e604ede-da68-4b08-a381-a4d045a54297 in 260.57s: stage1_score=0.3310, error_info_stage1=None
+2026-11-10 08:49:36,936 - INFO - Evaluated program 5e604ede-da68-4b08-a381-a4d045a54297 in 260.57s: stage1_score=0.3310, error_info_stage1=None
+2026-11-10 08:49:36,941 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:49:36,941 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:49:36,941 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 7, 'diversity': 1}
+2026-11-10 08:49:36,941 - INFO - New MAP-Elites cell occupied: {'complexity': 7, 'diversity': 1}
+2026-11-10 08:49:36,941 - openevolve.process_parallel - INFO - Iteration 16: Program 5e604ede-da68-4b08-a381-a4d045a54297 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 351.86s
+2026-11-10 08:49:36,941 - INFO - Iteration 16: Program 5e604ede-da68-4b08-a381-a4d045a54297 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 351.86s
+2026-11-10 08:49:36,941 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.3310, error_info_stage1=None
+2026-11-10 08:49:36,941 - INFO - Metrics: stage1_score=0.3310, error_info_stage1=None
+2026-11-10 08:49:47,428 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:49:47,428 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:49:56,954 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:49:56,954 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:50:54,154 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:50:54,154 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:51:12,098 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:51:12,098 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:51:19,527 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:51:19,527 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:54:01,973 - openevolve.evaluator - INFO - Evaluated program 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1 in 438.11s: stage1_score=0.3079, error_info_stage1=None
+2026-11-10 08:54:01,973 - INFO - Evaluated program 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1 in 438.11s: stage1_score=0.3079, error_info_stage1=None
+2026-11-10 08:54:01,980 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:54:01,980 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:54:01,982 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 1}
+2026-11-10 08:54:01,982 - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 1}
+2026-11-10 08:54:01,982 - openevolve.process_parallel - INFO - Iteration 17: Program 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1 (parent: 3d16ae0d-fa1e-4139-b510-0011b966fc65) completed in 450.14s
+2026-11-10 08:54:01,982 - INFO - Iteration 17: Program 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1 (parent: 3d16ae0d-fa1e-4139-b510-0011b966fc65) completed in 450.14s
+2026-11-10 08:54:01,982 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.3079, error_info_stage1=None
+2026-11-10 08:54:01,982 - INFO - Metrics: stage1_score=0.3079, error_info_stage1=None
+2026-11-10 08:54:54,697 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:54:54,697 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:56:48,109 - openevolve.evaluator - INFO - Evaluated program fa2dd966-7e15-4d58-befe-86eb0233b44b in 420.68s: stage1_score=0.2840, error_info_stage1=None
+2026-11-10 08:56:48,109 - INFO - Evaluated program fa2dd966-7e15-4d58-befe-86eb0233b44b in 420.68s: stage1_score=0.2840, error_info_stage1=None
+2026-11-10 08:56:48,116 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:56:48,116 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:56:48,118 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 9}
+2026-11-10 08:56:48,118 - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 9}
+2026-11-10 08:56:48,118 - openevolve.process_parallel - INFO - Iteration 20: Program fa2dd966-7e15-4d58-befe-86eb0233b44b (parent: dc1c4806-dc1b-4f19-a705-8846083eff4b) completed in 453.54s
+2026-11-10 08:56:48,118 - INFO - Iteration 20: Program fa2dd966-7e15-4d58-befe-86eb0233b44b (parent: dc1c4806-dc1b-4f19-a705-8846083eff4b) completed in 453.54s
+2026-11-10 08:56:48,118 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2840, error_info_stage1=None
+2026-11-10 08:56:48,118 - INFO - Metrics: stage1_score=0.2840, error_info_stage1=None
+2026-11-10 08:56:48,118 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 20
+2026-11-10 08:56:48,118 - INFO - Checkpoint interval reached at iteration 20
+2026-11-10 08:56:48,119 - openevolve.database - INFO - Island Status:
+2026-11-10 08:56:48,119 - INFO - Island Status:
+2026-11-10 08:56:48,120 - openevolve.database - INFO -    Island 0: 6 programs, best=1.2161, avg=0.4144, diversity=108.65, gen=4 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 08:56:48,120 - INFO -    Island 0: 6 programs, best=1.2161, avg=0.4144, diversity=108.65, gen=4 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 08:56:48,120 - openevolve.database - INFO -    Island 1: 5 programs, best=1.2161, avg=0.4728, diversity=157.78, gen=4 (best: 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1)
+2026-11-10 08:56:48,120 - INFO -    Island 1: 5 programs, best=1.2161, avg=0.4728, diversity=157.78, gen=4 (best: 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1)
+2026-11-10 08:56:48,120 - openevolve.database - INFO -    Island 2: 5 programs, best=1.2161, avg=0.4015, diversity=185.78, gen=4 (best: fa2dd966-7e15-4d58-befe-86eb0233b44b)
+2026-11-10 08:56:48,120 - INFO -    Island 2: 5 programs, best=1.2161, avg=0.4015, diversity=185.78, gen=4 (best: fa2dd966-7e15-4d58-befe-86eb0233b44b)
+2026-11-10 08:56:48,120 - openevolve.database - INFO -  * Island 3: 3 programs, best=0.3016, avg=0.2872, diversity=128.33, gen=4 (best: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac)
+2026-11-10 08:56:48,120 - INFO -  * Island 3: 3 programs, best=0.3016, avg=0.2872, diversity=128.33, gen=4 (best: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac)
+2026-11-10 08:56:48,125 - openevolve.database - INFO - Saved database with 17 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_20
+2026-11-10 08:56:48,125 - INFO - Saved database with 17 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_20
+2026-11-10 08:56:48,126 - openevolve.controller - INFO - Saved best program at checkpoint 20 with metrics: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 08:56:48,126 - INFO - Saved best program at checkpoint 20 with metrics: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 08:56:48,126 - openevolve.controller - INFO - Saved checkpoint at iteration 20 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_20
+2026-11-10 08:56:48,126 - INFO - Saved checkpoint at iteration 20 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_20
+2026-11-10 08:57:19,172 - openevolve.evaluator - INFO - Evaluated program 330bc656-5abd-40d0-a013-888f22ba3cc0 in 442.21s: stage1_score=0.2749, error_info_stage1=None
+2026-11-10 08:57:19,172 - INFO - Evaluated program 330bc656-5abd-40d0-a013-888f22ba3cc0 in 442.21s: stage1_score=0.2749, error_info_stage1=None
+2026-11-10 08:57:19,174 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:57:19,174 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:57:19,181 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 2, 'diversity': 0}
+2026-11-10 08:57:19,181 - INFO - New MAP-Elites cell occupied: {'complexity': 2, 'diversity': 0}
+2026-11-10 08:57:19,182 - openevolve.process_parallel - INFO - Iteration 18: Program 330bc656-5abd-40d0-a013-888f22ba3cc0 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 578.77s
+2026-11-10 08:57:19,182 - INFO - Iteration 18: Program 330bc656-5abd-40d0-a013-888f22ba3cc0 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 578.77s
+2026-11-10 08:57:19,182 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2749, error_info_stage1=None
+2026-11-10 08:57:19,182 - INFO - Metrics: stage1_score=0.2749, error_info_stage1=None
+2026-11-10 08:57:34,385 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:57:34,385 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:58:09,683 - openevolve.evaluator - INFO - Evaluated program 34250121-2cb7-4542-8bc4-56811bd3c046 in 435.52s: stage1_score=0.2790, error_info_stage1=None
+2026-11-10 08:58:09,683 - INFO - Evaluated program 34250121-2cb7-4542-8bc4-56811bd3c046 in 435.52s: stage1_score=0.2790, error_info_stage1=None
+2026-11-10 08:58:09,686 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:58:09,686 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:58:09,688 - openevolve.database - INFO - MAP-Elites cell improved: {'complexity': 2, 'diversity': 0} (fitness: 0.275 -> 0.279)
+2026-11-10 08:58:09,688 - INFO - MAP-Elites cell improved: {'complexity': 2, 'diversity': 0} (fitness: 0.275 -> 0.279)
+2026-11-10 08:58:09,688 - openevolve.process_parallel - INFO - Iteration 19: Program 34250121-2cb7-4542-8bc4-56811bd3c046 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 546.20s
+2026-11-10 08:58:09,688 - INFO - Iteration 19: Program 34250121-2cb7-4542-8bc4-56811bd3c046 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 546.20s
+2026-11-10 08:58:09,688 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2790, error_info_stage1=None
+2026-11-10 08:58:09,688 - INFO - Metrics: stage1_score=0.2790, error_info_stage1=None
+2026-11-10 08:58:24,127 - openevolve.evaluator - INFO - Evaluated program 7ebc8c28-6b00-467d-9a6e-1629baa48867 in 424.59s: stage1_score=0.3309, error_info_stage1=None
+2026-11-10 08:58:24,127 - INFO - Evaluated program 7ebc8c28-6b00-467d-9a6e-1629baa48867 in 424.59s: stage1_score=0.3309, error_info_stage1=None
+2026-11-10 08:58:24,129 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:58:24,129 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:58:24,132 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 6, 'diversity': 5}
+2026-11-10 08:58:24,132 - INFO - New MAP-Elites cell occupied: {'complexity': 6, 'diversity': 5}
+2026-11-10 08:58:24,132 - openevolve.process_parallel - INFO - Iteration 22: Program 7ebc8c28-6b00-467d-9a6e-1629baa48867 (parent: 8d022756-1b0d-4c28-9759-f0cfcf2311ce) completed in 527.19s
+2026-11-10 08:58:24,132 - INFO - Iteration 22: Program 7ebc8c28-6b00-467d-9a6e-1629baa48867 (parent: 8d022756-1b0d-4c28-9759-f0cfcf2311ce) completed in 527.19s
+2026-11-10 08:58:24,132 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.3309, error_info_stage1=None
+2026-11-10 08:58:24,132 - INFO - Metrics: stage1_score=0.3309, error_info_stage1=None
+2026-11-10 08:58:33,891 - openevolve.evaluator - INFO - Evaluated program bf64ff36-50fb-447a-a839-430df11331d7 in 441.78s: stage1_score=0.3573, error_info_stage1=None
+2026-11-10 08:58:33,891 - INFO - Evaluated program bf64ff36-50fb-447a-a839-430df11331d7 in 441.78s: stage1_score=0.3573, error_info_stage1=None
+2026-11-10 08:58:33,893 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:58:33,893 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 08:58:33,895 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 0, 'diversity': 1}
+2026-11-10 08:58:33,895 - INFO - New MAP-Elites cell occupied: {'complexity': 0, 'diversity': 1}
+2026-11-10 08:58:33,895 - openevolve.process_parallel - INFO - Iteration 21: Program bf64ff36-50fb-447a-a839-430df11331d7 (parent: 57929124-8a84-4dfe-8aab-afcccc7bff97) completed in 548.04s
+2026-11-10 08:58:33,895 - INFO - Iteration 21: Program bf64ff36-50fb-447a-a839-430df11331d7 (parent: 57929124-8a84-4dfe-8aab-afcccc7bff97) completed in 548.04s
+2026-11-10 08:58:33,895 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.3573, error_info_stage1=None
+2026-11-10 08:58:33,895 - INFO - Metrics: stage1_score=0.3573, error_info_stage1=None
+2026-11-10 08:58:40,325 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:58:40,325 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:59:36,530 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:59:36,530 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:59:53,221 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 08:59:53,221 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:00:02,152 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:00:02,152 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:01:58,926 - openevolve.evaluator - INFO - Evaluated program a473df79-200d-4f64-9626-fd139998b672 in 424.22s: stage1_score=0.3091, error_info_stage1=None
+2026-11-10 09:01:58,926 - INFO - Evaluated program a473df79-200d-4f64-9626-fd139998b672 in 424.22s: stage1_score=0.3091, error_info_stage1=None
+2026-11-10 09:01:58,928 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:01:58,928 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:01:58,938 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 8}
+2026-11-10 09:01:58,938 - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 8}
+2026-11-10 09:01:58,938 - openevolve.process_parallel - INFO - Iteration 23: Program a473df79-200d-4f64-9626-fd139998b672 (parent: dc1c4806-dc1b-4f19-a705-8846083eff4b) completed in 476.95s
+2026-11-10 09:01:58,938 - INFO - Iteration 23: Program a473df79-200d-4f64-9626-fd139998b672 (parent: dc1c4806-dc1b-4f19-a705-8846083eff4b) completed in 476.95s
+2026-11-10 09:01:58,938 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.3091, error_info_stage1=None
+2026-11-10 09:01:58,938 - INFO - Metrics: stage1_score=0.3091, error_info_stage1=None
+2026-11-10 09:04:07,561 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:04:07,561 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:04:33,121 - openevolve.evaluator - INFO - Evaluated program b6cf6a23-07ca-4d5e-8b8e-dd6deff02edd in 418.73s: stage1_score=0.2890, error_info_stage1=None
+2026-11-10 09:04:33,121 - INFO - Evaluated program b6cf6a23-07ca-4d5e-8b8e-dd6deff02edd in 418.73s: stage1_score=0.2890, error_info_stage1=None
+2026-11-10 09:04:33,124 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:04:33,124 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:04:33,130 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 5, 'diversity': 1}
+2026-11-10 09:04:33,130 - INFO - New MAP-Elites cell occupied: {'complexity': 5, 'diversity': 1}
+2026-11-10 09:04:33,130 - openevolve.process_parallel - INFO - Iteration 24: Program b6cf6a23-07ca-4d5e-8b8e-dd6deff02edd (parent: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac) completed in 465.01s
+2026-11-10 09:04:33,130 - INFO - Iteration 24: Program b6cf6a23-07ca-4d5e-8b8e-dd6deff02edd (parent: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac) completed in 465.01s
+2026-11-10 09:04:33,131 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2890, error_info_stage1=None
+2026-11-10 09:04:33,131 - INFO - Metrics: stage1_score=0.2890, error_info_stage1=None
+2026-11-10 09:04:40,981 - openevolve.evaluator - INFO - Evaluated program 7753cb2d-2d58-40f0-b641-4293a387dae9 in 278.82s: stage1_score=0.4942, error_info_stage1=None
+2026-11-10 09:04:40,981 - INFO - Evaluated program 7753cb2d-2d58-40f0-b641-4293a387dae9 in 278.82s: stage1_score=0.4942, error_info_stage1=None
+2026-11-10 09:04:40,984 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:04:40,984 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:04:40,992 - openevolve.database - INFO - MAP-Elites cell improved: {'complexity': 2, 'diversity': 0} (fitness: 0.279 -> 0.494)
+2026-11-10 09:04:40,992 - INFO - MAP-Elites cell improved: {'complexity': 2, 'diversity': 0} (fitness: 0.279 -> 0.494)
+2026-11-10 09:04:40,992 - openevolve.process_parallel - INFO - Iteration 28: Program 7753cb2d-2d58-40f0-b641-4293a387dae9 (parent: 651e7d4d-5626-4d5e-8cee-adb0c76dd588) completed in 367.09s
+2026-11-10 09:04:40,992 - INFO - Iteration 28: Program 7753cb2d-2d58-40f0-b641-4293a387dae9 (parent: 651e7d4d-5626-4d5e-8cee-adb0c76dd588) completed in 367.09s
+2026-11-10 09:04:40,992 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.4942, error_info_stage1=None
+2026-11-10 09:04:40,992 - INFO - Metrics: stage1_score=0.4942, error_info_stage1=None
+2026-11-10 09:05:19,757 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:05:19,757 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:06:05,708 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:06:05,708 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:06:27,213 - openevolve.evaluator - INFO - Evaluated program f2f44e0b-c37f-47f2-9923-7c993e2a62e6 in 410.68s: stage1_score=0.2818, error_info_stage1=None
+2026-11-10 09:06:27,213 - INFO - Evaluated program f2f44e0b-c37f-47f2-9923-7c993e2a62e6 in 410.68s: stage1_score=0.2818, error_info_stage1=None
+2026-11-10 09:06:27,217 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:06:27,217 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:06:27,227 - openevolve.database - INFO - MAP-Elites cell improved: {'complexity': 3, 'diversity': 0} (fitness: 0.252 -> 0.282)
+2026-11-10 09:06:27,227 - INFO - MAP-Elites cell improved: {'complexity': 3, 'diversity': 0} (fitness: 0.252 -> 0.282)
+2026-11-10 09:06:27,227 - openevolve.process_parallel - INFO - Iteration 26: Program f2f44e0b-c37f-47f2-9923-7c993e2a62e6 (parent: 8d022756-1b0d-4c28-9759-f0cfcf2311ce) completed in 497.53s
+2026-11-10 09:06:27,227 - INFO - Iteration 26: Program f2f44e0b-c37f-47f2-9923-7c993e2a62e6 (parent: 8d022756-1b0d-4c28-9759-f0cfcf2311ce) completed in 497.53s
+2026-11-10 09:06:27,227 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2818, error_info_stage1=None
+2026-11-10 09:06:27,227 - INFO - Metrics: stage1_score=0.2818, error_info_stage1=None
+2026-11-10 09:06:50,194 - openevolve.evaluator - INFO - Evaluated program 2f8835ba-c4a0-4f81-b837-9ced1f98d21f in 416.97s: stage1_score=0.2904, error_info_stage1=None
+2026-11-10 09:06:50,194 - INFO - Evaluated program 2f8835ba-c4a0-4f81-b837-9ced1f98d21f in 416.97s: stage1_score=0.2904, error_info_stage1=None
+2026-11-10 09:06:50,196 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:06:50,196 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:06:50,201 - openevolve.process_parallel - INFO - Iteration 27: Program 2f8835ba-c4a0-4f81-b837-9ced1f98d21f (parent: e1dea07e-0ac9-4fe5-8d0a-507ab634df07) completed in 506.07s
+2026-11-10 09:06:50,201 - INFO - Iteration 27: Program 2f8835ba-c4a0-4f81-b837-9ced1f98d21f (parent: e1dea07e-0ac9-4fe5-8d0a-507ab634df07) completed in 506.07s
+2026-11-10 09:06:50,201 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2904, error_info_stage1=None
+2026-11-10 09:06:50,201 - INFO - Metrics: stage1_score=0.2904, error_info_stage1=None
+2026-11-10 09:07:11,918 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:07:11,918 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:07:43,988 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:07:43,988 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:09:40,484 - openevolve.evaluator - INFO - Evaluated program 15c979bb-0438-4770-9cc9-42ff942d36b1 in 332.92s: stage1_score=0.2246, error_info_stage1=None
+2026-11-10 09:09:40,484 - INFO - Evaluated program 15c979bb-0438-4770-9cc9-42ff942d36b1 in 332.92s: stage1_score=0.2246, error_info_stage1=None
+2026-11-10 09:09:40,487 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:09:40,487 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:09:40,491 - openevolve.process_parallel - INFO - Iteration 29: Program 15c979bb-0438-4770-9cc9-42ff942d36b1 (parent: 57929124-8a84-4dfe-8aab-afcccc7bff97) completed in 461.56s
+2026-11-10 09:09:40,491 - INFO - Iteration 29: Program 15c979bb-0438-4770-9cc9-42ff942d36b1 (parent: 57929124-8a84-4dfe-8aab-afcccc7bff97) completed in 461.56s
+2026-11-10 09:09:40,491 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2246, error_info_stage1=None
+2026-11-10 09:09:40,491 - INFO - Metrics: stage1_score=0.2246, error_info_stage1=None
+2026-11-10 09:11:04,571 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:11:04,571 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:11:20,100 - openevolve.evaluator - INFO - Evaluated program 1ee39779-7d29-43d6-b187-ed5e172b304b in 360.34s: stage1_score=0.1888, error_info_stage1=None
+2026-11-10 09:11:20,100 - INFO - Evaluated program 1ee39779-7d29-43d6-b187-ed5e172b304b in 360.34s: stage1_score=0.1888, error_info_stage1=None
+2026-11-10 09:11:20,102 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:11:20,102 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:11:20,104 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 7, 'diversity': 5}
+2026-11-10 09:11:20,104 - INFO - New MAP-Elites cell occupied: {'complexity': 7, 'diversity': 5}
+2026-11-10 09:11:20,104 - openevolve.process_parallel - INFO - Iteration 31: Program 1ee39779-7d29-43d6-b187-ed5e172b304b (parent: dc1c4806-dc1b-4f19-a705-8846083eff4b) completed in 399.12s
+2026-11-10 09:11:20,104 - INFO - Iteration 31: Program 1ee39779-7d29-43d6-b187-ed5e172b304b (parent: dc1c4806-dc1b-4f19-a705-8846083eff4b) completed in 399.12s
+2026-11-10 09:11:20,104 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.1888, error_info_stage1=None
+2026-11-10 09:11:20,104 - INFO - Metrics: stage1_score=0.1888, error_info_stage1=None
+2026-11-10 09:12:15,645 - openevolve.evaluator - INFO - Evaluated program 1534dc9c-2e94-43e5-b7f7-0b55186aff50 in 369.93s: stage1_score=0.1877, error_info_stage1=None
+2026-11-10 09:12:15,645 - INFO - Evaluated program 1534dc9c-2e94-43e5-b7f7-0b55186aff50 in 369.93s: stage1_score=0.1877, error_info_stage1=None
+2026-11-10 09:12:15,650 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:12:15,650 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:12:15,652 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 6, 'diversity': 2}
+2026-11-10 09:12:15,652 - INFO - New MAP-Elites cell occupied: {'complexity': 6, 'diversity': 2}
+2026-11-10 09:12:15,652 - openevolve.process_parallel - INFO - Iteration 30: Program 1534dc9c-2e94-43e5-b7f7-0b55186aff50 (parent: 7f9eae22-cbae-4bef-8245-269aadd4ad11) completed in 462.53s
+2026-11-10 09:12:15,652 - INFO - Iteration 30: Program 1534dc9c-2e94-43e5-b7f7-0b55186aff50 (parent: 7f9eae22-cbae-4bef-8245-269aadd4ad11) completed in 462.53s
+2026-11-10 09:12:15,652 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.1877, error_info_stage1=None
+2026-11-10 09:12:15,652 - INFO - Metrics: stage1_score=0.1877, error_info_stage1=None
+2026-11-10 09:12:15,652 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 30
+2026-11-10 09:12:15,652 - INFO - Checkpoint interval reached at iteration 30
+2026-11-10 09:12:15,654 - openevolve.database - INFO - Island Status:
+2026-11-10 09:12:15,654 - INFO - Island Status:
+2026-11-10 09:12:15,654 - openevolve.database - INFO -    Island 0: 9 programs, best=1.2161, avg=0.3644, diversity=67.53, gen=7 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 09:12:15,654 - INFO -    Island 0: 9 programs, best=1.2161, avg=0.3644, diversity=67.53, gen=7 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 09:12:15,654 - openevolve.database - INFO -    Island 1: 8 programs, best=1.2161, avg=0.4222, diversity=143.43, gen=7 (best: 7753cb2d-2d58-40f0-b641-4293a387dae9)
+2026-11-10 09:12:15,654 - INFO -    Island 1: 8 programs, best=1.2161, avg=0.4222, diversity=143.43, gen=7 (best: 7753cb2d-2d58-40f0-b641-4293a387dae9)
+2026-11-10 09:12:15,654 - openevolve.database - INFO -    Island 2: 8 programs, best=1.2161, avg=0.3543, diversity=200.77, gen=7 (best: bf64ff36-50fb-447a-a839-430df11331d7)
+2026-11-10 09:12:15,654 - INFO -    Island 2: 8 programs, best=1.2161, avg=0.3543, diversity=200.77, gen=7 (best: bf64ff36-50fb-447a-a839-430df11331d7)
+2026-11-10 09:12:15,654 - openevolve.database - INFO -  * Island 3: 6 programs, best=0.3091, avg=0.2894, diversity=110.92, gen=7 (best: a473df79-200d-4f64-9626-fd139998b672)
+2026-11-10 09:12:15,654 - INFO -  * Island 3: 6 programs, best=0.3091, avg=0.2894, diversity=110.92, gen=7 (best: a473df79-200d-4f64-9626-fd139998b672)
+2026-11-10 09:12:15,661 - openevolve.database - INFO - Saved database with 29 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_30
+2026-11-10 09:12:15,661 - INFO - Saved database with 29 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_30
+2026-11-10 09:12:15,662 - openevolve.controller - INFO - Saved best program at checkpoint 30 with metrics: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:12:15,662 - INFO - Saved best program at checkpoint 30 with metrics: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:12:15,662 - openevolve.controller - INFO - Saved checkpoint at iteration 30 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_30
+2026-11-10 09:12:15,662 - INFO - Saved checkpoint at iteration 30 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_30
+2026-11-10 09:12:36,642 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:12:36,642 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:13:16,336 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:13:16,336 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:14:40,700 - openevolve.evaluator - INFO - Evaluated program fc3d117c-7494-470f-a719-8f02c10088c3 in 416.71s: stage1_score=0.2271, error_info_stage1=None
+2026-11-10 09:14:40,700 - INFO - Evaluated program fc3d117c-7494-470f-a719-8f02c10088c3 in 416.71s: stage1_score=0.2271, error_info_stage1=None
+2026-11-10 09:14:40,703 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:14:40,703 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:14:40,706 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 4, 'diversity': 2}
+2026-11-10 09:14:40,706 - INFO - New MAP-Elites cell occupied: {'complexity': 4, 'diversity': 2}
+2026-11-10 09:14:40,707 - openevolve.process_parallel - INFO - Iteration 32: Program fc3d117c-7494-470f-a719-8f02c10088c3 (parent: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac) completed in 493.48s
+2026-11-10 09:14:40,707 - INFO - Iteration 32: Program fc3d117c-7494-470f-a719-8f02c10088c3 (parent: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac) completed in 493.48s
+2026-11-10 09:14:40,707 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2271, error_info_stage1=None
+2026-11-10 09:14:40,707 - INFO - Metrics: stage1_score=0.2271, error_info_stage1=None
+2026-11-10 09:16:18,020 - openevolve.evaluator - INFO - Evaluated program d2c4ad14-9446-4dc1-b12b-527aa0c63236 in 221.37s: stage1_score=0.2935, error_info_stage1=None
+2026-11-10 09:16:18,020 - INFO - Evaluated program d2c4ad14-9446-4dc1-b12b-527aa0c63236 in 221.37s: stage1_score=0.2935, error_info_stage1=None
+2026-11-10 09:16:18,024 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:16:18,024 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:16:18,028 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 7}
+2026-11-10 09:16:18,028 - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 7}
+2026-11-10 09:16:18,028 - openevolve.process_parallel - INFO - Iteration 35: Program d2c4ad14-9446-4dc1-b12b-527aa0c63236 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 297.92s
+2026-11-10 09:16:18,028 - INFO - Iteration 35: Program d2c4ad14-9446-4dc1-b12b-527aa0c63236 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 297.92s
+2026-11-10 09:16:18,029 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2935, error_info_stage1=None
+2026-11-10 09:16:18,029 - INFO - Metrics: stage1_score=0.2935, error_info_stage1=None
+2026-11-10 09:16:32,944 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:16:32,944 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:17:07,495 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:17:07,495 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:17:07,504 - openevolve.evaluator - INFO - Evaluated program 83c88252-4b01-44f8-a5f6-5f0d4b20d185 in 0.00s: speedup_score=0.0000, error_info=Exception occurred: SyntaxError: invalid syntax (tmp2k2w_c9z.py, line 26)
+2026-11-10 09:17:07,504 - INFO - Evaluated program 83c88252-4b01-44f8-a5f6-5f0d4b20d185 in 0.00s: speedup_score=0.0000, error_info=Exception occurred: SyntaxError: invalid syntax (tmp2k2w_c9z.py, line 26)
+2026-11-10 09:17:07,507 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:17:07,507 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:17:07,513 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 0, 'diversity': 6}
+2026-11-10 09:17:07,513 - INFO - New MAP-Elites cell occupied: {'complexity': 0, 'diversity': 6}
+2026-11-10 09:17:07,513 - openevolve.process_parallel - INFO - Iteration 38: Program 83c88252-4b01-44f8-a5f6-5f0d4b20d185 (parent: 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1) completed in 49.48s
+2026-11-10 09:17:07,513 - INFO - Iteration 38: Program 83c88252-4b01-44f8-a5f6-5f0d4b20d185 (parent: 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1) completed in 49.48s
+2026-11-10 09:17:07,513 - openevolve.process_parallel - INFO - Metrics: speedup_score=0.0000, error_info=Exception occurred: SyntaxError: invalid syntax (tmp2k2w_c9z.py, line 26)
+2026-11-10 09:17:07,513 - INFO - Metrics: speedup_score=0.0000, error_info=Exception occurred: SyntaxError: invalid syntax (tmp2k2w_c9z.py, line 26)
+2026-11-10 09:18:13,765 - openevolve.evaluator - INFO - Evaluated program f053b6e4-aeb4-445a-bba8-1a9cf980ca35 in 429.19s: stage1_score=0.2858, error_info_stage1=None
+2026-11-10 09:18:13,765 - INFO - Evaluated program f053b6e4-aeb4-445a-bba8-1a9cf980ca35 in 429.19s: stage1_score=0.2858, error_info_stage1=None
+2026-11-10 09:18:13,768 - openevolve.llm.ensemble - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:18:13,768 - INFO - Sampled model: deepseek-v4.1-flash
+2026-11-10 09:18:13,768 - openevolve.process_parallel - INFO - Iteration 34: Program f053b6e4-aeb4-445a-bba8-1a9cf980ca35 (parent: 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1) completed in 513.28s
+2026-11-10 09:18:13,768 - INFO - Iteration 34: Program f053b6e4-aeb4-445a-bba8-1a9cf980ca35 (parent: 0e1c1c70-6d1e-43da-a1e0-2b0c9d88f4e1) completed in 513.28s
+2026-11-10 09:18:13,768 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2858, error_info_stage1=None
+2026-11-10 09:18:13,768 - INFO - Metrics: stage1_score=0.2858, error_info_stage1=None
+2026-11-10 09:18:22,263 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:18:22,263 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:19:50,603 - httpx2 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:19:50,603 - INFO - HTTP Request: POST https://opencode.ai/inference/go/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-10 09:20:37,166 - openevolve.evaluator - INFO - Evaluated program ed30833d-805c-48e8-9b9e-d56d046d5f36 in 440.82s: stage1_score=0.2884, error_info_stage1=None
+2026-11-10 09:20:37,166 - INFO - Evaluated program ed30833d-805c-48e8-9b9e-d56d046d5f36 in 440.82s: stage1_score=0.2884, error_info_stage1=None
+2026-11-10 09:20:37,175 - openevolve.database - INFO - MAP-Elites cell improved: {'complexity': 4, 'diversity': 0} (fitness: 0.000 -> 0.288)
+2026-11-10 09:20:37,175 - INFO - MAP-Elites cell improved: {'complexity': 4, 'diversity': 0} (fitness: 0.000 -> 0.288)
+2026-11-10 09:20:37,175 - openevolve.process_parallel - INFO - Iteration 36: Program ed30833d-805c-48e8-9b9e-d56d046d5f36 (parent: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac) completed in 501.52s
+2026-11-10 09:20:37,175 - INFO - Iteration 36: Program ed30833d-805c-48e8-9b9e-d56d046d5f36 (parent: 4dd51107-529b-43b8-a6d2-60f6b2fd70ac) completed in 501.52s
+2026-11-10 09:20:37,175 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2884, error_info_stage1=None
+2026-11-10 09:20:37,175 - INFO - Metrics: stage1_score=0.2884, error_info_stage1=None
+2026-11-10 09:23:16,635 - openevolve.evaluator - INFO - Evaluated program f880cfb9-2e86-4163-a025-ef7f9e2bd8ce in 403.68s: stage1_score=0.2842, error_info_stage1=None
+2026-11-10 09:23:16,635 - INFO - Evaluated program f880cfb9-2e86-4163-a025-ef7f9e2bd8ce in 403.68s: stage1_score=0.2842, error_info_stage1=None
+2026-11-10 09:23:16,648 - openevolve.process_parallel - INFO - Iteration 37: Program f880cfb9-2e86-4163-a025-ef7f9e2bd8ce (parent: 7ebc8c28-6b00-467d-9a6e-1629baa48867) completed in 515.93s
+2026-11-10 09:23:16,648 - INFO - Iteration 37: Program f880cfb9-2e86-4163-a025-ef7f9e2bd8ce (parent: 7ebc8c28-6b00-467d-9a6e-1629baa48867) completed in 515.93s
+2026-11-10 09:23:16,648 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2842, error_info_stage1=None
+2026-11-10 09:23:16,648 - INFO - Metrics: stage1_score=0.2842, error_info_stage1=None
+2026-11-10 09:23:52,849 - openevolve.evaluator - INFO - Evaluated program aee30272-2714-43fd-b442-699a9b9a9a6e in 1000.93s: stage1_score=2.2366, validity=1.0000, avg_time=33.2065, max_time=51.1925, mean_time=31.5909, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=78.2943, max_rpb_time=114.4898, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:23:52,849 - INFO - Evaluated program aee30272-2714-43fd-b442-699a9b9a9a6e in 1000.93s: stage1_score=2.2366, validity=1.0000, avg_time=33.2065, max_time=51.1925, mean_time=31.5909, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=78.2943, max_rpb_time=114.4898, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:23:52,858 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 0, 'diversity': 9}
+2026-11-10 09:23:52,858 - INFO - New MAP-Elites cell occupied: {'complexity': 0, 'diversity': 9}
+2026-11-10 09:23:52,858 - openevolve.database - INFO - MAP-Elites coverage reached 25.0% (25/100 cells)
+2026-11-10 09:23:52,858 - INFO - MAP-Elites coverage reached 25.0% (25/100 cells)
+2026-11-10 09:23:52,859 - openevolve.process_parallel - INFO - Iteration 33: Program aee30272-2714-43fd-b442-699a9b9a9a6e (parent: 7f9eae22-cbae-4bef-8245-269aadd4ad11) completed in 1022.66s
+2026-11-10 09:23:52,859 - INFO - Iteration 33: Program aee30272-2714-43fd-b442-699a9b9a9a6e (parent: 7f9eae22-cbae-4bef-8245-269aadd4ad11) completed in 1022.66s
+2026-11-10 09:23:52,859 - openevolve.process_parallel - INFO - Metrics: stage1_score=2.2366, validity=1.0000, avg_time=33.2065, max_time=51.1925, mean_time=31.5909, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, avg_rpb_time=78.2943, max_rpb_time=114.4898, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:23:52,859 - INFO - Metrics: stage1_score=2.2366, validity=1.0000, avg_time=33.2065, max_time=51.1925, mean_time=31.5909, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, avg_rpb_time=78.2943, max_rpb_time=114.4898, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:25:33,026 - openevolve.evaluator - INFO - Evaluated program 47955d83-dd7e-4cf5-8c84-d4dca7513b1c in 430.76s: stage1_score=0.2847, error_info_stage1=None
+2026-11-10 09:25:33,026 - INFO - Evaluated program 47955d83-dd7e-4cf5-8c84-d4dca7513b1c in 430.76s: stage1_score=0.2847, error_info_stage1=None
+2026-11-10 09:25:33,030 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 8, 'diversity': 5}
+2026-11-10 09:25:33,030 - INFO - New MAP-Elites cell occupied: {'complexity': 8, 'diversity': 5}
+2026-11-10 09:25:33,030 - openevolve.process_parallel - INFO - Iteration 39: Program 47955d83-dd7e-4cf5-8c84-d4dca7513b1c (parent: bf64ff36-50fb-447a-a839-430df11331d7) completed in 505.52s
+2026-11-10 09:25:33,030 - INFO - Iteration 39: Program 47955d83-dd7e-4cf5-8c84-d4dca7513b1c (parent: bf64ff36-50fb-447a-a839-430df11331d7) completed in 505.52s
+2026-11-10 09:25:33,030 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2847, error_info_stage1=None
+2026-11-10 09:25:33,030 - INFO - Metrics: stage1_score=0.2847, error_info_stage1=None
+2026-11-10 09:27:08,408 - openevolve.evaluator - INFO - Evaluated program e6a3dd44-3495-49b9-ab72-c038850ec924 in 437.79s: stage1_score=0.2940, error_info_stage1=None
+2026-11-10 09:27:08,408 - INFO - Evaluated program e6a3dd44-3495-49b9-ab72-c038850ec924 in 437.79s: stage1_score=0.2940, error_info_stage1=None
+2026-11-10 09:27:08,413 - openevolve.database - INFO - MAP-Elites cell improved: {'complexity': 4, 'diversity': 0} (fitness: 0.288 -> 0.294)
+2026-11-10 09:27:08,413 - INFO - MAP-Elites cell improved: {'complexity': 4, 'diversity': 0} (fitness: 0.288 -> 0.294)
+2026-11-10 09:27:08,413 - openevolve.process_parallel - INFO - Iteration 40: Program e6a3dd44-3495-49b9-ab72-c038850ec924 (parent: a473df79-200d-4f64-9626-fd139998b672) completed in 534.64s
+2026-11-10 09:27:08,413 - INFO - Iteration 40: Program e6a3dd44-3495-49b9-ab72-c038850ec924 (parent: a473df79-200d-4f64-9626-fd139998b672) completed in 534.64s
+2026-11-10 09:27:08,413 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.2940, error_info_stage1=None
+2026-11-10 09:27:08,413 - INFO - Metrics: stage1_score=0.2940, error_info_stage1=None
+2026-11-10 09:27:08,413 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 40
+2026-11-10 09:27:08,413 - INFO - Checkpoint interval reached at iteration 40
+2026-11-10 09:27:08,414 - openevolve.database - INFO - Island Status:
+2026-11-10 09:27:08,414 - INFO - Island Status:
+2026-11-10 09:27:08,414 - openevolve.database - INFO -  * Island 0: 11 programs, best=1.2161, avg=0.3506, diversity=67.53, gen=10 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 09:27:08,414 - INFO -  * Island 0: 11 programs, best=1.2161, avg=0.3506, diversity=67.53, gen=10 (best: da8dc60c-7211-45a5-8175-c08e9f94bd48)
+2026-11-10 09:27:08,414 - openevolve.database - INFO -    Island 1: 10 programs, best=1.2161, avg=0.4594, diversity=143.43, gen=9 (best: aee30272-2714-43fd-b442-699a9b9a9a6e)
+2026-11-10 09:27:08,414 - INFO -    Island 1: 10 programs, best=1.2161, avg=0.4594, diversity=143.43, gen=9 (best: aee30272-2714-43fd-b442-699a9b9a9a6e)
+2026-11-10 09:27:08,414 - openevolve.database - INFO -    Island 2: 10 programs, best=1.2161, avg=0.3405, diversity=278.42, gen=9 (best: bf64ff36-50fb-447a-a839-430df11331d7)
+2026-11-10 09:27:08,414 - INFO -    Island 2: 10 programs, best=1.2161, avg=0.3405, diversity=278.42, gen=9 (best: bf64ff36-50fb-447a-a839-430df11331d7)
+2026-11-10 09:27:08,414 - openevolve.database - INFO -    Island 3: 9 programs, best=0.3091, avg=0.2829, diversity=110.92, gen=9 (best: a473df79-200d-4f64-9626-fd139998b672)
+2026-11-10 09:27:08,414 - INFO -    Island 3: 9 programs, best=0.3091, avg=0.2829, diversity=110.92, gen=9 (best: a473df79-200d-4f64-9626-fd139998b672)
+2026-11-10 09:27:08,421 - openevolve.database - INFO - Saved database with 38 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-10 09:27:08,421 - INFO - Saved database with 38 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-10 09:27:08,421 - openevolve.controller - INFO - Saved best program at checkpoint 40 with metrics: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:27:08,421 - INFO - Saved best program at checkpoint 40 with metrics: stage1_score=1.9351, validity=1.0000, avg_time=25.7196, max_time=34.1125, mean_time=25.2074, avg_nodes=4208.7500, max_nodes=5300.0000, mean_nodes=4117.1889, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.2161, params=[0.0, 0.0, 1.5058252455798085, 2.0], avg_rpb_time=71.4586, max_rpb_time=105.9229, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:27:08,421 - openevolve.controller - INFO - Saved checkpoint at iteration 40 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-10 09:27:08,421 - INFO - Saved checkpoint at iteration 40 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-10 09:28:45,411 - openevolve.evaluator - INFO - Evaluated program b98da769-caa8-4c13-bfc3-abc94dfc2b03 in 3372.62s: stage1_score=0.9684, validity=1.0000, avg_time=33.3967, max_time=47.8241, mean_time=32.2361, avg_nodes=4668.0000, max_nodes=6348.0000, mean_nodes=4564.5042, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.1443, params=[0.0, 1.9182063959427498, 0.3934871629067387, 1.8104862784363096, 2.5935982039626353, -0.17935037909487161], avg_rpb_time=75.4230, max_rpb_time=117.7753, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:28:45,411 - INFO - Evaluated program b98da769-caa8-4c13-bfc3-abc94dfc2b03 in 3372.62s: stage1_score=0.9684, validity=1.0000, avg_time=33.3967, max_time=47.8241, mean_time=32.2361, avg_nodes=4668.0000, max_nodes=6348.0000, mean_nodes=4564.5042, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.1443, params=[0.0, 1.9182063959427498, 0.3934871629067387, 1.8104862784363096, 2.5935982039626353, -0.17935037909487161], avg_rpb_time=75.4230, max_rpb_time=117.7753, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:28:45,424 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 2, 'diversity': 1}
+2026-11-10 09:28:45,424 - INFO - New MAP-Elites cell occupied: {'complexity': 2, 'diversity': 1}
+2026-11-10 09:28:45,424 - openevolve.process_parallel - INFO - Iteration 6: Program b98da769-caa8-4c13-bfc3-abc94dfc2b03 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 3491.02s
+2026-11-10 09:28:45,424 - INFO - Iteration 6: Program b98da769-caa8-4c13-bfc3-abc94dfc2b03 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 3491.02s
+2026-11-10 09:28:45,424 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.9684, validity=1.0000, avg_time=33.3967, max_time=47.8241, mean_time=32.2361, avg_nodes=4668.0000, max_nodes=6348.0000, mean_nodes=4564.5042, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.1443, avg_rpb_time=75.4230, max_rpb_time=117.7753, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:28:45,424 - INFO - Metrics: stage1_score=0.9684, validity=1.0000, avg_time=33.3967, max_time=47.8241, mean_time=32.2361, avg_nodes=4668.0000, max_nodes=6348.0000, mean_nodes=4564.5042, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.1443, avg_rpb_time=75.4230, max_rpb_time=117.7753, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:32:50,754 - openevolve.evaluator - INFO - Evaluated program e961dd5d-88d5-44bc-94ca-106b057f1386 in 2050.42s: stage1_score=0.8624, validity=1.0000, avg_time=24.6759, max_time=31.2859, mean_time=24.3510, avg_nodes=3676.7500, max_nodes=4211.0000, mean_nodes=3652.9305, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.3130, params=[0.729966921814, 0.5263552684424777, 0.5315513738418385, 0.7977413806452993, 0.6344009585513212], avg_rpb_time=72.3465, max_rpb_time=109.4412, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:32:50,754 - INFO - Evaluated program e961dd5d-88d5-44bc-94ca-106b057f1386 in 2050.42s: stage1_score=0.8624, validity=1.0000, avg_time=24.6759, max_time=31.2859, mean_time=24.3510, avg_nodes=3676.7500, max_nodes=4211.0000, mean_nodes=3652.9305, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.3130, params=[0.729966921814, 0.5263552684424777, 0.5315513738418385, 0.7977413806452993, 0.6344009585513212], avg_rpb_time=72.3465, max_rpb_time=109.4412, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:32:50,759 - openevolve.database - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 6}
+2026-11-10 09:32:50,759 - INFO - New MAP-Elites cell occupied: {'complexity': 9, 'diversity': 6}
+2026-11-10 09:32:50,759 - openevolve.database - INFO - New best program e961dd5d-88d5-44bc-94ca-106b057f1386 replaces da8dc60c-7211-45a5-8175-c08e9f94bd48 (combined_score: 1.2161 → 1.3130, +0.0970)
+2026-11-10 09:32:50,759 - INFO - New best program e961dd5d-88d5-44bc-94ca-106b057f1386 replaces da8dc60c-7211-45a5-8175-c08e9f94bd48 (combined_score: 1.2161 → 1.3130, +0.0970)
+2026-11-10 09:32:50,759 - openevolve.process_parallel - INFO - Iteration 25: Program e961dd5d-88d5-44bc-94ca-106b057f1386 (parent: 22356e6a-d8ef-4f12-89da-0d60ba86c103) completed in 2131.58s
+2026-11-10 09:32:50,759 - INFO - Iteration 25: Program e961dd5d-88d5-44bc-94ca-106b057f1386 (parent: 22356e6a-d8ef-4f12-89da-0d60ba86c103) completed in 2131.58s
+2026-11-10 09:32:50,759 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.8624, validity=1.0000, avg_time=24.6759, max_time=31.2859, mean_time=24.3510, avg_nodes=3676.7500, max_nodes=4211.0000, mean_nodes=3652.9305, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.3130, avg_rpb_time=72.3465, max_rpb_time=109.4412, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:32:50,759 - INFO - Metrics: stage1_score=0.8624, validity=1.0000, avg_time=24.6759, max_time=31.2859, mean_time=24.3510, avg_nodes=3676.7500, max_nodes=4211.0000, mean_nodes=3652.9305, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.3130, avg_rpb_time=72.3465, max_rpb_time=109.4412, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:32:50,759 - openevolve.process_parallel - INFO - 🌟 New best solution found at iteration 25: e961dd5d-88d5-44bc-94ca-106b057f1386
+2026-11-10 09:32:50,759 - INFO - 🌟 New best solution found at iteration 25: e961dd5d-88d5-44bc-94ca-106b057f1386
+2026-11-10 09:49:07,742 - openevolve.evaluator - INFO - Evaluated program 0cdc6fe2-f721-4855-9001-60d36651a975 in 4623.01s: stage1_score=0.6286, validity=1.0000, avg_time=198.4943, max_time=316.8323, mean_time=170.9579, avg_nodes=34311.0000, max_nodes=59387.0000, mean_nodes=26974.5716, avg_gap=0.0037, max_gap=0.0149, mean_gap=0.0037, combined_score=0.2556, params=[1.2392044407862963, 1.319773852838377, 0.42180385507385193, 1.0468692901193744, 0.0, 0.724335775744762], avg_rpb_time=62.2389, max_rpb_time=91.3804, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:49:07,742 - INFO - Evaluated program 0cdc6fe2-f721-4855-9001-60d36651a975 in 4623.01s: stage1_score=0.6286, validity=1.0000, avg_time=198.4943, max_time=316.8323, mean_time=170.9579, avg_nodes=34311.0000, max_nodes=59387.0000, mean_nodes=26974.5716, avg_gap=0.0037, max_gap=0.0149, mean_gap=0.0037, combined_score=0.2556, params=[1.2392044407862963, 1.319773852838377, 0.42180385507385193, 1.0468692901193744, 0.0, 0.724335775744762], avg_rpb_time=62.2389, max_rpb_time=91.3804, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:49:07,753 - openevolve.database - INFO - Population size (41) exceeds limit (40), removing 1 programs
+2026-11-10 09:49:07,753 - INFO - Population size (41) exceeds limit (40), removing 1 programs
+2026-11-10 09:49:07,753 - openevolve.database - INFO - Population size after cleanup: 40
+2026-11-10 09:49:07,753 - INFO - Population size after cleanup: 40
+2026-11-10 09:49:07,753 - openevolve.process_parallel - INFO - Iteration 1: Program 0cdc6fe2-f721-4855-9001-60d36651a975 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 4713.36s
+2026-11-10 09:49:07,753 - INFO - Iteration 1: Program 0cdc6fe2-f721-4855-9001-60d36651a975 (parent: da8dc60c-7211-45a5-8175-c08e9f94bd48) completed in 4713.36s
+2026-11-10 09:49:07,753 - openevolve.process_parallel - INFO - Metrics: stage1_score=0.6286, validity=1.0000, avg_time=198.4943, max_time=316.8323, mean_time=170.9579, avg_nodes=34311.0000, max_nodes=59387.0000, mean_nodes=26974.5716, avg_gap=0.0037, max_gap=0.0149, mean_gap=0.0037, combined_score=0.2556, avg_rpb_time=62.2389, max_rpb_time=91.3804, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:49:07,753 - INFO - Metrics: stage1_score=0.6286, validity=1.0000, avg_time=198.4943, max_time=316.8323, mean_time=170.9579, avg_nodes=34311.0000, max_nodes=59387.0000, mean_nodes=26974.5716, avg_gap=0.0037, max_gap=0.0149, mean_gap=0.0037, combined_score=0.2556, avg_rpb_time=62.2389, max_rpb_time=91.3804, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:49:07,753 - openevolve.process_parallel - INFO - Evolution completed
+2026-11-10 09:49:07,753 - INFO - Evolution completed
+2026-11-10 09:49:07,793 - openevolve.database - INFO - Saved database with 40 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-10 09:49:07,793 - INFO - Saved database with 40 programs to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-10 09:49:07,793 - openevolve.controller - INFO - Saved best program at checkpoint 40 with metrics: stage1_score=0.8624, validity=1.0000, avg_time=24.6759, max_time=31.2859, mean_time=24.3510, avg_nodes=3676.7500, max_nodes=4211.0000, mean_nodes=3652.9305, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.3130, avg_rpb_time=72.3465, max_rpb_time=109.4412, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:49:07,793 - INFO - Saved best program at checkpoint 40 with metrics: stage1_score=0.8624, validity=1.0000, avg_time=24.6759, max_time=31.2859, mean_time=24.3510, avg_nodes=3676.7500, max_nodes=4211.0000, mean_nodes=3652.9305, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.3130, avg_rpb_time=72.3465, max_rpb_time=109.4412, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:49:07,793 - openevolve.controller - INFO - Saved checkpoint at iteration 40 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-10 09:49:07,793 - INFO - Saved checkpoint at iteration 40 to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/checkpoints/checkpoint_40
+2026-11-10 09:49:07,828 - openevolve.process_parallel - INFO - Stopped process pool
+2026-11-10 09:49:07,828 - INFO - Stopped process pool
+2026-11-10 09:49:07,828 - openevolve.controller - INFO - Using tracked best program: e961dd5d-88d5-44bc-94ca-106b057f1386
+2026-11-10 09:49:07,828 - INFO - Using tracked best program: e961dd5d-88d5-44bc-94ca-106b057f1386
+2026-11-10 09:49:07,840 - openevolve.controller - INFO - Saved top program to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/top/0cdc6fe2-f721-4855-9001-60d36651a975.py with program info to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/top/top_program_info.json
+2026-11-10 09:49:07,840 - INFO - Saved top program to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/top/0cdc6fe2-f721-4855-9001-60d36651a975.py with program info to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/top/top_program_info.json
+2026-11-10 09:49:07,840 - openevolve.controller - INFO - Evolution complete. Best program has metrics: stage1_score=0.8624, validity=1.0000, avg_time=24.6759, max_time=31.2859, mean_time=24.3510, avg_nodes=3676.7500, max_nodes=4211.0000, mean_nodes=3652.9305, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.3130, avg_rpb_time=72.3465, max_rpb_time=109.4412, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:49:07,840 - INFO - Evolution complete. Best program has metrics: stage1_score=0.8624, validity=1.0000, avg_time=24.6759, max_time=31.2859, mean_time=24.3510, avg_nodes=3676.7500, max_nodes=4211.0000, mean_nodes=3652.9305, avg_gap=0.0000, max_gap=0.0000, mean_gap=0.0000, combined_score=1.3130, avg_rpb_time=72.3465, max_rpb_time=109.4412, avg_rpb_nodes=6050.7500, max_rpb_nodes=9991.0000
+2026-11-10 09:49:07,840 - openevolve.controller - INFO - Saved best program to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/best/best_program.py with program info to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/best/best_program_info.json
+2026-11-10 09:49:07,840 - INFO - Saved best program to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/best/best_program.py with program info to /home/ccloud/LLM4branch_eval/within-family-variation/examples/brancher/experiments/structural_generalization/specialist_easy_output/best/best_program_info.json
+
+=== SPECIALIST_EVOLUTION_COMPLETE ===
+  stage1_score: 0.8624
+  validity: 1.0000
+  avg_time: 24.6759
+  max_time: 31.2859
+  mean_time: 24.3510
+  avg_nodes: 3676.7500
+  max_nodes: 4211.0000
+  mean_nodes: 3652.9305
+  avg_gap: 0.0000
+  max_gap: 0.0000
+  mean_gap: 0.0000
+  combined_score: 1.3130
+  avg_rpb_time: 72.3465
+  max_rpb_time: 109.4412
+  avg_rpb_nodes: 6050.7500
+  max_rpb_nodes: 9991.0000
+Best program code:
+import numpy as np
+
+USED_FEATURES = [9, 22, 42, 44, 45, 52]
+PARAMS = [0.729966921814, 0.5263552684424777, 0.5315513738418385, 0.7977413806452993, 0.6344009585513212]
+BOUNDS = [[0.0, 4.0], [0.0, 3.0], [0.0, 1.0], [0.0, 1.5], [0.0, 1.0]]
+
+
+def score_function(variable_features, params):
+    """Score candidate branching variables for the hard MIS-BA subset.
+
+    Design rationale
+    ----------------
+    * The hard instances have a loose root LP and near-uniform cliques, so
+      plain hub/degree features do not separate good from bad candidates.
+      We therefore gate all structural signals by LP fractionality (so that
+      integral or almost-integral variables cannot hijack the ranking).
+    * Pseudocost magnitude is the most direct "how much does branching on
+      this variable move the bound" estimator, but it is only trustworthy
+      when the pseudocost has actually been exercised.  We blend it with a
+      reliability proxy built from the per-direction cutoff counts.
+    * A dynamic/static constraint-degree ratio is used as a cheap
+      "not-yet-collapsed neighbourhood" signal: variables still sitting in
+      a fresh part of the residual clique cover tend to be more impactful
+      branches on these hard instances.
+    * A small static hub term (participating constraint count) provides a
+      safe fall-back when the dynamic signals are weak, matching the
+      general-purpose policy's baseline behaviour without dominating.
+
+    All inputs are in [0, 1], and the expression uses only vectorised
+    numpy operations, so it is O(n) and extremely cheap.
+    """
+    # 1) LP fractionality: peaks at 0.5, zero at 0 or 1.
+    frac = variable_features[:, 9]
+    frac_score = 4.0 * frac * (1.0 - frac)
+
+    # 2) Reliability-discounted pseudocost sum.
+    pc_sum = variable_features[:, 42]
+    reliability = np.clip(
+        0.5 * (variable_features[:, 44] + variable_features[:, 45]),
+        0.0, 1.0,
+    )
+    # When reliability is low, shrink toward `params[2]` * pc_sum;
+    # when reliability is high, use the pseudocost at full strength.
+    pc_term = pc_sum * (params[2] + (1.0 - params[2]) * reliability)
+
+    # 3) Dynamic constraint-degree drift signal.
+    drift = variable_features[:, 52]
+
+    # 4) Static hub fall-back signal.
+    degree = variable_features[:, 22]
+
+    # Core: fractionality-gated structural score, plus a mild fallback.
+    return (
+        frac_score * (params[0] + params[1] * pc_term + params[4] * drift)
+        + params[3] * degree
+    )

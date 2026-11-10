@@ -1,0 +1,160 @@
+1200 solves to do (0 already done), 72 cores
+500/1200 in 1.5 min
+1000/1200 in 3.2 min
+PORTFOLIO_DONE 1200 solves in 6.0 min
+1200 solves to do (1200 already done), 72 cores
+500/1200 in 3.8 min
+1000/1200 in 7.3 min
+PORTFOLIO_DONE 1200 solves in 10.2 min
+1200 solves to do (2400 already done), 72 cores
+500/1200 in 3.6 min
+1000/1200 in 7.7 min
+PORTFOLIO_DONE 1200 solves in 10.6 min
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+/home/ccloud/LLM4branch_eval/.conda/envs/ecole-fork/lib/python3.10/site-packages/networkx/algorithms/assortativity/correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+PROBE_DONE 200 instances in 0.0 min -> runs/task4_mixed/features_rr.csv
+PROBE_DONE 200 instances in 0.1 min -> runs/task4_mixed/features_ws.csv
+PROBE_DONE 200 instances in 0.2 min -> runs/task4_mixed/features_ba.csv
+MIXED_DONE

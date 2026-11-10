@@ -1,0 +1,8 @@
+features,switch_%,picked_the_fastest_%
+graph only,90.5,30.25
++ root node,53.5,24.75
+1 node,53.5,24.75
+5 nodes,55.50000000000001,25.0
+10 nodes,53.5,28.749999999999996
+25 nodes,45.75,24.25
+50 nodes,43.0,25.25

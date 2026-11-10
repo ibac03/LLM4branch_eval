@@ -1,0 +1,33 @@
+{
+  "id": "da8dc60c-7211-45a5-8175-c08e9f94bd48",
+  "generation": 0,
+  "iteration": 0,
+  "current_iteration": 10,
+  "metrics": {
+    "stage1_score": 1.9350545149939669,
+    "validity": 1.0,
+    "avg_time": 25.719583531,
+    "max_time": 34.112544,
+    "mean_time": 25.207424254732167,
+    "avg_nodes": 4208.75,
+    "max_nodes": 5300.0,
+    "mean_nodes": 4117.188932907812,
+    "avg_gap": 0.0,
+    "max_gap": 0.0,
+    "mean_gap": 0.0,
+    "combined_score": 1.216058667325284,
+    "params": [
+      0.0,
+      0.0,
+      1.5058252455798085,
+      2.0
+    ],
+    "avg_rpb_time": 71.45857687925,
+    "max_rpb_time": 105.922878541,
+    "avg_rpb_nodes": 6050.75,
+    "max_rpb_nodes": 9991.0
+  },
+  "language": "python",
+  "timestamp": 1794299434.3002396,
+  "saved_at": 1794300225.0859997
+}

@@ -1,0 +1,43 @@
+{
+  "n_instances": 400,
+  "configs_in_order": [
+    "orig_s0",
+    "orig_s1",
+    "orig_retuned_s0",
+    "degree_s0",
+    "orig_s2"
+  ],
+  "mean_probe_time_s": 7.409037999819999,
+  "probe_time_%_of_mean_solve": 10.499073647945645,
+  "within_instance_signal_vs_orig_s0": {
+    "orig_s1": {
+      "spearman_gap50_diff_vs_time_ratio": 0.3612013513600679,
+      "spearman_model_diff_vs_time_ratio": 0.3112616121929744,
+      "model_picks_the_faster_%": 59.5
+    },
+    "orig_retuned_s0": {
+      "spearman_gap50_diff_vs_time_ratio": 0.3182626656735878,
+      "spearman_model_diff_vs_time_ratio": 0.23140085069371602,
+      "model_picks_the_faster_%": 61.75000000000001
+    },
+    "degree_s0": {
+      "spearman_gap50_diff_vs_time_ratio": 0.37073407074773035,
+      "spearman_model_diff_vs_time_ratio": 0.3587103475851873,
+      "model_picks_the_faster_%": 63.74999999999999
+    },
+    "orig_s2": {
+      "spearman_gap50_diff_vs_time_ratio": 0.3765897730553927,
+      "spearman_model_diff_vs_time_ratio": 0.35251365655354566,
+      "model_picks_the_faster_%": 62.74999999999999
+    }
+  },
+  "across_instances_spearman_pred_vs_time": 0.8982574884148123,
+  "best_strategy": {
+    "strategy": "cascade 3: race only the 20% predicted-hard, model",
+    "configs": 3,
+    "mean_time_s": 67.4956024345575,
+    "mean_time_slowest_10%_s": 364.21215900589993,
+    "vs_original_%": -4.3544788284127005,
+    "mean_probes_started": 1.4
+  }
+}

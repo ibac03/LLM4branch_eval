@@ -1,0 +1,4 @@
+PROBE_DONE 400 instances in 1.4 min -> runs/task4_medium400/probes/orig_s1.csv
+PROBE_DONE 400 instances in 1.4 min -> runs/task4_medium400/probes/orig_s2.csv
+PROBE_DONE 400 instances in 1.4 min -> runs/task4_medium400/probes/orig_retuned_s0.csv
+PROBE_DONE 400 instances in 1.4 min -> runs/task4_medium400/probes/degree_s0.csv

@@ -1,0 +1,49 @@
+{
+  "n_instances": 1292,
+  "cap_s": 300.0,
+  "excluded_seeds": [
+    1000000422,
+    1000000770,
+    1000001066,
+    1000001245,
+    1000000141,
+    1000000270,
+    1000000423,
+    1000001017
+  ],
+  "slowest_decile_same_with_other_seed": "96 of 129",
+  "seed_control": {
+    "time, orig vs orig@seed1": {
+      "spearman": 0.8907342725288745,
+      "median_factor": 1.2085486211262637,
+      "p90_factor": 1.5314823182987432
+    },
+    "time, orig vs orig@seed2": {
+      "spearman": 0.8991481469030287,
+      "median_factor": 1.1895286348462752,
+      "p90_factor": 1.5352612553987064
+    },
+    "nodes, orig vs orig@seed1": {
+      "spearman": 0.9374639489655997,
+      "median_factor": 1.4263413369045101,
+      "p90_factor": 2.5291738355618967
+    },
+    "nodes, orig vs orig@seed2": {
+      "spearman": 0.9443854554739738,
+      "median_factor": 1.429586601391335,
+      "p90_factor": 2.432920135423298
+    },
+    "mean_time_orig_s": 12.023318885448917,
+    "mean_time_best_of_2_seeds_s": 10.626347523219815,
+    "mean_time_best_of_all_seeds_s": 9.964496904024768
+  },
+  "hard_prediction": {
+    "spearman_ceiling_from_seed_noise": 0.8907342725288745
+  },
+  "router_policies": [
+    "orig",
+    "orig_tuned48",
+    "evolved",
+    "orig_retuned"
+  ]
+}
